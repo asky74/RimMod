@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RandomPlus</name>
+	<author>mastertea</author>
+	<url>https://github.com/mastertea/RandomPlus</url>
+	<targetVersion>1.0.2055</targetVersion>
+	<description>
+Allow users to set a minimum specifications for pawn genration when using the randomize button. It will keep rerolling until the minimum specification is meet or it passed the max reroll limit.
+	</description>
+</ModMetaData>
