@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<MechanoidFullyFormed.label>повнозрілий</MechanoidFullyFormed.label>
+
+	<HumanlikeBaby.label>крихітка</HumanlikeBaby.label>
+	<HumanlikeToddler.label>немовля</HumanlikeToddler.label>
+	<HumanlikeChild.label>дитина</HumanlikeChild.label>
+	<HumanlikeTeenager.label>підліток</HumanlikeTeenager.label>
+	<HumanlikeTeenager.adjective>підлітк.</HumanlikeTeenager.adjective>
+	<HumanlikeAdult.label>дорослий</HumanlikeAdult.label>
+
+	<EusocialInsectLarva.label>личинка</EusocialInsectLarva.label>
+	<EusocialInsectJuvenile.label>незрілий</EusocialInsectJuvenile.label>
+	<EusocialInsectAdult.label>дорослий</EusocialInsectAdult.label>
+
+	<AnimalBaby.label>маля</AnimalBaby.label>
+	<AnimalJuvenile.label>молодий</AnimalJuvenile.label>
+	<AnimalAdult.label>дорослий</AnimalAdult.label>
+
+</LanguageData>

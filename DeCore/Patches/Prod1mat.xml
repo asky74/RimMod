@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "FueledSmithy"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>25</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "FueledSmithy"]/constructEffect</xpath>
+	</Operation> 
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "FueledSmithy"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+				<li>Stony</li>
+			</stuffCategories>
+			<costStuffCount>75</costStuffCount>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>25</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "ElectricSmithy"]/constructEffect</xpath>
+	</Operation> 
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "ElectricSmithy"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>75</costStuffCount>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "TableMachining"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>40</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "TableMachining"]/constructEffect</xpath>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "TableMachining"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>110</costStuffCount>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ElectricStove"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>20</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "ElectricStove"]/constructEffect</xpath>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "ElectricStove"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>60</costStuffCount>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "FueledStove"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>30</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "FueledStove"]/constructEffect</xpath>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "FueledStove"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+				<li>Stony</li>
+			</stuffCategories>
+			<costStuffCount>50</costStuffCount>
+	  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Brewery"]/costList</xpath>
+	  <value>
+	    <costList>
+		<WoodLog>90</WoodLog>
+		</costList>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "Brewery"]/constructEffect</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Brewery"]</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+				<li>Woody</li>
+				<li>Stony</li>
+			</stuffCategories>
+			<costStuffCount>60</costStuffCount>
+	  </value>
+	</Operation>
+ 
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>45</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>*/ThingDef[defName = "ElectricSmelter"]/constructEffect</xpath>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "ElectricSmelter"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>125</costStuffCount>
+	  </value>
+	</Operation>
+	
+    <Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>40</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "BiofuelRefinery"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>110</costStuffCount>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "FabricationBench"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>50</Steel>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "FabricationBench"]/costList</xpath>
+	  <value>
+		    <stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>150</costStuffCount>
+	  </value>
+	</Operation>
+  
+</Patch>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ElectricSmelter"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/ElectricSmelter</texPath>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "ElectricSmelter"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+  
+  	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "TableMachining"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/TableMachining/TableMachining</texPath>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "TableMachining"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+  
+   	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ElectricSmithy"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/TableSmithingElectric/TableSmithingElectric</texPath>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "ElectricSmithy"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+  
+    <Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "FueledSmithy"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/TableSmithingFueled/TableSmithingFueled</texPath>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "FueledSmithy"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "FueledStove"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/TableStoveFueled/TableStoveFueled</texPath>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "FueledStove"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ElectricStove"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/TableStoveElectric/TableStoveElectric</texPath>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "ElectricStove"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "FabricationBench"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/FabricationBench/FabricationBench</texPath>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "BiofuelRefinery"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/BiofuelRefinery/Refinery</texPath>
+	  </value>
+	</Operation>
+		
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Brewery"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/TableBrewery/TableBrewery</texPath>
+	  </value>
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Brewery"]/graphicData</xpath>
+	  <value>
+	  <shaderType>CutoutComplex</shaderType>
+	  </value>
+	</Operation>
+
+ 
+</Patch>

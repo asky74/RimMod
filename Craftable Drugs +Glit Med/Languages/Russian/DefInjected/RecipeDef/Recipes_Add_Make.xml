@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+  <CDCraftNeutroamine.label>Сделать нейтромин х5</CDCraftNeutroamine.label>
+  <CDCraftNeutroamine.description>Сделать нейтромин из трав</CDCraftNeutroamine.description>
+  <CDCraftNeutroamine.jobString>Сделать нейтромин х5</CDCraftNeutroamine.jobString>
+
+
+    <CDCraftLuciferium.label>Сделать люциферий </CDCraftLuciferium.label>
+  <CDCraftLuciferium.description>Сделать люциферий из нейтромина, дьяволоткани и медикаментов</CDCraftLuciferium.description>
+  <CDCraftLuciferium.jobString>Сделать нейтромин</CDCraftLuciferium.jobString>
+  
+    <Make_MedicineUltratech.label>Сделать передовые медикаменты х5</Make_MedicineUltratech.label>
+  <Make_MedicineUltratech.description>Сделать передовые медикаменты из медикаментов и люциферия</Make_MedicineUltratech.description>
+  <Make_MedicineUltratech.jobString>Создает передовые медикаменты х5</Make_MedicineUltratech.jobString>
+
+  
+
+
+
+</LanguageData>

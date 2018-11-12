@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "HydroponicsBasin"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Other/HydroponicsBasin2</texPath>
+	  </value>
+	</Operation>
+  
+
+ 
+</Patch>

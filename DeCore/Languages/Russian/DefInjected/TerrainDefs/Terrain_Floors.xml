@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+		<TileSandstoneOld.label>Классик плитка песчанник</TileSandstoneOld.label>
+<TileSandstoneOld.description>Старая каменная плитка А16. Имеет такие же свойства, как и новая, но выглядит по-другому. Кому-то такая плитка больше нравится.</TileSandstoneOld.description>
+
+		<TileGraniteOld.label>Классик плитка гранит</TileGraniteOld.label>
+<TileGraniteOld.description>Старая каменная плитка А16. Имеет такие же свойства, как и новая, но выглядит по-другому. Кому-то такая плитка больше нравится.</TileGraniteOld.description>
+		
+		<TileLimestoneOld.label>Классик плитка известняк</TileLimestoneOld.label>
+<TileLimestoneOld.description>Старая каменная плитка А16. Имеет такие же свойства, как и новая, но выглядит по-другому. Кому-то такая плитка больше нравится.</TileLimestoneOld.description>
+		
+		<TileSlateOld.label>Классик плитка сланец</TileSlateOld.label>
+<TileSlateOld.description>Старая каменная плитка А16. Имеет такие же свойства, как и новая, но выглядит по-другому. Кому-то такая плитка больше нравится.</TileSlateOld.description>
+		
+		<TileMarbleOld.label>Классик плитка мрамор</TileMarbleOld.label>
+<TileMarbleOld.description>Старая каменная плитка А16. Имеет такие же свойства, как и новая, но выглядит по-другому. Кому-то такая плитка больше нравится.</TileMarbleOld.description>
+</LanguageData>

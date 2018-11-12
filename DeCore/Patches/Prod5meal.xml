@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+
+    <Operation Class="PatchOperationAdd"> 
+     <xpath>/Defs/ThingDef[@Name="MealBase"]/ingestible</xpath> 
+     <value> 
+     <chairSearchRadius>32</chairSearchRadius> 
+     </value> 
+    </Operation> 
+
+    <Operation Class="PatchOperationAdd"> 
+     <xpath>/Defs/ThingDef[@Name="OrganicProductBase"]</xpath> 
+     <value> 
+     <ingestible> 
+     <chairSearchRadius>32</chairSearchRadius> 
+     </ingestible> 
+     </value> 
+    </Operation> 
+	
+	
+  
+</Patch>

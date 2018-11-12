@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/StatDef[defName = "SculptingSpeed"]</xpath>
+	  <value>
+	 <skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Artistic</skill>
+				<baseValue>0.9</baseValue>
+				<bonusPerLevel>0.03</bonusPerLevel>
+			</li>
+	 </skillNeedFactors>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/StatDef[defName = "TailoringSpeed"]</xpath>
+	  <value>
+	 <skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Crafting</skill>
+				<baseValue>0.9</baseValue>
+				<bonusPerLevel>0.03</bonusPerLevel>
+			</li>
+	 </skillNeedFactors>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/StatDef[defName = "SmithingSpeed"]</xpath>
+	  <value>
+	 <skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Crafting</skill>
+				<baseValue>0.9</baseValue>
+				<bonusPerLevel>0.03</bonusPerLevel>
+			</li>
+	 </skillNeedFactors>
+	  </value>
+	</Operation>
+	
+	<!-- Operation Class="PatchOperationReplace">
+	  <xpath>*/StatDef[defName = "StonecuttingSpeed"]/skillNeedFactors</xpath>
+	  <value>
+	 <skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Crafting</skill>
+				<baseValue>0.9</baseValue>
+				<bonusPerLevel>0.03</bonusPerLevel>
+			</li>
+	 </skillNeedFactors>
+	  </value>
+	</Operation-->
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/StatDef[defName = "SmeltingSpeed"]</xpath>
+	  <value>
+	 <skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Crafting</skill>
+				<baseValue>0.9</baseValue>
+				<bonusPerLevel>0.03</bonusPerLevel>
+			</li>
+	 </skillNeedFactors>
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	
+
+	
+
+	
+  
+</Patch>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <Apparel_SmallBackpack.label>Маленький рюкзак</Apparel_SmallBackpack.label>
+    <Apparel_SmallBackpack.description>С ним можно переносить больше вещей</Apparel_SmallBackpack.description>
+    <Apparel_LargeBackpack.label>Большой рюкзак</Apparel_LargeBackpack.label>
+    <Apparel_LargeBackpack.description>В нём можно легко переносить множество предметов</Apparel_LargeBackpack.description>
+    <Apparel_NanoSuit.label>Нанокостюм</Apparel_NanoSuit.label>
+    <Apparel_NanoSuit.description>Комбинезон из нанофибры созданный для военных</Apparel_NanoSuit.description>
+    
+    
+</LanguageData>

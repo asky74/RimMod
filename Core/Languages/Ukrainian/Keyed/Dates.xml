@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<ClockTime>Час</ClockTime>
+	<ClockDate>Дата</ClockDate>
+	<ClockYear>Рік</ClockYear>
+	<DateReadoutTip>Днів з моменту прибуття: {0}\nУ кожному місяці {1} днів.\nПоточний сезон: {2}</DateReadoutTip>
+
+	<FullDate>{0} {1}, рік {2}</FullDate>
+	<DateReadout>{1} {0}, {2}</DateReadout>
+	<SeasonFullDate>{1} {0}</SeasonFullDate>
+	<WholeYear>Цілий рік</WholeYear>
+
+</LanguageData>

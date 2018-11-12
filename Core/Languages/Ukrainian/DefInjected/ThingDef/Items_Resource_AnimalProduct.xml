@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!--=====================================================================-->
+  <!--=============================== Misc ================================-->
+  <!--=====================================================================-->
+
+	<Milk.label>молоко</Milk.label>
+	<Milk.description>Коров'яче молоко.</Milk.description>
+
+	<InsectJelly.label>желе комах</InsectJelly.label>
+	<InsectJelly.description>Желе, яке зберігається і споживається величезними комахами. Воно ніжне, поживне і приносить надзвичайне задоволення при вживання. Через його унікальні біологічні властивості, воно може споживатися практично будь-яким видом тварин і ніколи не псується.</InsectJelly.description>
+
+  <!-- Chicken -->
+  
+	<EggChickenUnfertilized.label>куряче яйце (незаплід.)</EggChickenUnfertilized.label>
+	<EggChickenUnfertilized.description>Незапліднене куряче яйце. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggChickenUnfertilized.description>
+
+	<EggChickenFertilized.label>куряче яйце (заплід.)</EggChickenFertilized.label>
+	<EggChickenFertilized.description>Запліднене куряче яйце. Якщо все буде добре, то незабаром з нього вилупиться курча. яйце можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggChickenFertilized.description>
+
+  <!-- Cobra -->
+  
+	<EggCobraFertilized.label>яйце кобри (заплід.)</EggCobraFertilized.label>
+	<EggCobraFertilized.description>Яйце кобри. Якщо все буде добре, то незабаром з нього вилупиться маленька кобра. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggCobraFertilized.description>
+
+  <!-- Iguana -->
+  
+	<EggIguanaFertilized.label>яйце игуани (заплід.)</EggIguanaFertilized.label>
+	<EggIguanaFertilized.description>Яйце игуани. Якщо все буде добре, то незабаром з нього вилупиться маленька игуана. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggIguanaFertilized.description>
+
+  <!-- Tortoise -->
+  
+	<EggTortoiseFertilized.label>яйце черепахи (заплід.)</EggTortoiseFertilized.label>
+	<EggTortoiseFertilized.description>Яйце черепахи. Якщо все буде добре, то незабаром з нього вилупиться маленька черепаха. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggTortoiseFertilized.description>
+  
+  <!-- Cassowary -->
+  
+	<EggCassowaryFertilized.label>яйце казуара (заплідн.)</EggCassowaryFertilized.label>
+	<EggCassowaryFertilized.description>Яйце казуара. Якщо все буде добре, то незабаром з нього вилупиться маленький казуар. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggCassowaryFertilized.description>
+  
+  <!-- Emu -->
+  
+	<EggEmuFertilized.label>яйце ему (заплідн.)</EggEmuFertilized.label>
+	<EggEmuFertilized.description>Яйце ему. Якщо все буде добре, то незабаром з нього вилупиться маленький ему. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggEmuFertilized.description>
+  
+  <!-- Ostrich -->
+  
+	<EggOstrichFertilized.label>яйце страуса (заплідн.)</EggOstrichFertilized.label>
+	<EggOstrichFertilized.description>Яйце страуса. Якщо все буде добре, то незабаром з нього вилупиться маленький страус. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggOstrichFertilized.description>
+  
+  <!-- Turkey -->
+
+	<EggTurkeyFertilized.label>яйце індички (заплідн.)</EggTurkeyFertilized.label>
+	<EggTurkeyFertilized.description>Яйце індички. Якщо все буде добре, то незабаром з нього вилупиться індича. Його можна з'їсти сирим, але буде набагато смачніше, якщо його спочатку приготувати.</EggTurkeyFertilized.description>
+  
+  
+</LanguageData>

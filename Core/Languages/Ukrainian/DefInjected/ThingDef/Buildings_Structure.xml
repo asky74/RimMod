@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Doors -->
+
+	<Door.label>Двері</Door.label>
+	<Door.description>Мають відчинятись і зачинятись вручну, що затримує людей.</Door.description>
+
+	<Autodoor.label>Автоматичні двері</Autodoor.label>
+	<Autodoor.description>Дозволяють людям проходити крізь двері без затримок.</Autodoor.description>
+
+  <!-- Walls -->
+
+	<Wall.label>Стіна</Wall.label>
+	<Wall.description>Непрохідна стіна. Достатньо міцна, щоб тримати дах.</Wall.description>
+
+</LanguageData>

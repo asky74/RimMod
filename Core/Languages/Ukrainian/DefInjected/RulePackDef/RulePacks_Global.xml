@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<GlobalUtility.rulePack.rulesStrings>
+		<li>quantity_adjphrase->група</li>
+		<li>quantity_adjphrase->численні</li>
+		<li>quantity_adjphrase->десятки</li>
+		<li>quantity_adjphrase->два</li>
+		<li>quantity_adjphrase->три</li>
+		<li>quantity_adjphrase->чотири</li>
+		<li>quantity_adjphrase->п'ять</li>
+		<li>quantity_adjphrase->шість</li>
+		<li>quantity_adjphrase->незлічимі</li>
+		<li>quantity_adjphrase->незліченні</li>
+		<li>trans->про</li>
+		<li>trans->для</li>
+		<li>trans->об</li>
+		<li>trans->з</li>
+	</GlobalUtility.rulePack.rulesStrings>
+
+</LanguageData>

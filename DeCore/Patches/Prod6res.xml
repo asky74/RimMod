@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Silver"]/stuffProps/color</xpath>
+	  <value>
+	  <color>(230,230,225)</color>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Silver"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+	  <MedicalTendQualityOffset>1.3</MedicalTendQualityOffset>
+	  <BedRestEffectiveness>1.3</BedRestEffectiveness>
+	  <JoyGainFactor>1.2</JoyGainFactor>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Silver"]/stuffProps/statFactors/Flammability</xpath>
+	  <value>
+	  <Flammability>0.10</Flammability>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Gold"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <ImmunityGainSpeedFactor>1.5</ImmunityGainSpeedFactor>
+	  <MedicalTendQualityOffset>1.5</MedicalTendQualityOffset>
+	  <BedRestEffectiveness>2.2</BedRestEffectiveness>
+	  <JoyGainFactor>1.5</JoyGainFactor>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Gold"]/stuffProps/statFactors/Flammability</xpath>
+	  <value>
+	  <Flammability>0.10</Flammability>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Steel"]/stuffProps/statFactors/Flammability</xpath>
+	  <value>
+	  <Flammability>0.10</Flammability>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Plasteel"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <BedRestEffectiveness>1.05</BedRestEffectiveness>
+	  <WorkTableWorkSpeedFactor>1.20</WorkTableWorkSpeedFactor>
+	  <ResearchSpeedFactor>1.20</ResearchSpeedFactor>
+	  <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Plasteel"]/stuffProps/statFactors/Flammability</xpath>
+	  <value>
+	  <Flammability>0.05</Flammability>
+	  </value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "WoodLog"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <BedRestEffectiveness>1.15</BedRestEffectiveness>
+	  <WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
+	  <ResearchSpeedFactor>0.95</ResearchSpeedFactor>
+	  </value>
+	</Operation>
+
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Uranium"]/stuffProps/color</xpath>
+	  <value>
+	  <color>(125,130,120)</color>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Uranium"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <BedRestEffectiveness>0.75</BedRestEffectiveness>
+	  <WorkTableWorkSpeedFactor>1.10</WorkTableWorkSpeedFactor>
+	  <ResearchSpeedFactor>1.10</ResearchSpeedFactor>
+	  <ImmunityGainSpeedFactor>0.75</ImmunityGainSpeedFactor>
+	  <TrapMeleeDamage>1.3</TrapMeleeDamage>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Uranium"]/stuffProps/statFactors/MeleeWeapon_CooldownMultiplier</xpath>
+	  <value>
+	  <MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "Uranium"]/statBases</xpath>
+	  <value>
+	  <statBases>
+       <MarketValue>6</MarketValue>
+      <Mass>1</Mass>
+      <StuffPower_Armor_Sharp>1.08</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.9</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.4</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.7</BluntDamageMultiplier>
+	  </statBases>
+	  </value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Jade"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <BedRestEffectiveness>0.85</BedRestEffectiveness>
+	  <WorkTableWorkSpeedFactor>0.85</WorkTableWorkSpeedFactor>
+	  <ResearchSpeedFactor>0.85</ResearchSpeedFactor>
+	  <ImmunityGainSpeedFactor>0.85</ImmunityGainSpeedFactor>
+	  <JoyGainFactor>1.3</JoyGainFactor>
+	  </value>
+	</Operation>
+	
+	
+  
+</Patch>

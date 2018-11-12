@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Disassembleclothes</defName>
+    <label>Disassemble clothes</label>
+    <description>To disassemble clothes in order to extract the components from it</description>
+    <jobString>Disassembleing clothes.</jobString>
+    <workAmount>1100</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+			<specialProducts>
+			<li>Smelted</li>
+		</specialProducts>
+			<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+      <!--specialFiltersToDisallow>
+        <li>AllowNonSmeltableWeapons</li>
+      </specialFiltersToDisallow-->
+    </fixedIngredientFilter>
+		<!--forceHiddenSpecialFilters>
+			<li>AllowSmeltable</li>
+		</forceHiddenSpecialFilters-->
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>DisassembleWeapon</defName>
+    <label>Disassemble weapon</label>
+    <description>Use heat and strong electromagnets to break down weapons into useful resources.</description>
+    <jobString>Smelting weapon.</jobString>
+    <workAmount>1400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+		<specialProducts>
+			<li>Smelted</li>
+		</specialProducts>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Weapons</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+      </categories>
+      <specialFiltersToDisallow>
+        <li>AllowSmeltable</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+		<forceHiddenSpecialFilters>
+			<li>AllowNonSmeltableWeapons</li>
+		</forceHiddenSpecialFilters>
+		    <defaultIngredientFilter>
+      <categories>
+        <li>Weapons</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Gun_DoomsdayRocket</li>
+        <li>Gun_TripleRocket</li>
+        <li>OrbitalTargeterPowerBeam</li>
+        <li>OrbitalTargeterBombardment</li>
+        <li>TornadoGenerator</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+
+  
+</Defs>

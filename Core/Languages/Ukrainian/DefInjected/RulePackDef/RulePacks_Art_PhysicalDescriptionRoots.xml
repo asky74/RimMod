@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Different physical description roots for different kinds of artworks.
+    Added to artworks with tales and taleless art. -->
+
+	<ArtDescription_Sculpture.rulePack.rulesStrings>
+		<li>physical_description_root->Ця [sculpture] [depicts] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Ця [sculpture] несе на собі [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Ця [sculpture] має [depiction] [image]. [desc_sentence_group]</li>
+		<li>sculpture->скульптура</li>
+		<li>sculpture->праця</li>
+		<li>sculpture->piece</li>
+		<li>sculpture->різьблення</li>
+	</ArtDescription_Sculpture.rulePack.rulesStrings>
+
+	<ArtDescription_WeaponMelee.rulePack.rulesStrings>
+		<li>physical_description_root->На цій зброї вигравіюване [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Ця зброя несе на собі [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Гравіювання на цій зброї [depicts] [image]. [desc_sentence_group]</li>
+	</ArtDescription_WeaponMelee.rulePack.rulesStrings>
+
+	<ArtDescription_WeaponGun.rulePack.rulesStrings>
+		<li>physical_description_root->На цій зброї вигравіюване [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Ця зброя несе на собі [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Гравіювання на цій зброї [depicts] [image]. [desc_sentence_group]</li>
+	</ArtDescription_WeaponGun.rulePack.rulesStrings>
+
+	<ArtDescription_Furniture.rulePack.rulesStrings>
+		<li>physical_description_root->На цьому предметі інтер'єру вигравіюване [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Цей предмет ітер'єру несе на собі [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Гравіювання на цьому предметі інтер'єру [depicts] [image]. [desc_sentence_group]</li>
+	</ArtDescription_Furniture.rulePack.rulesStrings>
+
+	<ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
+		<li>physical_description_root->На саркофазі вигравіюване [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Цей саркофаг несе на собі [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->Гравіювання на цьому саркофазі [depicts] [image]. [desc_sentence_group]</li>
+	</ArtDescription_SarcophagusPlate.rulePack.rulesStrings>
+
+</LanguageData>

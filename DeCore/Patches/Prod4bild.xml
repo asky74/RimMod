@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ToolCabinet"]/comps/li[1]/maxSimultaneous</xpath>
+	  <value>
+	  <maxSimultaneous>4</maxSimultaneous>
+	  </value>
+	</Operation> 
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ToolCabinet"]/comps/li[1]/statOffsets/WorkTableWorkSpeedFactor</xpath>
+	  <value>
+	  <WorkTableWorkSpeedFactor>0.12</WorkTableWorkSpeedFactor>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "ToolCabinet"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>400</Steel>
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MultiAnalyzer"]/comps/li[3]/maxSimultaneous</xpath>
+	  <value>
+	  <maxSimultaneous>2</maxSimultaneous>
+	  </value>
+	</Operation> 
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MultiAnalyzer"]/comps/li[3]/statOffsets/ResearchSpeedFactor</xpath>
+	  <value>
+	  <ResearchSpeedFactor>0.2</ResearchSpeedFactor>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MultiAnalyzer"]/costList/Steel</xpath>
+	  <value>
+	  <Steel>200</Steel>
+	  </value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "VitalsMonitor"]/comps/li[3]/statOffsets/ImmunityGainSpeedFactor</xpath>
+	  <value>
+	  <ImmunityGainSpeedFactor>0.06</ImmunityGainSpeedFactor>
+	  </value>
+	</Operation>
+	
+	
+	
+	
+    <Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "PassiveCooler"]/comps/li/fuelConsumptionRate</xpath>
+	  <value>
+	  <fuelConsumptionRate>5</fuelConsumptionRate>
+	  </value>
+	</Operation>
+	
+	
+	
+
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MoisturePump"]/comps/li[2]/daysToRadius</xpath>
+	  <value>
+	  <daysToRadius>20</daysToRadius>
+	  </value>
+	</Operation>
+	
+  
+</Patch>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Audiovisuals -->
+
+	<Audiovisuals>Аудіо та відео</Audiovisuals>
+	<GameVolume>Гучність гри</GameVolume>
+	<MusicVolume>Гучність музики</MusicVolume>
+	<Antialiasing>Згладжування</Antialiasing>
+
+  <!-- Gameplay -->
+
+	<EdgeScreenScroll>Прокрутка скраю екрану</EdgeScreenScroll>
+	<PauseOnLoad>Пауза після завантаження</PauseOnLoad>
+	<PauseOnUrgentLetter>Пауза при важливому повідомленні</PauseOnUrgentLetter>
+	<CustomCursor>Програмовий курсор</CustomCursor>
+	<KeyboardConfig>Налаштування клавіатури</KeyboardConfig>
+	<ChooseLanguage>Обрати мову</ChooseLanguage>
+	<AdaptiveTutor>Навчання</AdaptiveTutor>
+	<ResetAdaptiveTutor>Скинути навчання</ResetAdaptiveTutor>
+	<AdaptiveTutorIsReset>Адаптивне навчання скинуто. В наступній грі воно почнеться з нуля.</AdaptiveTutorIsReset>
+	<RunInBackground>Грати у фоновому режимі</RunInBackground>
+	<DevelopmentMode>Режим розробника</DevelopmentMode>
+	<ResetModsConfigOnCrash>Скидати налашт. модів при вильоті</ResetModsConfigOnCrash>
+	<LogVerbose>Детальн. журнал помилок</LogVerbose>
+	<OpenSaveGameDataFolder>Відкрити папку записів</OpenSaveGameDataFolder>
+	<NamesYouWantToSee>Прізвища персонажів, яких ви хотіли би побачити у грі або передісторії:</NamesYouWantToSee>
+	<ChangeStoryteller>Обрати оповідача</ChangeStoryteller>
+	<AutosaveInterval>Інтервал автозапису</AutosaveInterval>
+	<TemperatureMode>Темп. одиниці</TemperatureMode>
+	<ShowRealtimeClock>Показувати поточний час</ShowRealtimeClock>
+	<MaxPermadeathAutosaveIntervalInfo>Максимальний інтервал автозбереження в хардкор-режимі: {0}</MaxPermadeathAutosaveIntervalInfo>
+
+  <!-- Resolution -->
+
+	<Resolution>Роздільна здатність</Resolution>
+	<Fullscreen>На весь екран</Fullscreen>
+
+  <!-- Privacy -->
+
+	<Privacy>Конфіденційність</Privacy>
+	<UserName>Ім'я користувача</UserName>
+	<ChooseHistoryUploadPref>Тип автозвіту</ChooseHistoryUploadPref>
+	<AboutHistoryUpload>Ваші ігрові дані допоможуть розробникам збалансувати гру. Якщо ви погодитесь, ваша інформація буде відправлятися кожні {0} ігрових днів (а також у деяких особливих випадках, як у кінці гри) на сервер RimWorld, а потім буде аналізована. Ці дані містять лише статистику та історію записів, пов'язаних з грою - жодна персональна інформація не збирається, за виключенням імені користувача, тому звіти мають суцільно анонімну природу.</AboutHistoryUpload>
+
+</LanguageData>

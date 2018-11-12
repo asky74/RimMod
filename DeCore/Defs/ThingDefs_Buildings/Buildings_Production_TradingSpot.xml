@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>TradingSpot</defName>
+		<label>trading spot</label>
+		<thingClass>TradingSpot.TradingSpot</thingClass>
+		<description>Designates a spot where traders will stop when visiting your colony.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/PartySpot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+		    <Flammability>0.0</Flammability>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<designationCategory>Misc</designationCategory>
+		<passability>Standable</passability>
+		<building>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+		</building>
+		<designationHotKey>Misc12</designationHotKey>
+		<tickerType>Normal</tickerType>
+	</ThingDef>
+</Defs>

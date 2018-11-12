@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>ResearchPal</name>
+  <author>notfood</author>
+  <url>https://ludeon.com/forums/index.php?topic=33593.0</url>
+  <targetVersion>1.0.2055</targetVersion>
+  <description>Smooth painless research
+# Features
+ - automatically generated to maximize readability*. 
+ - shows research projects, buildings, plants and recipes unlocked by each research project.
+ - projects can be queued, and colonists will automatically start the next project when the current research project completes.
+ - search functionality to quickly find research projects.
+ - helptab integration, right click the researches for extra information.
+    
+# Credits:
+ All the work by Fluffy
+ Some optimizations by NotFood
+ Previous updates by NotFood and Skyarkangel
+   </description>
+</ModMetaData>

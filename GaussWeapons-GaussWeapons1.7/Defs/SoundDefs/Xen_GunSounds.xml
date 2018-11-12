@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <SoundDef>
+        <defName>ThatGun</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxVoices>4</maxVoices>
+        <maxSimultaneous>2</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/Blaster</clipPath>         
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>8.58823</min>
+                    <max>8.58823</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>0.9152174</min>
+                    <max>1.042391</max>
+                </pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef>
+        <defName>RonXShot</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/dexgun1</clipPath>         
+                    </li>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/dexgun2</clipPath>         
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>11.58823</min>
+                    <max>11.58823</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>0.9152174</min>
+                    <max>1.042391</max>
+                </pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+</Defs>

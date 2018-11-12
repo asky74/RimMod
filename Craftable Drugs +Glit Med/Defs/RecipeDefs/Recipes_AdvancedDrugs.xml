@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>CDCraftNeutroamine</defName>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<label>Produce Neutroamine</label>
+		<description>Produce Neutroamine</description>
+		<jobString>Producing Neutroamine</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<researchPrerequisite>NeutroamineCrafting</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<products>
+			<Neutroamine>5</Neutroamine>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PsychoidLeaves</li>
+				<li>MedicineHerbal</li>
+				<li>RawBerries</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Intellectual</workSkill>
+			<skillRequirements>
+					<Intellectual>2</Intellectual>
+				</skillRequirements>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CDCraftLuciferium</defName>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<label>Produce Luciferium</label>
+		<description>Produce Luciferium</description>
+		<jobString>Producing Luciferium</jobString>
+		<workAmount>2500</workAmount>
+		<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<researchPrerequisite>LuciferiumProduction</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Luciferium>5</Luciferium>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>DevilstrandCloth</li>
+				<li>MedicineIndustrial</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Intellectual</workSkill>
+			<skillRequirements>
+					<Intellectual>6</Intellectual>
+					<Crafting>2</Crafting>
+				</skillRequirements>
+	</RecipeDef>
+  
+</Defs>

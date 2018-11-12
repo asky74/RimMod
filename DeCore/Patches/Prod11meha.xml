@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Mech_Centipede"]/butcherProducts</xpath>
+	  <value>
+	 <Uranium>15</Uranium>
+	 <Gold>8</Gold>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Mech_Lancer"]</xpath>
+	  <value>
+	  <butcherProducts>
+        <Steel>20</Steel>
+        <Plasteel>5</Plasteel>
+	    <Uranium>6</Uranium>
+	    <Gold>3</Gold>
+        <ComponentIndustrial>1</ComponentIndustrial>
+    </butcherProducts>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Mech_Scyther"]</xpath>
+	  <value>
+	  <butcherProducts>
+        <Steel>20</Steel>
+        <Plasteel>5</Plasteel>
+	    <Uranium>6</Uranium>
+	    <Gold>3</Gold>
+        <ComponentIndustrial>1</ComponentIndustrial>
+    </butcherProducts>
+	  </value>
+	</Operation>
+
+	
+	
+	
+  
+</Patch>

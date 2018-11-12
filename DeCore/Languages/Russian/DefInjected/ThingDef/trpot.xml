@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Lighting_MURWallLightVII.label>Настенная лампа</Lighting_MURWallLightVII.label>
+  <Lighting_MURWallLightVII.description>Светильник, предназначенный для установки на стене</Lighting_MURWallLightVII.description>
+
+  <Lighting_MURWallLightRedVII.label>Настенная лампа (к)</Lighting_MURWallLightRedVII.label>
+  <Lighting_MURWallLightRedVII.description>Светильник, предназначенный для установки на стене (к)</Lighting_MURWallLightRedVII.description>
+  
+    <Lighting_MURWallLightGreenVII.label>Настенная лампа (з)</Lighting_MURWallLightGreenVII.label>
+  <Lighting_MURWallLightGreenVII.description>Светильник, предназначенный для установки на стене (з)</Lighting_MURWallLightGreenVII.description>
+  
+    <Lighting_MURWallLightBlueVII.label>Настенная лампа (с)</Lighting_MURWallLightBlueVII.label>
+  <Lighting_MURWallLightBlueVII.description>Светильник, предназначенный для установки на стене (с)</Lighting_MURWallLightBlueVII.description>
+  
+  
+  
+   <!--   <Lighting_MURWallLightViolet.label>Настенная лампа (ф)</Lighting_MURWallLightViolet.label>
+  <Lighting_MURWallLightViolet.description>Светильник, предназначенный для установки на стене (ф)</Lighting_MURWallLightViolet.description>
+  
+      <Lighting_MURWallLightyellow.label>Настенная лампа (ж)</Lighting_MURWallLightyellow.label>
+  <Lighting_MURWallLightyellow.description>Светильник, предназначенный для установки на стене (ж)</Lighting_MURWallLightyellow.description>
+  
+      <Lighting_MURWallLightorange.label>Настенная лампа (о)</Lighting_MURWallLightorange.label>
+  <Lighting_MURWallLightorange.description>Светильник, предназначенный для установки на стене (о)</Lighting_MURWallLightorange.description>
+  
+      <Lighting_MURWallLightturq.label>Настенная лампа (б)</Lighting_MURWallLightturq.label>
+  <Lighting_MURWallLightturq.description>Светильник, предназначенный для установки на стене (б)</Lighting_MURWallLightturq.description> -->
+  
+</LanguageData>

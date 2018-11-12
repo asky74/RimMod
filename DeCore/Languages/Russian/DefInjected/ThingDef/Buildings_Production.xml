@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	
+
+	<HydroponicsBasinx.label>гидропонная ферма 1x5</HydroponicsBasinx.label>
+	<HydroponicsBasinx.description>Позволяет быстро выращивать растения в искусственной питательной среде. Требует электроэнергию; растения умрут, если её не будет. В отличии от простой гидропоники, занимает 5 клеток.</HydroponicsBasinx.description>
+
+	<PowerConduitx.label>кабель (скрытый)</PowerConduitx.label>
+	<PowerConduitx.description>Набор электрических проводов для передачи электроэнергии. Размещается под  под землей. Не горит и не может быть атакован.</PowerConduitx.description>
+
+	
+</LanguageData>

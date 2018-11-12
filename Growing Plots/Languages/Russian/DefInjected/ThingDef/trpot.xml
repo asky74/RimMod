@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GrowingPlot.label>Земляной контейнер</GrowingPlot.label>
+  <GrowingPlot.description>Контейнер, в который можно сажать растения. Плодородность: 100%.</GrowingPlot.description>
+
+  <RichGrowingPlot.label>Плодородный земляной контейнер</RichGrowingPlot.label>
+  <RichGrowingPlot.description>Контейнер, содержащий обогащенную почву. Плодородность: 150%.</RichGrowingPlot.description>
+  
+</LanguageData>

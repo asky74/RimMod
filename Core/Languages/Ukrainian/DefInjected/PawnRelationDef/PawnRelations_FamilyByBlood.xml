@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Parent.label>батько</Parent.label>
+	<Parent.labelFemale>мати</Parent.labelFemale>
+
+	<Child.label>син</Child.label>
+	<Child.labelFemale>донька</Child.labelFemale>
+
+	<Sibling.label>брат</Sibling.label>
+	<Sibling.labelFemale>сестра</Sibling.labelFemale>
+
+	<HalfSibling.label>зведений брат</HalfSibling.label>
+	<HalfSibling.labelFemale>зведена сестра</HalfSibling.labelFemale>
+
+	<Grandparent.label>дідусь</Grandparent.label>
+	<Grandparent.labelFemale>бабуся</Grandparent.labelFemale>
+
+	<Grandchild.label>онук</Grandchild.label>
+	<Grandchild.labelFemale>онука</Grandchild.labelFemale>
+
+	<NephewOrNiece.label>племінник</NephewOrNiece.label>
+	<NephewOrNiece.labelFemale>племінниця</NephewOrNiece.labelFemale>
+
+	<UncleOrAunt.label>дядько</UncleOrAunt.label>
+	<UncleOrAunt.labelFemale>тітка</UncleOrAunt.labelFemale>
+
+	<Cousin.label>кузен</Cousin.label>
+	<Cousin.labelFemale>кузина</Cousin.labelFemale>
+
+  <!-- distant family -->
+
+	<GreatGrandparent.label>прадід</GreatGrandparent.label>
+	<GreatGrandparent.labelFemale>прабабуся</GreatGrandparent.labelFemale>
+
+	<GreatGrandchild.label>правнук</GreatGrandchild.label>
+	<GreatGrandchild.labelFemale>правнучка</GreatGrandchild.labelFemale>
+
+	<GranduncleOrGrandaunt.label>двоюрідний дід</GranduncleOrGrandaunt.label>
+	<GranduncleOrGrandaunt.labelFemale>двоюрідна бабуся</GranduncleOrGrandaunt.labelFemale>
+
+	<GrandnephewOrGrandniece.label>онучатий племінник</GrandnephewOrGrandniece.label>
+	<GrandnephewOrGrandniece.labelFemale>онучата племінниця</GrandnephewOrGrandniece.labelFemale>
+
+	<CousinOnceRemoved.label>троюрідний племінник</CousinOnceRemoved.label>
+	<CousinOnceRemoved.labelFemale>троюрідна племінниця</CousinOnceRemoved.labelFemale>
+
+	<SecondCousin.label>троюрідний брат</SecondCousin.label>
+	<SecondCousin.labelFemale>троюрідна сестра</SecondCousin.labelFemale>
+
+  <!-- kin -->
+
+	<Kin.label>рідня</Kin.label>
+
+</LanguageData>

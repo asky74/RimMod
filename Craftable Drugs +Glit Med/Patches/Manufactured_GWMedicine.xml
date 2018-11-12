@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName="MedicineUltratech"]/statBases</xpath>
+		<value>
+			<WorkToMake>5000</WorkToMake>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationInsert">
+		<xpath>*/ThingDef[defName="MedicineUltratech"]/tradeTags</xpath>
+		<value>
+			<costList>
+				<MedicineIndustrial>2</MedicineIndustrial>
+				<Luciferium>1</Luciferium>
+			</costList>
+			<recipeMaker>
+				<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+				<workSkill>Intellectual</workSkill>
+				<recipeUsers>
+					<li>DrugLab</li>
+				</recipeUsers>
+				<researchPrerequisite>GlitterworldMedicineProduction</researchPrerequisite>
+				<skillRequirements>
+					<Intellectual>8</Intellectual>
+					<Crafting>4</Crafting>
+				</skillRequirements>
+			</recipeMaker>
+		</value>
+	</Operation>
+  
+</Patch>

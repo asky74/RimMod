@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ApparelLayerDef>
+    <defName>Underwear</defName>
+    <label>underwear</label>
+    <drawOrder>0</drawOrder>
+  </ApparelLayerDef>
+  
+  <ApparelLayerDef>
+    <defName>Accessory</defName>
+    <label>accessory</label>
+    <drawOrder>300</drawOrder>
+  </ApparelLayerDef>
+
+</Defs>

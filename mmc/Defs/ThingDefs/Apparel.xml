@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef Name="ApparelBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Beauty>-4</Beauty>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_SmallBackpack</defName>
+		<label>Small Backpack</label>
+		<techLevel>Industrial</techLevel>
+		<description>A small backpack to make carry things more convinient.</description>
+		<graphicData> 
+			<texPath>Things/SmallBackpack/SmallBackpack</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<statBases>
+			<Insulation_Cold>3</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<CarryingCapacity>75</CarryingCapacity>
+		</equippedStatOffsets>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Cloth>20</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<tags>
+				<li>Outlander</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<wornGraphicPath>Things/SmallBackpack/SmallBackpack</wornGraphicPath>
+			<layers>
+				<li>Accessory</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Torso</li>
+			</bodyPartGroups>
+		</apparel>
+		<recipeMaker>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.2,0.2,0.2,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_LargeBackpack</defName>
+		<label>Large Backpack</label>
+		<techLevel>Industrial</techLevel>
+		<description>A large backpack to make carry even more things more convinient.</description>
+		<graphicData>
+			<texPath>Things/LargeBackpack/LargeBackpack</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>6</Mass>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<CarryingCapacity>150</CarryingCapacity>
+		</equippedStatOffsets>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Cloth>20</Cloth>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<tags>
+				<li>Outlander</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<wornGraphicPath>Things/LargeBackpack/LargeBackpack</wornGraphicPath>
+			<layers>
+				<li>Accessory</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Torso</li>
+			</bodyPartGroups>
+		</apparel>
+		<recipeMaker>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.2,0.2,0.2,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_NanoSuit</defName>
+		<label>Nanosuit</label>
+		<techLevel>Spacer</techLevel>
+		<description>A nano fiber jumpsuit made for military personnel.</description>
+		<graphicData>
+			<texPath>Things/NanoSuit/NanoSuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.6</Mass>
+			<WorkToMake>40000</WorkToMake>
+			<MaxHitPoints>420</MaxHitPoints>
+			<MarketValue>6500</MarketValue>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.55</ArmorRating_Heat>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<Flammability>0.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Beauty>4</Beauty>
+			<SellPriceFactor>0.75</SellPriceFactor>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>3.0</MoveSpeed>
+			<WorkSpeedGlobal>0.30</WorkSpeedGlobal>
+			<CookSpeed>0.25</CookSpeed>
+			<FoodPoisonChance>-0.250</FoodPoisonChance>
+			<ButcheryFleshSpeed>0.15</ButcheryFleshSpeed>
+			<MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+			<MedicalTendQuality>0.15</MedicalTendQuality>
+			<MedicalTendSpeed>0.50</MedicalTendSpeed>
+			<MedicalOperationSpeed>0.25</MedicalOperationSpeed>
+			<ToxicSensitivity>-1.0</ToxicSensitivity>
+			<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.25</MeleeDodgeChance>
+			<CarryingCapacity>150</CarryingCapacity>
+		</equippedStatOffsets>
+		<costStuffCount>200</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costList>
+			<Plasteel>175</Plasteel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+		</costList>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>0.1</generateCommonality>
+		<apparel>
+			<tags>
+				<li>Outlander</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<wornGraphicPath>Things/NanoSuit/NanoSuit</wornGraphicPath>
+			<layers>
+				<li>Underwear</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+		</apparel>
+
+		<recipeMaker>
+			<workSpeedStat>TailoringSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+			<researchPrerequisite>PoweredArmor</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.2,0.2,0.2,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

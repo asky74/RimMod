@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<MedicalTendSpeed.label>Швидкість лікування</MedicalTendSpeed.label>
+	<MedicalTendSpeed.description>Швидкість з якою персонаж оброблює поранення, якщо він лікар.</MedicalTendSpeed.description>
+	
+	<MedicalTendQuality.label>Якість лікування</MedicalTendQuality.label>
+	<MedicalTendQuality.description>Якість, з якою персонаж лікує інших, якщо він лікар.</MedicalTendQuality.description>
+
+	<MedicalOperationSpeed.label>Швидкість проведення медичних операцій</MedicalOperationSpeed.label>
+	<MedicalOperationSpeed.description>Швидкість з якою персонаж виконує медичні операції.</MedicalOperationSpeed.description>
+
+	<MedicalSurgerySuccessChance.label>Імовірність вдало здійснити операцію</MedicalSurgerySuccessChance.label>
+	<MedicalSurgerySuccessChance.description>Імовірність, з якою персонаж вдало здійснить медичну операцію.</MedicalSurgerySuccessChance.description>
+
+</LanguageData>

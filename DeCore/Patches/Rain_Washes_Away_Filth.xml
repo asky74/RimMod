@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<!-- Rain Removes Filth -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[@Name = "BaseFilth"]</xpath>
+		<value>
+			<filth>
+				<rainWashes>true</rainWashes>
+			</filth>
+		</value>
+	</Operation>
+	
+</Patch>

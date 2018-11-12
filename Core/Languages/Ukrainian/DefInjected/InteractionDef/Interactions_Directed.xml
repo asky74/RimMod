@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<BuildRapport.label>розмовляти</BuildRapport.label>
+	<BuildRapport.logRulesInitiator.rulesStrings>
+		<li>logentry->Намагався(лася) більше дізнатися про [other_nameShortIndef].</li>
+	</BuildRapport.logRulesInitiator.rulesStrings>
+	<BuildRapport.logRulesRecipient.rulesStrings>
+		<li>logentry->Розмовляв(ла) із [other_nameShortIndef] про себе.</li>
+	</BuildRapport.logRulesRecipient.rulesStrings>
+
+	<RecruitAttempt.label>спроба завербувати</RecruitAttempt.label>
+	<RecruitAttempt.logRulesInitiator.rulesStrings>
+		<li>logentry->Намагався(лася) завербувати [other_nameShortIndef].</li>
+	</RecruitAttempt.logRulesInitiator.rulesStrings>
+	<RecruitAttempt.logRulesRecipient.rulesStrings>
+		<li>logentry->Вислуховував(ла) [other_nameShortIndef].</li>
+	</RecruitAttempt.logRulesRecipient.rulesStrings>
+
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DeepOre.TextBackground>Затемнение на фоне</DeepOre.TextBackground>
+
+	<DeepOre.TextBackground.Tooltip>Название ресурса будет обводиться темной рамкой, для лучшей видимости.</DeepOre.TextBackground.Tooltip>
+
+</LanguageData>

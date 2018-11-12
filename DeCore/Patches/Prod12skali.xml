@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableSteel"]/building/mineableScatterLumpSizeRange/min</xpath>
+	  <value>
+	    <min>35</min>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableSteel"]/building/mineableScatterLumpSizeRange/max</xpath>
+	  <value>
+	    <max>50</max>
+	  </value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableSilver"]/building/mineableYield</xpath>
+	  <value>
+	 <mineableYield>125</mineableYield>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableSilver"]/building/mineableScatterLumpSizeRange/min</xpath>
+	  <value>
+	    <min>10</min>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableSilver"]/building/mineableScatterLumpSizeRange/max</xpath>
+	  <value>
+	    <max>20</max>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableGold"]/building/mineableYield</xpath>
+	  <value>
+	 <mineableYield>60</mineableYield>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableGold"]/building/mineableScatterLumpSizeRange/min</xpath>
+	  <value>
+	    <min>5</min>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableGold"]/building/mineableScatterLumpSizeRange/max</xpath>
+	  <value>
+	    <max>10</max>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineablePlasteel"]/statBases/MaxHitPoints</xpath>
+	  <value>
+	    <MaxHitPoints>4000</MaxHitPoints>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineablePlasteel"]/building/mineableScatterCommonality</xpath>
+	  <value>
+	    <mineableScatterCommonality>0.15</mineableScatterCommonality>
+	  </value>
+	</Operation>
+	
+	
+	
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableJade"]/building/mineableScatterLumpSizeRange/min</xpath>
+	  <value>
+	    <min>5</min>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableJade"]/building/mineableScatterLumpSizeRange/max</xpath>
+	  <value>
+	    <max>10</max>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableComponentsIndustrial"]/building/mineableScatterLumpSizeRange/min</xpath>
+	  <value>
+	    <min>4</min>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableComponentsIndustrial"]/building/mineableScatterLumpSizeRange/max</xpath>
+	  <value>
+	    <max>8</max>
+	  </value>
+	</Operation>
+	
+
+		<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "MineableUranium"]/graphicData/colorTwo</xpath>
+	  <value>
+	    <colorTwo>(70,99,70)</colorTwo>
+	  </value>
+	</Operation>
+	
+	
+  
+</Patch>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WandererJoinTitle>Скиталец хочет стать колонистом вашего поселения {0}</WandererJoinTitle>
+  <WandererJoinDesc>{0} {1} блуждает возле вашей колонии, думая, что  может стать полезным колонистом. {0} имеет возраст {2} лет.</WandererJoinDesc>
+  <WandererJoinAccept>Принять</WandererJoinAccept>
+  <WandererJoinReject>Отказть</WandererJoinReject>
+  <PassionateFor>Имеет страсть к навыкам (1 огонек):</PassionateFor>
+  <PassionateMajor> (2 огонька)</PassionateMajor>
+  <!--<PassionateMinor> (Minor)</PassionateMinor>-->
+</LanguageData>

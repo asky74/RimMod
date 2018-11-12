@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Plant_Bush"]/plant</xpath>
+	  <value>
+	  <sowTags>
+        <li>Ground</li>
+		<li>Hydroponic</li>
+      </sowTags>
+	  	  <harvestYield>2</harvestYield>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>WoodLog</harvestedThingDef>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Plant_Grass"]/plant</xpath>
+	  <value>
+	  <sowTags>
+        <li>Ground</li>
+      </sowTags>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Plant_Astragalus"]/plant</xpath>
+	  <value>
+	  <sowTags>
+        <li>Ground</li>
+      </sowTags>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[defName = "Plant_TallGrass"]/plant</xpath>
+	  <value>
+	  <sowTags>
+        <li>Ground</li>
+      </sowTags>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[thingClass = "Pawn"]/statBases</xpath>
+	  <value>
+<SellPriceFactor>1.5</SellPriceFactor>
+	  </value>
+	</Operation>
+
+
+
+
+
+	
+	
+	
+  
+</Patch>

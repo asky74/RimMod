@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "Apparel_SimpleHelmet"]/apparel/bodyPartGroups</xpath>
+	  <value><careIfWornByCorpse>false</careIfWornByCorpse></value>
+	</Operation>
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "Apparel_WarMask"]/apparel/bodyPartGroups</xpath>
+	  <value><careIfWornByCorpse>false</careIfWornByCorpse></value>
+	</Operation> 
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "Apparel_AdvancedHelmet"]/apparel/bodyPartGroups</xpath>
+	  <value><careIfWornByCorpse>false</careIfWornByCorpse></value>
+	</Operation> 
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "Apparel_PowerArmorHelmet"]/apparel/bodyPartGroups</xpath>
+	  <value><careIfWornByCorpse>false</careIfWornByCorpse></value>
+	</Operation> 
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "Apparel_PsychicFoilHelmet"]/apparel/bodyPartGroups</xpath>
+	  <value><careIfWornByCorpse>false</careIfWornByCorpse></value>
+	</Operation> 
+	<Operation Class="PatchOperationInsert">
+	  <xpath>*/ThingDef[defName = "Apparel_PowerArmor"]/apparel/bodyPartGroups</xpath>
+	  <value><careIfWornByCorpse>false</careIfWornByCorpse></value>
+	</Operation> 
+</Patch>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef Name="TS_TerrainBase" Abstract="True">
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>335</renderPrecedence>
+		<designationCategory>Floors</designationCategory>
+		<constructEffect>ConstructDirt</constructEffect>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+
+	<TerrainDef ParentName="TS_TerrainBase">
+		<defName>Dirt</defName>
+		<label>soil</label>
+		<description>Standard soil. Tastes like dirt.</description>
+		<texturePath>Terrain/Surfaces/Soil</texturePath>
+		<pathCost>2</pathCost>
+		<edgeType>FadeRough</edgeType>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Cleanliness>0</Cleanliness>
+			<WorkToBuild>350</WorkToBuild>
+		</statBases>
+		<fertility>1.0</fertility>
+		<terrainAffordanceNeeded>SmoothableStone</terrainAffordanceNeeded>
+		<!--researchPrerequisites>
+			<li>terrainRehab</li>
+		</researchPrerequisites-->
+	</TerrainDef>
+
+	<TerrainDef ParentName="TS_TerrainBase" Name="TS_Tilled">
+		<defName>GT_SoilTilled</defName>
+		<label>tilled soil</label>
+		<description>Tilled soil, for planting crops properly.</description>
+		<texturePath>SoilTilled</texturePath>
+		<pathCost>5</pathCost>
+		<layerable>true</layerable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<WorkToBuild>1500</WorkToBuild>
+		</statBases>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+		<fertility>1.45</fertility>
+		<avoidWander>true</avoidWander>
+		<terrainAffordanceNeeded>GrowSoil</terrainAffordanceNeeded>
+		<designationCategory>Production</designationCategory>
+	</TerrainDef>
+
+
+
+</Defs>

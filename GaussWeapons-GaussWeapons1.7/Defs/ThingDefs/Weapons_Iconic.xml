@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+    
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_XBRG</defName>
+        <label>Bullet</label>
+        <thingClass>GaussWeapons.Projectile_Gauss</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <speed>100</speed>
+        </projectile>
+        <comps>
+            <li Class="GaussWeapons.CompProperties_ExtraDamage">
+                <compClass>GaussWeapons.CompExtraDamage</compClass>
+                <damageDef>Stun</damageDef>
+                <damageAmount>35</damageAmount>
+                <chanceToProc>0.9</chanceToProc>
+            </li>
+        </comps>
+    </ThingDef>
+    
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Gun_XBRG</defName>
+        <label>LAPD 2019 Blaster</label>
+        <description>A customized version of a standard-issue sidearm used by the police force of a dystopic hubworld.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Gauss/Bladegun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1150</MarketValue>
+            <AccuracyTouch>0.96</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.78</AccuracyLong>
+            <RangedWeapon_Cooldown>0.33</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>90</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_XBRG</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>40</range>
+                <soundCast>ThatGun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>13</muzzleFlashScale>
+            </li>
+        </verbs>
+        <weaponTags>
+            <li>MedievalShields_ValidSidearm</li>
+        </weaponTags>
+    </ThingDef>  
+    
+    
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Ronon</defName>
+        <label>Bullet</label>
+        <thingClass>GaussWeapons.Projectile_Gauss</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/Ronbullet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>100</speed>
+        </projectile>
+        <comps>
+            <li Class="GaussWeapons.CompProperties_ExtraDamage">
+                <compClass>GaussWeapons.CompExtraDamage</compClass>
+                <damageDef>Stun</damageDef>
+                <damageAmount>15</damageAmount>
+                <chanceToProc>0.75</chanceToProc>
+            </li>
+        </comps>
+    </ThingDef>
+    
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>Gun_Xronon</defName>
+        <label>Particle Magnum</label>
+        <description>A powerful weapon, apparently claimed from the ruins of an ancient advanced society.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/Gauss/Ronon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>1</Mass>
+            <MarketValue>1150</MarketValue>
+            <AccuracyTouch>0.96</AccuracyTouch>
+            <AccuracyShort>0.82</AccuracyShort>
+            <AccuracyMedium>0.76</AccuracyMedium>
+            <AccuracyLong>0.74</AccuracyLong>
+            <RangedWeapon_Cooldown>0.43</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>90</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Ronon</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>40</range>
+                <soundCast>RonXShot</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>13</muzzleFlashScale>
+            </li>
+        </verbs>
+        <weaponTags>
+            <li>MedievalShields_ValidSidearm</li>
+        </weaponTags>
+    </ThingDef>  
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+	<ResearchProjectDef>
+		<defName>GaussTurret</defName>
+		<label>large scale gauss magnets</label>
+		<description>Allows the construction of gauss based turrets.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MultibarrelWeapons</li>
+    </prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

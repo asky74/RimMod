@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<TalelessImages.rulePack.rulesStrings>
+		<li>image->[outlander], якого(у) оточили інші [outlander]</li>
+		<li>image->[outlander], який(а) грає у [game] з [quantity_adjphrase] [outlander]</li>
+		<li>image->[outlander] зі [weapon], [subject_desc]</li>
+		<li>image->одинокого(у) [outlander]</li>
+		<li>image->[adjective] [outlander] з [apparel]</li>
+		<li>image->[outlander], який(а) їсть [vegetable]</li>
+		<li>image->[quantity_adjphrase] [outlander] та [outlander], які споживають [vegetable] разом</li>
+		<li>image->пустого [apparel] [subject_desc]</li>
+		<li>image->[adjective] [terrainfeature]</li>
+		<li>image->[animal], який(а) грає у [game]</li>
+		<li>image->[animal] з [apparel] [subject_desc]</li>
+		<li>image->[terrainfeature]</li>
+		<li>image->абстрактне представлення [concept]</li>
+		<li>image->[community]</li>
+		<li>image->[weapon]</li>
+		<li>image->[quantity_adjphrase] [weapon]</li>
+		<li>image->[quantity_adjphrase] [vegetable]</li>
+		<li>image->знаменитість [personname] [subject_desc]</li>
+		<li>image->[animal] з [apparel], який(а) належить [outlander]</li>
+		<li>subject_desc->який(а) летить у повітрі</li>
+		<li>subject_desc->пвдвішений(а) у повітрі</li>
+		<li>subject_desc->який(а) стоїть на землі</li>
+		<li>subject_desc->який(а) рухається ліворуч</li>
+		<li>subject_desc->який(а) рухається праворуч</li>
+		<li>subject_desc->який(а) сидить на столі</li>
+		<li>subject_desc->якого(у) видно через зеркало</li>
+		<li>subject_desc->якого(ї) видно лише контури</li>
+		<li>subject_desc->на [animal] з [apparel]</li>
+		<li>subject_desc->який(а) виглядає [adjective]</li>
+	</TalelessImages.rulePack.rulesStrings>
+
+</LanguageData>

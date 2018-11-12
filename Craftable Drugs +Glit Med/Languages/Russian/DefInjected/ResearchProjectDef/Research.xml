@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<NeutroamineCrafting.label>Создание нейтромина</NeutroamineCrafting.label>
+	<NeutroamineCrafting.description>Исследование позволяет создавать нейтромин в нарколаборатории</NeutroamineCrafting.description>
+
+    <LuciferiumProduction.label>Создание люциферия</LuciferiumProduction.label>
+    <LuciferiumProduction.description>Исследование позволяет создавать люциферий в нарколаборатории</LuciferiumProduction.description>
+
+	 <GlitterworldMedicineProduction.label>Создание передовых медикаментов</GlitterworldMedicineProduction.label>
+  <GlitterworldMedicineProduction.description>Исследование открывает создание передовых медикаментов.</GlitterworldMedicineProduction.description>
+ 
+	
+</LanguageData>

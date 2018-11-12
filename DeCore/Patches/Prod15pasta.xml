@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    
+
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/graphicData/drawSize</xpath>
+	  <value>
+	  <drawSize>(3,2)</drawSize>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/size</xpath>
+	  <value>
+	  <size>(3,2)</size>
+	  </value>
+	</Operation> 
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/interactionCellOffset</xpath>
+	  <value>
+	  <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/graphicData/texPath</xpath>
+	  <value>
+	  <texPath>Stanki/NutrientDispenser/NutrientDispenser</texPath>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	  <xpath>*/ThingDef[defName = "NutrientPasteDispenser"]/graphicData/shadowData/volume</xpath>
+	  <value>
+	 <volume>(2.87,0.55,1.25)</volume>
+	  </value>
+	</Operation>
+	
+	
+	
+  
+</Patch>

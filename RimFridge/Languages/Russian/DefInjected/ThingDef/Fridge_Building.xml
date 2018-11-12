@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimFridge_Refrigerator.label>Двойной холодильник</RimFridge_Refrigerator.label>
+  <RimFridge_Refrigerator.description>Хранилище для портящихся продуктов и вещей.</RimFridge_Refrigerator.description>
+
+  <RimFridge_SingleRefrigerator.label>холодильник</RimFridge_SingleRefrigerator.label>
+  <RimFridge_SingleRefrigerator.description>Небольшой холодильник для хранения портящихся продуктов и вещей.</RimFridge_SingleRefrigerator.description>
+  
+  <RimFridge_WallRefrigerator.label>Двойной стенный холод-к</RimFridge_WallRefrigerator.label>
+  <RimFridge_WallRefrigerator.description>Двойной  холодильник, который используется вместо стены. Его можно поставить между кухней и столовой, при этом температура помещений не нарушится, а колонисты в столовой смогут брать блюда, находящиеся между двумя помещениями.</RimFridge_WallRefrigerator.description>
+  
+    <RimFridge_SingleWallRefrigerator.label>Стенный холод-к</RimFridge_SingleWallRefrigerator.label>
+  <RimFridge_SingleWallRefrigerator.description>Холодильник, который используется вместо стены. Его можно поставить между кухней и столовой, при этом температура помещений не нарушится, а колонисты в столовой смогут брать блюда, находящиеся между двумя помещениями.</RimFridge_SingleWallRefrigerator.description>
+  
+
+</LanguageData>

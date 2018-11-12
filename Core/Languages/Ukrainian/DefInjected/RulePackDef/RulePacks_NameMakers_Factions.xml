@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- Player -->
+
+	<NamerFactionPlayerRandomized.rulepack.rulesstrings.0>name->[colonyname]</NamerFactionPlayerRandomized.rulepack.rulesstrings.0>
+	<NamerFactionBasePlayerColony.rulepack.rulesstrings.0>name->Поселення</NamerFactionBasePlayerColony.rulepack.rulesstrings.0>
+	<NamerFactionBasePlayerTribe.rulepack.rulesstrings.0>name->Селище</NamerFactionBasePlayerTribe.rulepack.rulesstrings.0>
+
+	<!-- Pirate -->
+
+	<NamerFactionPirate.rulePack.rulesStrings>
+		<li>name->[badassanimal]</li>
+		<li>name->Люди [badassanimal]</li>
+		<li>name->[badassanimal] [badassconcept]</li>
+		<li>name->[badassperson] [badassconcept]</li>
+		<li>name->[badassperson]</li>
+		<li>name->Люди [weapon]</li>
+		<li>name->[weapon]</li>
+		<li>name->[weapon] [badassanimal]</li>
+		<li>name->[badasscolor] [weapon]</li>
+		<li>name->[badasscolor] [badassanimal]</li>
+		<li>name->[badasscolor] [badassperson]</li>
+		<li>name->[badassperson] [groupname]</li>
+		<li>name->[badassadjective] [groupname]</li>
+		<li>name->[badassadjective] [badassanimal]</li>
+		<li>name->[badassadjective] [badassperson]</li>
+		<li>name->[weapon] [groupname]</li>
+		<li>name->[badassconcept] [groupname]</li>
+		<li>name->[badassconcept][groupname]</li>
+		<li>name->[badassanimal] з [terrainfeature]</li>
+	</NamerFactionPirate.rulePack.rulesStrings>
+	
+	<NamerFactionBasePirate.rulepack.rulesstrings.0>name->[geography] [badassanimal]</NamerFactionBasePirate.rulepack.rulesstrings.0>
+	<NamerFactionBasePirate.rulepack.rulesstrings.1>name->[geography] [badassconcept]</NamerFactionBasePirate.rulepack.rulesstrings.1>
+	<NamerFactionBasePirate.rulepack.rulesstrings.2>name->[geography] [badassanimal]</NamerFactionBasePirate.rulepack.rulesstrings.2>
+	<NamerFactionBasePirate.rulepack.rulesstrings.3>name->[geography] [badassperson]</NamerFactionBasePirate.rulepack.rulesstrings.3>
+	<NamerFactionBasePirate.rulepack.rulesstrings.4>geography->[terrainfeature]</NamerFactionBasePirate.rulepack.rulesstrings.4>
+	<NamerFactionBasePirate.rulepack.rulesstrings.5>geography->[community]</NamerFactionBasePirate.rulepack.rulesstrings.5>
+
+	<!-- Outlander -->
+
+	<NamerFactionOutlander.rulePack.rulesStrings>
+		<li>rule->[terrainfeature] [positiveconcept]</li>
+		<li>rule->[terrainfeature] [outlander]</li>
+		<li>rule->[community] [outlander]</li>
+		<li>rule->[community]-на-[terrainfeature]</li>
+	</NamerFactionOutlander.rulePack.rulesStrings>
+	<NamerFactionOutlander.rulepack.rulesstrings.4>name->Імені [subname] [politicaladjective] [politicalunion]</NamerFactionOutlander.rulepack.rulesstrings.4>
+	<NamerFactionOutlander.rulepack.rulesstrings.5>name->[politicalunion] імені [subname]</NamerFactionOutlander.rulepack.rulesstrings.5>
+	<NamerFactionOutlander.rulepack.rulesstrings.6>name->[politicaladjective] [politicalunion] імені [subname]</NamerFactionOutlander.rulepack.rulesstrings.6>
+	<NamerFactionOutlander.rulepack.rulesstrings.7>subname->[wordname]</NamerFactionOutlander.rulepack.rulesstrings.7>
+	<NamerFactionOutlander.rulepack.rulesstrings.8>subname->[wordname]</NamerFactionOutlander.rulepack.rulesstrings.8>
+	<NamerFactionOutlander.rulepack.rulesstrings.9>subname->[wordname]</NamerFactionOutlander.rulepack.rulesstrings.9>
+	<NamerFactionOutlander.rulepack.rulesstrings.10>subname->[direction] [wordname]</NamerFactionOutlander.rulepack.rulesstrings.10>
+	<NamerFactionOutlander.rulepack.rulesstrings.11>wordname->[syl][endsyl]</NamerFactionOutlander.rulepack.rulesstrings.11>
+	<NamerFactionOutlander.rulepack.rulesstrings.12>wordname->[syl][syl][endsyl]</NamerFactionOutlander.rulepack.rulesstrings.12>
+	<NamerFactionOutlander.rulepack.rulesstrings.13>wordname->[syl][syl][syl][endsyl]</NamerFactionOutlander.rulepack.rulesstrings.13>
+
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.0>name->[terrainfeature] [positiveconcept]</NamerFactionBaseOutlander.rulepack.rulesstrings.0>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.1>name->[terrainfeature] [outlander]</NamerFactionBaseOutlander.rulepack.rulesstrings.1>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.2>name->[community] [outlander]</NamerFactionBaseOutlander.rulepack.rulesstrings.2>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.3>name->[nearname]</NamerFactionBaseOutlander.rulepack.rulesstrings.3>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.4>name->[wordname]</NamerFactionBaseOutlander.rulepack.rulesstrings.4>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.5>name->[wordname]</NamerFactionBaseOutlander.rulepack.rulesstrings.5>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.6>nearname->[subname]-на-[terrainfeature]</NamerFactionBaseOutlander.rulepack.rulesstrings.6>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.7>nearname->[subname]-біля-[terrainfeature]</NamerFactionBaseOutlander.rulepack.rulesstrings.7>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.8>subname->[wordname]</NamerFactionBaseOutlander.rulepack.rulesstrings.8>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.9>subname->[community]</NamerFactionBaseOutlander.rulepack.rulesstrings.9>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.10>wordname->[syl][syl]</NamerFactionBaseOutlander.rulepack.rulesstrings.10>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.11>wordname->[syl][townend]</NamerFactionBaseOutlander.rulepack.rulesstrings.11>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.12>wordname->[syl][syl][townend]</NamerFactionBaseOutlander.rulepack.rulesstrings.12>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.13>wordname->[terrainfeature][townend]</NamerFactionBaseOutlander.rulepack.rulesstrings.13>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.14>townend->вілль</NamerFactionBaseOutlander.rulepack.rulesstrings.14>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.15>townend->таун</NamerFactionBaseOutlander.rulepack.rulesstrings.15>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.16>townend->гай</NamerFactionBaseOutlander.rulepack.rulesstrings.16>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.17>townend->бурн</NamerFactionBaseOutlander.rulepack.rulesstrings.17>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.18>townend->берд</NamerFactionBaseOutlander.rulepack.rulesstrings.18>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.19>townend->дейл</NamerFactionBaseOutlander.rulepack.rulesstrings.19>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.20>townend->хоуп</NamerFactionBaseOutlander.rulepack.rulesstrings.20>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.21>townend->інг</NamerFactionBaseOutlander.rulepack.rulesstrings.21>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.22>townend->нес</NamerFactionBaseOutlander.rulepack.rulesstrings.22>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.23>townend->мір</NamerFactionBaseOutlander.rulepack.rulesstrings.23>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.24>townend->шо</NamerFactionBaseOutlander.rulepack.rulesstrings.24>
+	<NamerFactionBaseOutlander.rulepack.rulesstrings.25>townend->вік</NamerFactionBaseOutlander.rulepack.rulesstrings.25>
+
+	<!-- Tribe -->
+
+	<NamerFactionTribal.rulePack.rulesStrings>
+		<li>name->[tribalword] [tribalword]</li>
+		<li>name->[tribalword] [tribalword]</li>
+		<li>name->[tribalword] [tribalword] [tribalword]</li>
+		<li>name->[animal] [tribalword]</li>
+		<li>name->[color] [animal] [tribalword]</li>
+		<li>name->[terrainfeature] [tribalword]</li>
+		<li>name->Люди [color] [terrainfeature]</li>
+	</NamerFactionTribal.rulePack.rulesStrings>
+	<NamerFactionTribal.rulepack.rulesstrings.7>tribalword->[syl][syl]</NamerFactionTribal.rulepack.rulesstrings.7>
+	<NamerFactionTribal.rulepack.rulesstrings.8>tribalword->[syl][syl][syl]</NamerFactionTribal.rulepack.rulesstrings.8>
+
+	<NamerFactionBaseTribal.rulepack.rulesstrings.0>name->[tribalword]</NamerFactionBaseTribal.rulepack.rulesstrings.0>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.1>name->[tribalword]</NamerFactionBaseTribal.rulepack.rulesstrings.1>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.2>name->[color] [tribalword]</NamerFactionBaseTribal.rulepack.rulesstrings.2>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.3>name->[color] [terrainfeature]</NamerFactionBaseTribal.rulepack.rulesstrings.3>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.4>name->[terrainfeature] [tribalword]</NamerFactionBaseTribal.rulepack.rulesstrings.4>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.5>tribalword->[tribalwordfile]</NamerFactionBaseTribal.rulepack.rulesstrings.5>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.6>tribalword->[syl][syl]</NamerFactionBaseTribal.rulepack.rulesstrings.6>
+	<NamerFactionBaseTribal.rulepack.rulesstrings.7>tribalword->[syl][syl][syl]</NamerFactionBaseTribal.rulepack.rulesstrings.7>
+	
+	<!-- Special -->
+
+	<NamerFactionSpacer.rulePack.rulesStrings>
+		<li>name->Космічний мандрівник</li>
+	</NamerFactionSpacer.rulePack.rulesStrings>
+
+</LanguageData>

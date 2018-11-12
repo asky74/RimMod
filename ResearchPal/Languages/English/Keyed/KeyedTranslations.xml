@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<LanguageData>
+
+	<ResearchPal>ResearchPal</ResearchPal>
+
+	<ResearchPal.AllowsBuildingX>Enables construction {0}</ResearchPal.AllowsBuildingX>
+	<ResearchPal.AllowsCraftingX>Enables recipe {0}</ResearchPal.AllowsCraftingX>
+	<ResearchPal.AllowsSowingXinY>Enables planting {0} in {1}</ResearchPal.AllowsSowingXinY>
+	<ResearchPal.AllowsPlantingX>Enables growing {0}</ResearchPal.AllowsPlantingX>
+
+	<ResearchPal.LClickReplaceQueue>Left-Click to replace queue</ResearchPal.LClickReplaceQueue>
+	<ResearchPal.LClickRemoveFromQueue>Left-Click to remove from queue</ResearchPal.LClickRemoveFromQueue>
+	<ResearchPal.SLClickAddToQueue>Shift-Left-Click to add to queue</ResearchPal.SLClickAddToQueue>
+	<ResearchPal.CLClickDebugInstant>(DEBUG) Ctrl-Left-Click to instantly complete</ResearchPal.CLClickDebugInstant>
+	<ResearchPal.RClickForDetails>Right click for details</ResearchPal.RClickForDetails>
+
+	<ResearchPal.Requires>Requires</ResearchPal.Requires>
+	<ResearchPal.LeadsTo>Leads to</ResearchPal.LeadsTo>
+
+	<ResearchPal.QueuedNode>Already queued node</ResearchPal.QueuedNode>
+	<ResearchPal.MissingFacilities>Missing {0}</ResearchPal.MissingFacilities>
+
+	<ResearchPal.NoResearchFound>no research found</ResearchPal.NoResearchFound>
+	<ResearchPal.NothingQueued>no research queued</ResearchPal.NothingQueued>
+	<ResearchPal.NextInQueue>Next in queue: {0}</ResearchPal.NextInQueue>
+
+	<ResearchPal.BuildingResearchTree>Building Research Tree</ResearchPal.BuildingResearchTree>
+	<ResearchPal.PreparingTree.Setup>Preparing research nodes</ResearchPal.PreparingTree.Setup>
+	<ResearchPal.PreparingTree.CrossingReduction>Reducing crossings</ResearchPal.PreparingTree.CrossingReduction>
+	<ResearchPal.PreparingTree.Layout>Finalizing layout</ResearchPal.PreparingTree.Layout>
+	<ResearchPal.PreparingTree.RestoreQueue>Restoring queue</ResearchPal.PreparingTree.RestoreQueue>
+
+	<ResearchPal.ShowNotificationPopup>Show Notification Popup</ResearchPal.ShowNotificationPopup>
+	<ResearchPal.ShowNotificationPopupTip>Whenever you finish research, pause and show the default notification.</ResearchPal.ShowNotificationPopupTip>
+	<ResearchPal.ShouldSeparateByTechLevels>Group Researches by Tech Level</ResearchPal.ShouldSeparateByTechLevels>
+	<ResearchPal.ShouldSeparateByTechLevelsTip>Otherwise use a more dense layout (REQUIRES RESTART)</ResearchPal.ShouldSeparateByTechLevelsTip>
+	<ResearchPal.ShouldPauseOnOpen>Pause on Display</ResearchPal.ShouldPauseOnOpen>
+	<ResearchPal.ShouldPauseOnOpenTip>Whenever the game should pause when the research tab is displayed.</ResearchPal.ShouldPauseOnOpenTip>
+	<ResearchPal.ShouldResetOnOpen>Reset on Display</ResearchPal.ShouldResetOnOpen>
+	<ResearchPal.ShouldResetOnOpenTip>Clear filtering and reset scroll position.</ResearchPal.ShouldResetOnOpenTip>
+    
+	<ResearchPal.NeedsRestart>Research settings changed, restart RimWorld to apply the change.</ResearchPal.NeedsRestart>
+	<ResearchPal.ResearchFinished>Finished research: {0}</ResearchPal.ResearchFinished>
+</LanguageData>

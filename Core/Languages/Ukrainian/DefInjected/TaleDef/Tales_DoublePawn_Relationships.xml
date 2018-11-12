@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<BondedWithAnimal.label>Утворився зв’язок</BondedWithAnimal.label>
+	<BondedWithAnimal.rulePack.rulesStrings>
+		<li>tale_noun->між [human_nameShortDef] та [animal_nameShortDef] утворився зв’язок</li>
+		<li>image->[human_nameFull], який(а) здружується з [animal_nameFull] [circumstance_group]</li>
+		<li>image->[human_nameFull] утворюючи глибокий зв’язок з [animal_nameFull] [circumstance_group]</li>
+		<li>image->[human_nameFull], який(а) усвідомлює, що [human_possessive] любить [animal_nameFull] [circumstance_group]</li>
+		<li>circumstance_phrase->в той час, як інші тварини спостерігали</li>
+		<li>circumstance_phrase->в той час, як дивився в очі [animal_nameShortDef]</li>
+		<li>circumstance_phrase->з почуттям задоволення</li>
+		<li>desc_sentence->[animal_nameShortDef] зручно вмостився навпроти [human_nameShortDef].</li>
+		<li>desc_sentence->[animal_nameShortDef] виглядає сонним і сп’янілим любов’ю.</li>
+		<li>desc_sentence->[animal_nameShortDef] височіє та благородно виглядає.</li>
+		<li>desc_sentence->[animal_nameShortDef] реагує позитивно.</li>
+	</BondedWithAnimal.rulePack.rulesStrings>
+ 
+	<BecameLover.label>Став(ла) коханцем</BecameLover.label>
+	<BecameLover.rulePack.rulesStrings>
+		<li>tale_noun->[firstPawn_nameShortDef] і [secondPawn_nameShortDef] стають закоханими</li>
+		<li>image->[firstPawn_nameFull] шепоче ніжності на вухо [secondPawn_nameFull][circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] веде [secondPawn_nameFull] за руку до ліжка [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] веселиться у ліжку з [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] глибоко цілує  [secondPawn_nameFull] [circumstance_group]</li>
+		<li>circumstance_phrase->у неправдоподібно великому ліжку</li>
+		<li>circumstance_phrase->у ліжку</li>
+		<li>circumstance_phrase->з невеликою кількістю одягу в полі зору</li>
+		<li>circumstance_phrase->тоді як обоє промокли від поту</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] притискається до [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] не відриває очей від [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] дме повітрям на [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] стилістично пов’язаний(а) з [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] є майже дзеркальним зображенням [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] агресивно торкається [secondPawn_nameShortDef].</li>
+	</BecameLover.rulePack.rulesStrings>
+ 
+	<Breakup.label>Розрив</Breakup.label>
+	<Breakup.rulePack.rulesStrings>
+		<li>tale_noun->розпад [firstPawn_nameShortDef] та [secondPawn_nameShortDef]</li>
+		<li>image->[firstPawn_nameFull] сідає для неприємної розмови з [secondPawn_nameFull]  [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] знаходиться на  відстані від [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] виштовхує [secondPawn_nameFull] з ліжка [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull], який(а) відштовхує [secondPawn_nameFull], відмовляючись від обіймів, [circumstance_group]</li>
+		<li>circumstance_phrase->в момент глибокої печалі</li>
+		<li>circumstance_phrase->як інші ніяково відвертаються</li>
+		<li>circumstance_phrase->як інші дивляться на</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] нестримно ридає.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] водночас і насміхається і плаче.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] закляк(ла) у шоці.</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] стилістично відокремлений(а) від [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] тремтячи падає на підлогу.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] показує [firstPawn_nameShortDef] якісь непристойні жести.</li>
+	</Breakup.rulePack.rulesStrings>
+ 
+	<Marriage.label>Весілля</Marriage.label>
+	<Marriage.rulePack.rulesStrings>
+		<li>tale_noun->шлюб [firstPawn_nameShortDef] та [secondPawn_nameShortDef]</li>
+		<li>image->[firstPawn_nameFull], який(а) вінчається з [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull], який(а) говорить свою шлюбну обітницю [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull], який(а) підходить до вівтаря разом із [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull], який(а) тримається за руки з [secondPawn_nameFull] під час весільної церемонії [circumstance_group]</li>
+		<li>circumstance_phrase->під час цієї благородної церемонії</li>
+		<li>circumstance_phrase->в той час як обоє весело регочуть</li>
+		<li>circumstance_phrase->в той час як інші дивляться з урочистим виразом обличчя</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] притискається до [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] не зводить очей з [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] надсилає повітряний поцілунок [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] стилістично пов’язаний(а) з [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] ніби зеркальне відображення [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] агресивно торкається [secondPawn_nameShortDef].</li>
+	</Marriage.rulePack.rulesStrings>
+ 
+ 
+</LanguageData>
