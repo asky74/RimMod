@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-  <ThingDef Name="BuildingBase" Abstract="True">
-    <category>Building</category>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>GaussTurretGun</defName>
-    <label>gauss turret</label>
-    <thingClass>Building_TurretGun</thingClass>
-    <graphicData>
-      <texPath>Things/Building/GaussTurret</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
-    <uiIconPath>Things/Building/GaussTurretUI</uiIconPath>
-    <altitudeLayer>Building</altitudeLayer>
-    <statBases>
-      <MaxHitPoints>110</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <WorkToBuild>2500</WorkToBuild>
-      <Beauty>-60</Beauty>
-    </statBases>
-    <tickerType>Normal</tickerType>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>3.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-      </li>
-      <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>350</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <description>A gauss turret that automatically fires at nearby enemies. Explodes when damaged.</description>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
-    <fillPercent>0.4</fillPercent>
-    <castEdgeShadows>true</castEdgeShadows>
-    <hasTooltip>true</hasTooltip>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
-    <costList>
-      <Steel>75</Steel>
-      <GaussMagnet>2</GaussMagnet>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>52</specialDisplayRadius>
-    <building>
-      <ai_combatDangerous>true</ai_combatDangerous>
-      <turretGunDef>Gun_GaussTurret</turretGunDef>
-      <turretBurstCooldownTime>1</turretBurstCooldownTime>
-      <turretTopGraphicPath>Things/Building/GaussTurretGun</turretTopGraphicPath>
-    </building>
-    <researchPrerequisites>
-      <li>GaussTurret</li>
-    </researchPrerequisites>
-  </ThingDef>
-
+    
+    <ThingDef Name="BuildingBase" Abstract="True">
+        <category>Building</category>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <selectable>true</selectable>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <repairEffect>Repair</repairEffect>
+        <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+        <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    </ThingDef>
+    
+    <ThingDef ParentName="BuildingBase">
+        <defName>GaussTurretGun</defName>
+        <label>gauss turret</label>
+        <thingClass>Building_TurretGun</thingClass>
+        <graphicData>
+            <texPath>Things/Building/GaussTurret</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <uiIconPath>Things/Building/GaussTurretUI</uiIconPath>
+        <altitudeLayer>Building</altitudeLayer>
+        <statBases>
+            <MaxHitPoints>110</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <WorkToBuild>2500</WorkToBuild>
+            <Beauty>-60</Beauty>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>3.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+            </li>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>350</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+        <description>A gauss turret that automatically fires at nearby enemies. Explodes when damaged.</description>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.4</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <hasTooltip>true</hasTooltip>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>75</costStuffCount>
+        <costList>
+            <Steel>75</Steel>
+            <GaussMagnet>2</GaussMagnet>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Security</designationCategory>
+        <specialDisplayRadius>52</specialDisplayRadius>
+        <building>
+            <ai_combatDangerous>true</ai_combatDangerous>
+            <turretGunDef>Gun_GaussTurret</turretGunDef>
+            <turretBurstCooldownTime>1</turretBurstCooldownTime>
+            <turretTopGraphicPath>Things/Building/GaussTurretGun</turretTopGraphicPath>
+        </building>
+        <researchPrerequisites>
+            <li>GaussTurret</li>
+        </researchPrerequisites>
+    </ThingDef>
+    
 </Defs>

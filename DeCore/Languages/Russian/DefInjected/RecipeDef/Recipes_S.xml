@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Disassembleclothes.label>[M] Разобрать одежду</Disassembleclothes.label>
+	<Disassembleclothes.label>Разобрать одежду</Disassembleclothes.label>
 	<Disassembleclothes.description>Разобрать одежду, чтобы получить небольшую часть ресурсов, из которых она состоит.</Disassembleclothes.description>
 	<Disassembleclothes.jobString>Разбирает одежду.</Disassembleclothes.jobString>
 	
-	<DisassembleWeapon.label>[M] Разобрать простое оружие</DisassembleWeapon.label>
+	<DisassembleWeapon.label>Разобрать простое оружие</DisassembleWeapon.label>
 	<DisassembleWeapon.description>Разобрать оружие, которое нельзя сжечь. Это луки, пилумы и каменное/деревянное оружие ближнего боя. При разборке вы получите часть ресурсов.</DisassembleWeapon.description>
 	<DisassembleWeapon.jobString>Разбирает оружие.</DisassembleWeapon.jobString>
 	

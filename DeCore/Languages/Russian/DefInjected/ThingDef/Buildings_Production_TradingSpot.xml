@@ -3,8 +3,8 @@
 
   <TradingSpot.label>торговое место</TradingSpot.label>
   <TradingSpot.description>Обозначает место, где торговцы станут останавливаться при посещении поселения.</TradingSpot.description>
-  <TradingSpot_Blueprint.label>торговое место (проект)</TradingSpot_Blueprint.label>
-  <TradingSpot_Frame.label>торговое место (обустраивается)</TradingSpot_Frame.label>
-  <TradingSpot_Frame.description>Обозначает место, где торговцы станут останавливаться при посещении поселения.</TradingSpot_Frame.description>
+  <Blueprint_TradingSpot.label>торговое место (проект)</Blueprint_TradingSpot.label>
+  <Frame_TradingSpot.label>торговое место (обустраивается)</Frame_TradingSpot.label>
+  <Frame_TradingSpot.description>Обозначает место, где торговцы станут останавливаться при посещении поселения.</Frame_TradingSpot.description>
 
 </LanguageData>

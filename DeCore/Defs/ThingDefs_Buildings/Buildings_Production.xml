@@ -1,126 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-  <ThingDef ParentName="BuildingBase">
-    <defName>HydroponicsBasinx</defName>
-    <label>hydroponics basin 1x5</label>
-    <description>An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut.</description>
-    <thingClass>Building_PlantGrower</thingClass>
-    <graphicData>
-      <texPath>Other/HydroponicsBasin3</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1,5)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <castEdgeShadows>true</castEdgeShadows>
-    <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <defaultPlacingRot>East</defaultPlacingRot>
-    <passability>PassThroughOnly</passability>
-    <pathCost>60</pathCost>
-    <constructEffect>ConstructMetal</constructEffect>
-    <fillPercent>0.30</fillPercent>
-    <canOverlapZones>false</canOverlapZones>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-    <statBases>
-      <WorkToBuild>3500</WorkToBuild>
-      <MaxHitPoints>230</MaxHitPoints>
-      <Flammability>0.5</Flammability>
-      <Cleanliness>-4</Cleanliness>
-    </statBases>
-    <size>(1,5)</size>
-    <costList>
-      <Steel>125</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </costList>
-    <fertility>2.8</fertility>
-    <building>
-      <defaultPlantToGrow>Plant_Rice</defaultPlantToGrow>
-      <sowTag>Hydroponic</sowTag>
-    </building>
-    <tickerType>Rare</tickerType>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>90</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-    </comps>
-    <researchPrerequisites>
-      <li>Hydroponics</li>
-    </researchPrerequisites>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <designationCategory>Production</designationCategory>
-  </ThingDef>
-  
+    
+    
     <ThingDef ParentName="BuildingBase">
-    <defName>PowerConduitx</defName>
-    <label>power conduit (hidden)</label>
-    <thingClass>Building</thingClass>
-    <category>Building</category>
-    <graphicData>
-      <texPath>Other/powerconduitx_atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <linkType>Transmitter</linkType>
-      <linkFlags>
-        <li>PowerConduit</li>
-      </linkFlags>
-      <damageData>
-        <rect>(0,0.35,1,0.3)</rect>
-      </damageData>
-    </graphicData>
-
-    <uiIconPath>Other/powerconduitx_menuicon</uiIconPath>
-    <building>
-			<ai_chillDestination>false</ai_chillDestination>
-			<isInert>true</isInert>
-      <isEdifice>false</isEdifice>
-	      <blueprintGraphicData>
-      <texPath>Other/powerconduitx_blueprint_atlas</texPath>
-    </blueprintGraphicData>
-    </building>
-    <altitudeLayer>FloorEmplacement</altitudeLayer>
-    <passability>Standable</passability>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <statBases>
-      <MaxHitPoints>80</MaxHitPoints>
-      <WorkToBuild>500</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Beauty>-1</Beauty>
-    </statBases>
-    <description>A set of electrical cables (hidden) for moving power around. Can be placed under walls and other buildings.</description>
-    <placingDraggableDimensions>1</placingDraggableDimensions>
-    <costList>
-      <Steel>3</Steel>
-	  <Silver>5</Silver>
-    </costList>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTransmitter</compClass>
-        <transmitsPower>true</transmitsPower>
-      </li>
-    </comps>
-    <placeWorkers>
-      <li>PlaceWorker_Conduit</li>
-    </placeWorkers>
-    <rotatable>false</rotatable>
-    <selectable>true</selectable>
-    <neverMultiSelect>true</neverMultiSelect>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <designationCategory>Power</designationCategory>
-    <constructEffect>ConstructMetal</constructEffect>
-    <clearBuildingArea>false</clearBuildingArea>
-    <researchPrerequisites>
-      <li>Electricity</li>
-    </researchPrerequisites>
-	<useHitPoints>false</useHitPoints>
-  </ThingDef>
-  
+        <defName>HydroponicsBasinx</defName>
+        <label>hydroponics basin 1x5</label>
+        <description>An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut.</description>
+        <thingClass>Building_PlantGrower</thingClass>
+        <graphicData>
+            <texPath>Other/HydroponicsBasin3</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,5)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <defaultPlacingRot>East</defaultPlacingRot>
+        <passability>PassThroughOnly</passability>
+        <pathCost>60</pathCost>
+        <constructEffect>ConstructMetal</constructEffect>
+        <fillPercent>0.30</fillPercent>
+        <canOverlapZones>false</canOverlapZones>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <statBases>
+            <WorkToBuild>3500</WorkToBuild>
+            <MaxHitPoints>230</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <Cleanliness>-4</Cleanliness>
+        </statBases>
+        <size>(1,5)</size>
+        <costList>
+            <Steel>125</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <fertility>2.8</fertility>
+        <building>
+            <defaultPlantToGrow>Plant_Rice</defaultPlantToGrow>
+            <sowTag>Hydroponic</sowTag>
+        </building>
+        <tickerType>Rare</tickerType>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>90</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+        </comps>
+        <researchPrerequisites>
+            <li>Hydroponics</li>
+        </researchPrerequisites>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <designationCategory>Production</designationCategory>
+    </ThingDef>
+    
+    <ThingDef ParentName="BuildingBase">
+        <defName>PowerConduitx</defName>
+        <label>power conduit (hidden)</label>
+        <thingClass>Building</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Other/powerconduitx_atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>Transmitter</linkType>
+            <linkFlags>
+                <li>PowerConduit</li>
+            </linkFlags>
+            <damageData>
+                <rect>(0,0.35,1,0.3)</rect>
+            </damageData>
+        </graphicData>
+        
+        <uiIconPath>Other/powerconduitx_menuicon</uiIconPath>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+            <blueprintGraphicData>
+                <texPath>Other/powerconduitx_blueprint_atlas</texPath>
+            </blueprintGraphicData>
+        </building>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToBuild>500</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>-1</Beauty>
+        </statBases>
+        <description>A set of electrical cables (hidden) for moving power around. Can be placed under walls and other buildings.</description>
+        <placingDraggableDimensions>1</placingDraggableDimensions>
+        <costList>
+            <Steel>3</Steel>
+            <Silver>5</Silver>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTransmitter</compClass>
+                <transmitsPower>true</transmitsPower>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_Conduit</li>
+        </placeWorkers>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <neverMultiSelect>true</neverMultiSelect>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <constructEffect>ConstructMetal</constructEffect>
+        <clearBuildingArea>false</clearBuildingArea>
+        <researchPrerequisites>
+            <li>Electricity</li>
+        </researchPrerequisites>
+        <useHitPoints>false</useHitPoints>
+    </ThingDef>
+    
 </Defs>
