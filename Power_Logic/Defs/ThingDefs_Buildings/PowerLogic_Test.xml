@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="PowerLogicBuildingBaseTest" Abstract="True">
+     <category>Building</category>
+     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+     <selectable>true</selectable>
+     <drawerType>MapMeshAndRealTime</drawerType>
+     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+     <repairEffect>Repair</repairEffect>
+     <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+   </ThingDef>
+   
+   <ThingDef ParentName="PowerLogicBuildingBaseTest">
+		<defName>SupesFuse</defName>
+		<label>Protective Fuse</label>
+		<thingClass>PowerLogic.FuseBuilding</thingClass>
+		<category>Building</category>
+		<building>			
+			<allowWireConnection>false</allowWireConnection>
+		</building>	
+		<description>Made from a very thin copper wire in a glass tube, this fuse halves the chance that batteries will completely discharge.  More effective when used in sequence or to separate groups of batteries.</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/Fuse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>        
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>500</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<placingDraggableDimensions>0</placingDraggableDimensions>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>PowerLogicSwitches</li>
+		</researchPrerequisites>	
+		<rotatable>false</rotatable>    
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<!--General Wifi inspection strings -->
+<PowerLogic.TrasmitterSending>Transmettre</PowerLogic.TrasmitterSending>
+<PowerLogic.TrasmitterInactive>Non alimenté: Inactif</PowerLogic.TrasmitterInactive>
+<PowerLogic.ReceiverListening>Écouter le signal:</PowerLogic.ReceiverListening>
+<PowerLogic.ReceiverDetectSignal> Détecté - {0}</PowerLogic.ReceiverDetectSignal>
+<PowerLogic.ReceiverDetectBounce> via {0}</PowerLogic.ReceiverDetectBounce>
+<PowerLogic.ReceiverInactive>Pas d'écoute/inactif</PowerLogic.ReceiverInactive>
+<!-- Wifi Gizmos -->
+<PowerLogic.RadioCurrentChannel>Chaîne actuelle: {0}</PowerLogic.RadioCurrentChannel>
+<PowerLogic.RadioChannelUp>Changer Chaîne vers le haut</PowerLogic.RadioChannelUp>
+<PowerLogic.RadioChannelDown>Changer le canal vers le bas</PowerLogic.RadioChannelDown>
+<PowerLogic.RadioChannelUpDesc>Cela change la bande sans fil que le périphérique écoute/transmet sur une fréquence de canal plus élevée. Les canaux valides sont compris entre {0} et {1}</PowerLogic.RadioChannelUpDesc>
+<PowerLogic.RadioChannelDownDesc>Cela change la bande sans fil que le périphérique écoute/transmet sur une fréquence de canal inférieure. Les canaux valides sont compris entre {0} et {1}</PowerLogic.RadioChannelDownDesc>
+<!-- IFF Gizmo -->
+<PowerLogic.IFFFriendlyOff>Ne pas déclencher sur Friendly</PowerLogic.IFFFriendlyOff>
+<PowerLogic.IFFFriendlyOn>Déclencheur Amical</PowerLogic.IFFFriendlyOn>
+<PowerLogic.IFFFoeOff>Ne pas déclencher sur hostile</PowerLogic.IFFFoeOff>
+<PowerLogic.IFFFoeOn>Trigger sur hostile</PowerLogic.IFFFoeOn>
+<!-- Wifi Prox -->
+<PowerLogic.SensorRangeUp>Augmenter la portée du capteur</PowerLogic.SensorRangeUp>
+<PowerLogic.SensorRangeDown>Diminuer la portée du capteur</PowerLogic.SensorRangeDown>
+<PowerLogic.SensorRangeUpDesc>Cela augmente la portée de votre capteur de proximité, mais nécessite plus de puissance</PowerLogic.SensorRangeUpDesc>
+<PowerLogic.SensorRangeDownDesc>Cela diminue la portée de votre capteur de proximité, en utilisant moins de puissance pour exécuter</PowerLogic.SensorRangeDownDesc>
+<!--Cap Switch-->
+<PowerLogic.CutoffRange>Gamme de coupure / refroidissement de la batterie {0}</PowerLogic.CutoffRange>
+<PowerLogic.LowBatCutOff>Coupe de batterie faible, Rebranchement des piles</PowerLogic.LowBatCutOff>
+<PowerLogic.HighBatCutOff>Coupe batterie haute, Rebranchement de batterie faible</PowerLogic.HighBatCutOff>
+<PowerLogic.CutoffSettings>Paramètres</PowerLogic.CutoffSettings>
+<PowerLogic.BatShortRange>Raccourcir gamme</PowerLogic.BatShortRange>
+<!--Current Switch -->
+<PowerLogic.CurrentPosLabel>Actif quand positif</PowerLogic.CurrentPosLabel>
+<PowerLogic.CurrentNegLabel>Actif quand négatif</PowerLogic.CurrentNegLabel>
+<!--Remote Door-->
+<PowerLogic.DoorMacro>Macros</PowerLogic.DoorMacro>
+<PowerLogic.DoorAddOpenAction>Porte ouverte</PowerLogic.DoorAddOpenAction>
+<PowerLogic.DoorAddCloseAction>Ferme la porte</PowerLogic.DoorAddCloseAction>
+<PowerLogic.DoorDelay>Délai: {0} secondes</PowerLogic.DoorDelay>
+<PowerLogic.DoorFlickOff>Éteindre</PowerLogic.DoorFlickOff>
+<PowerLogic.DoorForbid>Interdire la porte</PowerLogic.DoorForbid>
+<PowerLogic.DoorUnforbid>Permettre la porte</PowerLogic.DoorUnforbid>
+<PowerLogic.DoorChannelSwitch>Changer de chaîne</PowerLogic.DoorChannelSwitch>
+<PowerLogic.DoorChannelSwitch1>Changer le canal principal</PowerLogic.DoorChannelSwitch1>
+<PowerLogic.DoorChannelSwitch2>Changer le canal secondaire</PowerLogic.DoorChannelSwitch2>
+<PowerLogic.DoorWaitMode>Basculer en mode attente</PowerLogic.DoorWaitMode>
+<PowerLogic.DoorWaitMode1>Continuez tout en recevant</PowerLogic.DoorWaitMode1>
+<PowerLogic.DoorWaitMode2>Attendez pendant la réception</PowerLogic.DoorWaitMode2>
+<PowerLogic.SignalStatus>Statut sans fil</PowerLogic.SignalStatus>
+<PowerLogic.DoorProfileAddTo>Ajouter un profil à</PowerLogic.DoorProfileAddTo>
+<PowerLogic.DoorProfileAddTo1>Ajouter un profil à la primaire</PowerLogic.DoorProfileAddTo1>
+<PowerLogic.DoorProfileAddTo2>Ajouter un profil au secondaire</PowerLogic.DoorProfileAddTo2>
+<PowerLogic.DoorProfileSubFrom>Supprimer le profil de</PowerLogic.DoorProfileSubFrom>
+<PowerLogic.DoorProfileSubFrom1>Supprimer le profil du primaire</PowerLogic.DoorProfileSubFrom1>
+<PowerLogic.DoorProfileSubFrom2>Supprimer le profil du secondaire</PowerLogic.DoorProfileSubFrom2>
+<PowerLogic.DoorSetPriority>Définir la priorité du profil</PowerLogic.DoorSetPriority>
+<!--Light Sensor-->
+<PowerLogic.CurrnetLight>Niveau de lumière actuel: {0}</PowerLogic.CurrnetLight>
+<PowerLogic.TargetLight>Seuil de lumière: {0}</PowerLogic.TargetLight>
+<PowerLogic.LightUpLabel>Augmenter le seuil de lumière</PowerLogic.LightUpLabel>
+<PowerLogic.LightDownLabel>Seuil de lumière inférieure</PowerLogic.LightDownLabel>
+<PowerLogic.DayNightCutoffLabel>Direction du seuil lumineux</PowerLogic.DayNightCutoffLabel>
+<PowerLogic.DayNightCutoffDesc>Changer lorsque le commutateur est mis sous tension, au-dessus ou en dessous du seuil de lumière</PowerLogic.DayNightCutoffDesc>
+<PowerLogic.LightUpDesc>Cela soulève le seuil de lumière faible qui déclenche le commutateur</PowerLogic.LightUpDesc>
+<PowerLogic.LightDownDesc>Cela réduit le seuil de lumière faible qui déclenche le commutateur</PowerLogic.LightDownDesc>
+<!--Inductor Inspection and gizmos -->
+<PowerLogic.InductorDesiredDraw>Puissance désirée: {0} W</PowerLogic.InductorDesiredDraw>
+<PowerLogic.BeamerReconnectLabel>Reconnecter l'inducteur</PowerLogic.BeamerReconnectLabel>
+<PowerLogic.BeamerReconnectDesc>Rebrancher cet émetteur inductif à une autre bobine réceptrice inductive</PowerLogic.BeamerReconnectDesc>
+<PowerLogic.InductorReconnectDesc>Rebrancher ce récepteur inductif à une autre bobine d'émetteur inductif</PowerLogic.InductorReconnectDesc>
+<!--Inductor Itab-->
+<PowerLogic.InductorTab>Inducteur</PowerLogic.InductorTab>
+<PowerLogic.InductorStaticDraw>Puissance statique</PowerLogic.InductorStaticDraw>
+<PowerLogic.InductorStaticDrawDesc>Ceci permet au récepteur inductif d'extraire une quantité fixe d'énergie de la bobine d'émetteur, utile pour des circuits logiques où les inductances ne fournissent pas de puissance tout le temps</PowerLogic.InductorStaticDrawDesc>
+<PowerLogic.InductorAdaptiveDraw>Pouvoir adaptatif</PowerLogic.InductorAdaptiveDraw>
+<PowerLogic.InductorAdaptiveDrawDesc>Cela permet à l'inducteur d'adapter sa puissance souhaitée en fonction des besoins de puissance du réseau d'alimentation connecté. Pratique quand pour les réseaux de puissance avec des exigences de puissance variable. Notez que cela distribue la puissance désirée requise parmi tous les récepteurs inductifs sur le réseau électrique</PowerLogic.InductorAdaptiveDrawDesc>
+<PowerLogic.InductorLimiter>Limite de puissance</PowerLogic.InductorLimiter>
+<PowerLogic.InductorLimiterDesc>Le récepteur inductif essaiera de recevoir cette quantité d'énergie de l'émetteur inductif</PowerLogic.InductorLimiterDesc>
+<PowerLogic.InductorDrawCompensator>Compensation variable de puissance: {0}</PowerLogic.InductorDrawCompensator>
+<PowerLogic.InductorDrawCompensatorDesc>Cela augmente la quantité de puissance supplémentaire requise pendant un bref instant lorsque les besoins du réseau d'alimentation, pour éviter que tous les dispositifs s'éteignent, par ex. Panneaux solaires perdre de la lumière</PowerLogic.InductorDrawCompensatorDesc>
+<PowerLogic.InductorOverDraw>Puissance supplémentaire: {0}</PowerLogic.InductorOverDraw>
+<PowerLogic.InductorOverDrawDesc>Ceci augmente la puissance désirée, ce qui est utile pour charger les batteries sur le réseau d'alimentation du récepteur ou pour empêcher des changements brusques de puissance avant que la compensation de puissance soit introduite. Notez que si les batteries sont chargées efficacement, une puissance supplémentaire ne sera pas appliquée à la puissance désirée.</PowerLogic.InductorOverDrawDesc>
+<PowerLogic.InductorForcedOverDraw>Appliquer toujours une puissance supplémentaire</PowerLogic.InductorForcedOverDraw>
+<PowerLogic.InductorForcedOverDrawDesc>Cela force la puissance supplémentaire à toujours être appliquée, même lorsque aucun périphérique connecté nécessite une alimentation</PowerLogic.InductorForcedOverDrawDesc>
+<PowerLogic.InductorPositiveOnly>L'émetteur positif ne dessine que</PowerLogic.InductorPositiveOnly>
+<PowerLogic.InductorPositiveOnlyDesc>Lorsqu'il est Vérifié, l'émetteur ne sera jamais alimenté par les piles et tentera de créer un équilibre avec la puissance disponible. Notez si vous avez plus d'une inductance sur la même grille, toutes ces inductances de grilles seront affectées.</PowerLogic.InductorPositiveOnlyDesc>
+<PowerLogic.NoBeamer>Avertissement, sans effet, le récepteur n'est pas connecté à un émetteur.</PowerLogic.NoBeamer>
+<!-- heat Sensor -->
+<PowerLogic.HeatTriggerAbove>Allumer lorsque plus chaud que {0}</PowerLogic.HeatTriggerAbove>
+<PowerLogic.HeatTriggerBelow>Allumez-le quand plus froid que {0}</PowerLogic.HeatTriggerBelow>
+<PowerLogic.HeatCurrentTemp>Température actuelle {0}</PowerLogic.HeatCurrentTemp>
+<PowerLogic.OnAboveTarget>Activer ci-dessus</PowerLogic.OnAboveTarget>
+<PowerLogic.OnBelowTarget>Activer ci-dessous</PowerLogic.OnBelowTarget>
+<!--Logic Gate -->
+<PowerLogic.AndGate>Et porte logique</PowerLogic.AndGate>
+<PowerLogic.OrGate>Ou porte logique</PowerLogic.OrGate>
+<PowerLogic.XorGate>Exclusif ou porte logique</PowerLogic.XorGate>
+<PowerLogic.AndGateDesc>Cela permet l'alimentation par le portail lorsque deux sources d'alimentation sont connectées à des prises d'entrée adjacentes. Similaire au Stay on Switch, sauf que ce commutateur isole ses sources d'alimentation</PowerLogic.AndGateDesc>
+<PowerLogic.OrGateDesc>Ceci permet l'alimentation à travers la grille lorsque au moins une source d'alimentation est connectée à ses prises d'entrée</PowerLogic.OrGateDesc>
+<PowerLogic.XorGateDesc>Cela permet l'alimentation par le portail quand une source d'alimentation, mais sont connectés à ses prises d'entrée, et interdit la puissance lorsque deux ou pas de sources d'alimentation sont connectés</PowerLogic.XorGateDesc>
+<!--Entanglement Switch-->
+<PowerLogic.Entanglement>Emmêler</PowerLogic.Entanglement>
+<PowerLogic.EntanglementState>Entangled avec {0}</PowerLogic.EntanglementState>
+<PowerLogic.EntangleConfirm>Ceci va lier ce commutateur avec {0} en permanence. Voulez-vous procéder?</PowerLogic.EntangleConfirm>
+</LanguageData>

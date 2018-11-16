@@ -20,6 +20,7 @@
     <affordances>
       <li>Light</li>
       <li>Medium</li>
+      <li>GrowSoil</li>
     </affordances>
     <designationCategory>Structure</designationCategory>
     <fertility>0</fertility>

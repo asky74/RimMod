@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>PowerLogicSwitches</defName>
+    <label>Power Logic Switches</label>
+    <description>Allow for the Building of Power Logic Switches</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+	<tab>PowerLogicTab</tab>
+	<researchViewX>5</researchViewX>
+	<researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>PowerLogicSensors</defName>
+    <label>Power Logic Sensors</label>
+    <description>Allow for the Building of Power Logic Pressure Plates, Proximity Sensors</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>PowerLogicSwitches</li>
+    </prerequisites>
+	<tab>PowerLogicTab</tab>
+	<researchViewX>6</researchViewX>
+	<researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+  
+    <ResearchProjectDef>
+    <defName>PowerLogicRemotes</defName>
+    <label>Power Logic Remote Sensors</label>
+    <description>Allow for the Building of Remote Proximity Sensors, Repeaters and Remote Switches</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>MicroelectronicsBasics</li>
+      <li>PowerLogicSensors</li>
+    </prerequisites>
+	<tab>PowerLogicTab</tab>
+	<researchViewX>6.75</researchViewX>
+	<researchViewY>0.15</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>PowerLogicRemotesAdvanced</defName>
+    <label>Power Logic Remote Advanced Logic</label>
+    <description>Allow for the Building of Advanced Power Logic Remote Devices, such as Repeaters and Transmitters</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>PowerLogicRemotes</li>      
+    </prerequisites>
+	<tab>PowerLogicTab</tab>
+	<researchViewX>8</researchViewX>
+	<researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>PowerLogicRemotesMultiChannel</defName>
+    <label>Power Logic Remote Multichannel Logic</label>
+    <description>Upgrades existing Power Logic Remote Devices to utilise up to two channels instead of one</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+	  <li>PowerLogicRemotesAdvanced</li>      
+    </prerequisites>
+	<tab>PowerLogicTab</tab>
+	<researchViewX>8.75</researchViewX>
+	<researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>  
+   
+ </Defs>

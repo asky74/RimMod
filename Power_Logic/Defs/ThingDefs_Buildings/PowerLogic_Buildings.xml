@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="PowerLogicBuildingBase" Abstract="True">
+     <category>Building</category>
+     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+     <selectable>true</selectable>
+     <drawerType>MapMeshAndRealTime</drawerType>
+     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+     <repairEffect>Repair</repairEffect>
+     <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+   </ThingDef>
+
+	<ThingDef ParentName="PowerLogicBuildingBase" Name="SupesTranceiverBuilding" Abstract="True">    
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<category>Building</category>
+		<rotatable>false</rotatable>   
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+		</comps>		
+		<tickerType>Normal</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<neverMultiSelect>false</neverMultiSelect>		
+		<drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>	
+		<placeWorkers>
+			<li>PowerLogic.PlaceWorker_Tranceiver</li>
+		</placeWorkers>	
+		<minifiedDef>MinifiedThing</minifiedDef>		
+	</ThingDef>  
+  
+	
+	
+	<ThingDef ParentName="PowerLogicBuildingBase">  
+		<defName>SupesPressureSensor</defName>
+		<label>pressure sensor plate</label>
+		<thingClass>PowerLogic.Building_PressureSensor</thingClass>
+		<category>Building</category>
+		<description>this switches power on when something steps over it, and off when nothing's there</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/PreasureSensor_On</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.1,0.1,0.2,0.2)</rect>		
+			</damageData>
+		</graphicData>    
+		<costList>
+			<Steel>5</Steel>      
+		</costList>	
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>35</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>	
+		<rotatable>false</rotatable>   
+		<neverMultiSelect>false</neverMultiSelect>	
+		<building>			
+			<allowWireConnection>false</allowWireConnection>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+		</building>		
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<passability>Standable</passability>	
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="PowerLogic.CompProperties_IFF"/>
+		</comps>	
+		<selectable>true</selectable>    
+		<tickerType>Normal</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>PowerLogicSensors</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+  	
+  
+	<ThingDef ParentName="PowerLogicBuildingBase">  
+		<defName>SupesProxSensor</defName>
+		<label>proximity sensor</label>
+		<thingClass>PowerLogic.Building_ProxSensor</thingClass>
+		<category>Building</category>
+		<description>This switches power on when someone is within range, and off when nothing is there.  has limited range, but consumes no power.</description>    
+		<building>			
+			<allowWireConnection>false</allowWireConnection>	 
+		</building>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>	
+		<rotatable>false</rotatable>   
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>	
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>		
+				<transmitsPower>true</transmitsPower>       		
+			</li>	  
+			<li Class="PowerLogic.CompProperties_IFF"/>
+			<li Class="PowerLogic.CompProperties_ProxSensor">
+				<DefaultRange>4.8</DefaultRange>
+			</li>
+		</comps>	
+		<tickerType>Normal</tickerType>	
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/ProxSensorRad</texPath>
+			<graphicClass>Graphic_Single</graphicClass>   
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.1,0.1,0.7,0.6)</rect>		
+			</damageData>
+		</graphicData>    
+		<costList>
+		<Steel>10</Steel>
+		<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>    
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>75</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Mass>5</Mass>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<neverMultiSelect>false</neverMultiSelect>		
+		<drawPlaceWorkersWhileSelected>false</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PowerLogic.PlaceWorker_ReceiverAndSensorField</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>PowerLogicSensors</li>
+		</researchPrerequisites>
+	</ThingDef>  
+
+	<ThingDef ParentName="SupesTranceiverBuilding">  
+		<defName>SupesRemoteProxSensor</defName>
+		<label>remote proximity sensor</label>
+		<thingClass>PowerLogic.Building_RemoteProxSensor</thingClass>
+		<description>Transmits a signal to a nearby receiver switch or repeater on the same channel when triggered.  the sensor radius can be expanded, but consumes more power for larger coverage.</description>	
+		<building>			
+			<allowWireConnection>true</allowWireConnection>	 
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>		
+			<basePowerConsumption>2</basePowerConsumption>
+			<shortCircuitInRain>false</shortCircuitInRain>
+		</li>
+		<li Class="PowerLogic.CompProperties_IFF"/>        
+		<li Class="PowerLogic.CompProperties_Transceiver">	    
+			<SignalSender>True</SignalSender>
+			<SignalReceiver>False</SignalReceiver>
+		</li>	  
+		<li Class="PowerLogic.CompProperties_ProxSensor">
+			<DefaultRange>4.8</DefaultRange>
+			<HasAdjustableRange>True</HasAdjustableRange>
+			<RequiresPower>True</RequiresPower>
+		</li>
+		</comps>	
+		<researchPrerequisites>
+			<li>PowerLogicRemotes</li>
+		</researchPrerequisites>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/RemoteProxSensorUnpowered</texPath>
+			<graphicClass>Graphic_Single</graphicClass>   
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.1,0.1,0.7,0.6)</rect>		
+			</damageData>
+		</graphicData>    
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>	  
+		</costList>    
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToMake>220</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.5</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<placeWorkers>
+			<li>PowerLogic.PlaceWorker_ReceiverAndSensorField</li>	  
+		</placeWorkers>		
+	</ThingDef>  
+	
+	<ThingDef ParentName="PowerLogicBuildingBase">
+		<defName>SupesStayOnGate</defName>
+		<label>stay on switch</label>
+		<thingClass>PowerLogic.Building_StayOnGate</thingClass>
+		<category>Building</category>
+		<building>			
+			<allowWireConnection>false</allowWireConnection>
+		</building>	
+		<description>This switches power on when connected to other two power sources or conduits</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/AndGate_On</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>        
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>200</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<placingDraggableDimensions>0</placingDraggableDimensions>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>PowerLogicSwitches</li>
+		</researchPrerequisites>	
+		<rotatable>false</rotatable>    
+	</ThingDef>  
+	
+	<ThingDef ParentName="PowerLogicBuildingBase">
+		<defName>SupesCurrentSensor</defName>
+		<label>current flow sensor switch</label>
+		<thingClass>PowerLogic.Building_CurrentSensor</thingClass>
+		<category>Building</category>
+		<building>			
+			<allowWireConnection>false</allowWireConnection>
+		</building>	
+		<description>This switches on when it detects positive or negative power</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/SinoidOn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>        
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>200</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<placingDraggableDimensions>0</placingDraggableDimensions>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<tickerType>Rare</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>PowerLogicSwitches</li>
+		</researchPrerequisites>	
+		<rotatable>false</rotatable>    
+	</ThingDef>  
+	
+	<ThingDef ParentName="PowerLogicBuildingBase">
+    <defName>SupesLightSensor</defName>
+    <label>Light Sensor Switch</label>
+    <thingClass>PowerLogic.Building_LightSensor</thingClass>
+	<category>Building</category>
+	<building>      
+      <allowWireConnection>false</allowWireConnection>
+    </building>	
+    <description>This turns on when at a specific light threshold</description>
+    <graphicData>
+      <texPath>Things/Buildings/PowerLogic/LightSwitch_On</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>        
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <Beauty>-1</Beauty>
+    </statBases>    
+    <costList>
+      <Steel>15</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+	<selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <tickerType>Normal</tickerType>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+	<researchPrerequisites>
+      <li>PowerLogicSwitches</li>
+    </researchPrerequisites>	
+    <rotatable>false</rotatable>
+  </ThingDef>
+  
+  	<ThingDef ParentName="PowerLogicBuildingBase">
+    <defName>SupesHeatSensor</defName>
+    <label>Heat Sensor Switch</label>
+    <thingClass>PowerLogic.Building_HeatSensor</thingClass>
+	<category>Building</category>
+	<building>      
+      <allowWireConnection>false</allowWireConnection>
+    </building>	
+    <description>This switch is triggered above or below a specific temperature</description>
+    <graphicData>
+      <texPath>Things/Buildings/PowerLogic/HeatSwitch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>        
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <Beauty>-1</Beauty>
+    </statBases>    
+    <costList>
+      <Steel>15</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+	  <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>      
+    </comps>
+	<selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <tickerType>Rare</tickerType>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+	<researchPrerequisites>
+      <li>PowerLogicSwitches</li>
+    </researchPrerequisites>	
+    <rotatable>false</rotatable>	
+  </ThingDef>
+  
+	<ThingDef ParentName="PowerLogicBuildingBase">
+		<defName>SupesCutoffSwitch</defName>
+		<label>capacitor sensor switch</label>
+		<thingClass>PowerLogic.Building_CutoffSwitch</thingClass>
+		<category>Building</category>
+		<building>			
+			<allowWireConnection>false</allowWireConnection>
+		</building>	
+		<description>When stored power is low, this switch turns itself off</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/CutoffSwitch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>        
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>200</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>    
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<selectable>true</selectable>    
+		<tickerType>Rare</tickerType>
+		<designationCategory>Power</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>PowerLogicSwitches</li>
+		</researchPrerequisites>	
+		<rotatable>false</rotatable>    
+		<inspectorTabs>
+			<li>PowerLogic.ITab_AdustableLevels</li>
+		</inspectorTabs>
+	</ThingDef> 
+  
+  
+  
+	<ThingDef ParentName="SupesTranceiverBuilding">
+		<defName>SupesRemoteSwitch</defName>
+		<label>remote controlled switch</label>
+		<thingClass>PowerLogic.Building_RemoteSwitch</thingClass>	
+		<building>			
+			<allowWireConnection>false</allowWireConnection>
+		</building>	
+		<description>Switches power on when it detects a wireless signal being broadcast on the same channel</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/RemoteSwitchOn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>        
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>230</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Mass>10</Mass>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTransmitter</compClass>
+				<transmitsPower>true</transmitsPower>
+			</li>      
+			<li Class="PowerLogic.CompProperties_Transceiver">	    
+				<SignalSender>False</SignalSender>
+				<SignalReceiver>True</SignalReceiver>
+			</li>	
+		</comps>
+		<researchPrerequisites>
+			<li>PowerLogicRemotes</li>
+		</researchPrerequisites>
+		<thingCategories>
+		  <li>BuildingsPower</li>
+		</thingCategories>
+	</ThingDef>
+  
+	<ThingDef ParentName="SupesTranceiverBuilding">
+		<defName>SupesSignalRepeater</defName>
+		<label>signal repeater</label>
+		<thingClass>PowerLogic.Building_SignalRepeater</thingClass>
+		<building>			
+			<allowWireConnection>true</allowWireConnection>	 
+		</building>	
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<description>Listens for wireless signals and re-broadcasts them, effectively extending the distance a signal can travel</description>
+		<graphicData>
+		<texPath>Things/Buildings/PowerLogic/RepeaterOn</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>Transparent</shaderType>
+		<damageData>
+			<rect>(0.2,0.2,0.6,0.6)</rect>
+		</damageData>
+		</graphicData>        
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>220</WorkToMake>
+			<Mass>5</Mass>
+			<Flammability>0.4</Flammability>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<costList>
+			<Steel>15</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>		
+				<basePowerConsumption>2</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="PowerLogic.CompProperties_Transceiver">	    
+				<SignalSender>True</SignalSender>
+				<SignalReceiver>True</SignalReceiver>
+			</li>	
+		</comps>
+		<researchPrerequisites>
+			<li>PowerLogicRemotesAdvanced</li>
+		</researchPrerequisites>
+	</ThingDef>  
+  
+    <ThingDef ParentName="SupesTranceiverBuilding">
+		<defName>SupesSignalTransmitter</defName>
+		<label>signal transmitter</label>
+		<thingClass>PowerLogic.Building_SignalTransmitter</thingClass>
+		<building>			
+			<allowWireConnection>true</allowWireConnection>	 
+		</building>
+		<description>Transmits a wireless signal when powered</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/TransmitterOn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Transparent</shaderType>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>150</WorkToMake>
+			<Flammability>0.4</Flammability>
+			<Mass>3</Mass>
+			<Beauty>-1</Beauty>
+		</statBases>    
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<comps>      
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>		
+				<basePowerConsumption>2</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="PowerLogic.CompProperties_Transceiver">	    
+				<SignalSender>True</SignalSender>
+				<SignalReceiver>False</SignalReceiver>
+		  </li>	
+		</comps>
+	<!--	<inspectorTabs>
+			<li>PowerLogic.ITab_WifiPulser</li>
+		</inspectorTabs> -->
+		<researchPrerequisites>
+			<li>PowerLogicRemotesAdvanced</li>
+		</researchPrerequisites>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="PowerLogicBuildingBase">	
+		<defName>SupesRemoteDoor</defName>
+		<label>Remote Controlled Door</label>
+		<description>Divides rooms.  Can run a set of macros after detecting a wireless signal. Powered operation allows people to move through the door without slowing down.</description>
+		<graphicData>
+			<texPath>Things/Buildings/PowerLogic/RemoteDoor_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>      
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Buildings/PowerLogic/DoorRemote_UI</uiIconPath>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<costStuffCount>25</costStuffCount>
+		<designationHotKey>Misc2</designationHotKey>
+		<researchPrerequisites>
+			<li>Autodoors</li>
+			<li>PowerLogicRemotesAdvanced</li>
+		</researchPrerequisites>	
+		<thingClass>Building_Door</thingClass>		
+		<category>Building</category>		
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToBuild>1100</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>		
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>		
+		<designationCategory>Structure</designationCategory>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+			<soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Buildings/PowerLogic/DoorRemote_BluePrint</texPath>
+			</blueprintGraphicData>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>60</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="PowerLogic.CompProperties_RemoteDoor">	    
+				<SignalSender>False</SignalSender>
+				<SignalReceiver>True</SignalReceiver>
+			</li>			
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<inspectorTabs>
+			<li>PowerLogic.ITab_DoorMacro</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>PowerLogic.PlaceWorker_Tranceiver</li>
+		</placeWorkers>	
+	</ThingDef>
+	
+	<ThingDef ParentName="PowerLogicBuildingBase">
+    <defName>SupesEntangledSwitch</defName>
+    <label>Entangled Switch</label>
+    <thingClass>PowerLogic.Building_EntangledSwitch</thingClass>
+	<category>Building</category>
+	<building>      
+      <allowWireConnection>false</allowWireConnection>
+    </building>	
+    <description>This switch uses quantum entanglement to link to another switch.  The Entangled Switch will always become the opposite state of the switch it is entangled with, no matter how far apart the switches are.  The entanglement process is irreversible, and once a link has been made, it cannot be changed.</description>
+    <graphicData>
+      <texPath>Things/Buildings/PowerLogic/EntangledSwitch_On</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>        
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <Beauty>-1</Beauty>
+    </statBases>    
+    <costList>
+      <Steel>10</Steel>
+	  <Silver>5</Silver>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>      
+    </comps>
+	<selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <tickerType>Normal</tickerType>
+    <designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+	<researchPrerequisites>
+      <li>PowerLogicSensors</li>
+    </researchPrerequisites>	
+	<inspectorTabs>
+			<li>PowerLogic.ITab_Entanglement</li>
+		</inspectorTabs>
+    <rotatable>false</rotatable>	
+  </ThingDef>
+	
+</Defs>

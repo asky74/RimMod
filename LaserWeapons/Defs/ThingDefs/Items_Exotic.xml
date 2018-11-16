@@ -8,7 +8,7 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <useHitPoints>true</useHitPoints>
     <statBases>
-        <Mass>1</Mass>
+      <Mass>0.1</Mass>
       <Flammability>1.0</Flammability>
     </statBases>
     <selectable>true</selectable>
@@ -22,7 +22,7 @@
     <alwaysHaulable>true</alwaysHaulable>
     <drawGUIOverlay>true</drawGUIOverlay>
     <rotatable>false</rotatable>
-    <pathCost>15</pathCost>
+    <pathCost>5</pathCost>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBaseNoRecipe">

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>JobDriver_PLFlickChannel</defName>
+    <driverClass>PowerLogic.JobDriver_FlickChannel</driverClass>
+    <reportString>Changing Channel of TargetA.</reportString>
+  </JobDef>
+</Defs>

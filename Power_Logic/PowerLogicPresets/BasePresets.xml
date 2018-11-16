@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DoorPresets><!-- for a more complete example, optional fields have been included -->
+	<DoorPreset>
+<!-- For Name and Description (Required Fields), these will first look for any translation strings, if none it will display as is -->	
+		<Name>Proximity Open</Name> 		
+		<Description>Opens Door when receiving a signal, closes when signal is lost, Works best with a Remote Proximity Sensor</Description>
+		<Profiles>
+			<Profile>
+				<Name>Default</Name><!--Profile Name(Required Field)-->
+				<Channel>Primary</Channel><!--Possible values (no quotes) "Primary", "Secondary", "Both", "None". Default is Primary -->
+				<Priority>4</Priority><!--Possible values between 1 and 5.  1 is Critical Priority, 5 is Low Priority.  Default is 4 -->
+				<WaitMode>False</WaitMode><!--Starting Wait Mode, values can be True or False. if true, actions will run if no signal received.  Default is False -->				
+				<ID>-1</ID><!--this value is normally randomly generated, if set to negative will also cause a new random number to be generated,
+											however certain actions can referenced this value, so it can be set to a specific value if required (e.g. DoorProfileAddTo)
+											valid values are any positive integer-->
+				<Actions><!--Actions List (Required)-->
+				<!--All Actions require a valid Ref, Depending on the action depends what Data fields do
+					TimeInfo is by default 60 ticks, this value can not be lower than 20 ticks (third of a second), only DoorDelay allows TimeInfo to be changed in game
+						
+					DoorAddOpenAction: This action opens the door
+					DoorAddCloseAction: This action opens the door
+					DoorFlickOff: This action flicks power off, effectively disabling the door
+					DoorForbid: This action Forbids the door, good for preventing access without disabling the door
+					DoorUnForbid: This action Forbids the door
+					DoorChannelSwitch: switches the doors channel.  Data1 - values can be Primary (default) or Secondary, Data2 - this value is the channel you want to change to
+					DoorWaitMode: controls whether to do actions when receiving a signal or when not receiving, Data1 default is false (run when receiving)
+					DoorProfileAddTo: allows you to add a profile to primary or secondary channel, Data1 - possible values Primary, Secondary. Data2 - ID of profile to modify
+					DoorProfileSubFrom: Like DoorProfileAddTo but removes the profile from Primary or Secondary channel
+					DoorSetPriority: Changes the priority of a profile.  Data1 can be between 1(high) and 5(low), Data2 is ID of profile
+					DoorDelay: Adds a delay before the execution of the next action, changing TimeInfo affects the length of the delay
+					
+					TimeInfo, Data1 and Data2 fields are optional and will use default values when omitted.
+					-->
+					<Action>			
+						<Ref>DoorWaitMode</Ref>
+						<TimeInfo>20</TimeInfo>						
+						<Data1>1</Data1>
+					</Action>
+					<Action>
+						<Ref>DoorAddOpenAction</Ref>										
+						<TimeInfo>20</TimeInfo>
+					</Action>
+					<Action>			
+						<Ref>DoorWaitMode</Ref>								
+						<Data1>2</Data1>
+						<TimeInfo>20</TimeInfo>
+					</Action>
+					<Action>			
+						<Ref>DoorDelay</Ref>		
+						<TimeInfo>120</TimeInfo>
+					</Action>
+					<Action>
+						<Ref>DoorAddCloseAction</Ref>									
+					</Action>
+				</Actions>
+			</Profile>		
+		</Profiles>
+	</DoorPreset>	
+</DoorPresets>
+
+		
+
+				
+	
+				
+
+
+
+
+
+
+					

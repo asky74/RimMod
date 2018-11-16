@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>LaserWeapons</name>
-	<author>Skullywag</author>
-	<targetVersion>0.17.0</targetVersion>
-	<description>Adds laser weapons which have a chance at stunning the target.</description>
+    <name>LaserWeapons</name>
+    <author>Skullywag</author>
+    <targetVersion>1.0.0</targetVersion>
+    <description>Adds laser weapons which have a chance at stunning the target.</description>
 </ModMetaData>

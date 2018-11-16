@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>PowerLogicFlickChannel</defName>
+	<label>flick channel</label>
+    <giverClass>PowerLogic.WorkGiver_RadioChanged</giverClass>
+    <workType>BasicWorker</workType>
+	<priorityInType>90</priorityInType>
+    <verb>flick channel</verb>
+    <gerund>flicking channel</gerund>
+  </WorkGiverDef>
+  
+</Defs>

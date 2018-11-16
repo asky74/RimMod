@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="PowerLogicBase" Abstract="True">
+     <category>Building</category>
+     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>     
+     <drawerType>MapMeshAndRealTime</drawerType>
+     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+     <repairEffect>Repair</repairEffect>
+     <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+	 <building>      
+      <allowWireConnection>false</allowWireConnection>
+    </building>	
+	<altitudeLayer>Building</altitudeLayer>
+	<passability>Standable</passability>
+	<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	 <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <Beauty>-1</Beauty>
+    </statBases>
+	<placingDraggableDimensions>0</placingDraggableDimensions>	
+	<comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTransmitter</compClass>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+	<selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <tickerType>Normal</tickerType>
+	<designationCategory>Power</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+	<researchPrerequisites>
+      <li>PowerLogicSwitches</li>
+    </researchPrerequisites>	
+   </ThingDef>
+   
+   <ThingDef ParentName="PowerLogicBase">
+   <defName>SupesBaseGate</defName>
+    <label>logic gate</label>
+    <thingClass>PowerLogic.Building_BaseLogicGate</thingClass>
+    <description>This allows power through the gate when two power sources are connected to adjacent input sockets.  Similar to the Stay on Switch, except this switch isolates its power  sources</description>
+    <graphicData>
+      <texPath>Things/Buildings/PowerLogic/AndGateAtlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+	  <linkType>Basic</linkType>
+      <linkFlags>
+        <li>PowerConduit</li>        
+      </linkFlags>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>   
+	<uiIconPath>Things/Buildings/PowerLogic/AndGateUI</uiIconPath>	 
+   <costList>
+      <Steel>20</Steel>      
+    </costList>
+   	<placeWorkers>
+      <li>PowerLogic.PlaceWorker_LogicGate</li>	  
+    </placeWorkers>	
+   </ThingDef>
+
+  
+  <ThingDef ParentName="PowerLogicBase">
+    <defName>SupesInputSocket</defName>	
+    <label>input socket</label>
+    <thingClass>PowerLogic.Building_InputSocket</thingClass>	
+    <description>connect this inbetween to your logic gate and your power conduit to designate an input</description>
+    <graphicData>
+      <texPath>Things/Buildings/PowerLogic/InputSocketAtlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <linkType>Basic</linkType>
+      <linkFlags>
+        <li>PowerConduit</li>         
+      </linkFlags>
+      <damageData>
+        <rect>(0.2,0.2,0.2,0.2)</rect>
+      </damageData>
+    </graphicData>    
+	<costList>
+      <Steel>5</Steel>      
+    </costList>	
+	<uiIconPath>Things/Buildings/PowerLogic/InputSocketUI</uiIconPath>		  
+  </ThingDef>
+  
+  <ThingDef ParentName="PowerLogicBase">
+    <defName>SupesGateInverter</defName>	
+    <label>inverter</label>
+    <thingClass>PowerLogic.Building_NotInverter</thingClass>	
+	<building>      
+      <allowWireConnection>false</allowWireConnection>
+    </building>	
+    <description>This inverts the output of the logic gate it is placed next to.  requires a constant power source to function correctly</description>
+    <graphicData>
+      <texPath>Things/Buildings/PowerLogic/NotGateAtlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <linkType>Basic</linkType>
+      <linkFlags>
+        <li>PowerConduit</li>         
+      </linkFlags>
+      <damageData>
+        <rect>(0.2,0.2,0.2,0.2)</rect>
+      </damageData>
+    </graphicData>
+	<costList>
+      <Steel>10</Steel>      
+    </costList>		
+	<uiIconPath>Things/Buildings/PowerLogic/InverterUI</uiIconPath>		
+  </ThingDef>
+  
+  </Defs>

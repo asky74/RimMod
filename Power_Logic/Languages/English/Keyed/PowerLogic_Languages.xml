@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<!--General Wifi inspection strings -->
+<PowerLogic.TrasmitterSending>Transmitting</PowerLogic.TrasmitterSending>
+<PowerLogic.TrasmitterInactive>Unpowered: Inactive</PowerLogic.TrasmitterInactive>
+<PowerLogic.ReceiverListening>Listening For Signal:</PowerLogic.ReceiverListening>
+<PowerLogic.ReceiverDetectSignal> Detected - {0}</PowerLogic.ReceiverDetectSignal>
+<PowerLogic.ReceiverDetectBounce> via {0}</PowerLogic.ReceiverDetectBounce>
+<PowerLogic.ReceiverInactive>Not Listening/Inactive</PowerLogic.ReceiverInactive>
+<!-- Wifi Gizmos -->
+<PowerLogic.RadioCurrentChannel>Current Channel: {0}</PowerLogic.RadioCurrentChannel>
+<PowerLogic.RadioChannelUp>Channel Up</PowerLogic.RadioChannelUp>
+<PowerLogic.RadioChannelDown>Channel Down</PowerLogic.RadioChannelDown>
+<PowerLogic.RadioChannelUpDesc>This changes the wireless band that the device listens/transmits onto a higher channel frequency. Valid channels are between {0} and {1}</PowerLogic.RadioChannelUpDesc>
+<PowerLogic.RadioChannelDownDesc>This changes the wireless band that the device listens/transmits onto a lower channel frequency. Valid channels are between {0} and {1}</PowerLogic.RadioChannelDownDesc>
+<!-- IFF Gizmo -->
+<PowerLogic.IFFFriendlyOff>Don't Trigger On Friendly</PowerLogic.IFFFriendlyOff>
+<PowerLogic.IFFFriendlyOn>Trigger On Friendly</PowerLogic.IFFFriendlyOn>
+<PowerLogic.IFFFoeOff>Don't Trigger On Hostile</PowerLogic.IFFFoeOff>
+<PowerLogic.IFFFoeOn>Trigger On Hostile</PowerLogic.IFFFoeOn>
+<!-- Wifi Prox -->
+<PowerLogic.SensorRangeUp>Increase Sensor Range</PowerLogic.SensorRangeUp>
+<PowerLogic.SensorRangeDown>Decrease Sensor Range</PowerLogic.SensorRangeDown>
+<PowerLogic.SensorRangeUpDesc>This increases the range of your proximity sensor, but requires more power</PowerLogic.SensorRangeUpDesc>
+<PowerLogic.SensorRangeDownDesc>This decreases the range of your proximity sensor, using less power to run</PowerLogic.SensorRangeDownDesc>
+<!-- Cap Switch -->
+<PowerLogic.CutoffRange>Battery Cut Off/Cooldown Range {0}</PowerLogic.CutoffRange>
+<PowerLogic.LowBatCutOff>Low Battery CutOff, High Battery Turn On</PowerLogic.LowBatCutOff>
+<PowerLogic.HighBatCutOff>High Battery CutOff, Low Battery Turn On</PowerLogic.HighBatCutOff>
+<PowerLogic.CutoffSettings>Settings</PowerLogic.CutoffSettings>
+<PowerLogic.BatShortRange>Shorten Range</PowerLogic.BatShortRange>
+<!--Current Switch -->
+<PowerLogic.CurrentPosLabel>Active When Positive</PowerLogic.CurrentPosLabel>
+<PowerLogic.CurrentNegLabel>Active When Negative</PowerLogic.CurrentNegLabel>
+<!--Remote Door-->
+<PowerLogic.DoorMacro>Macros</PowerLogic.DoorMacro>
+<PowerLogic.DoorAddOpenAction>Open Door</PowerLogic.DoorAddOpenAction>
+<PowerLogic.DoorAddCloseAction>Close Door</PowerLogic.DoorAddCloseAction>
+<PowerLogic.DoorDelay>Delay: {0} seconds</PowerLogic.DoorDelay>
+<PowerLogic.DoorFlickOff>Power Off</PowerLogic.DoorFlickOff>
+<PowerLogic.DoorForbid>Forbid Door</PowerLogic.DoorForbid>
+<PowerLogic.DoorUnforbid>Allow Door</PowerLogic.DoorUnforbid>
+<PowerLogic.DoorChannelSwitch>Change Channel</PowerLogic.DoorChannelSwitch>
+<PowerLogic.DoorChannelSwitch1>Change Primary Channel</PowerLogic.DoorChannelSwitch1>
+<PowerLogic.DoorChannelSwitch2>Change Secondary Channel</PowerLogic.DoorChannelSwitch2>
+<PowerLogic.DoorWaitMode>Toggle Wait Mode</PowerLogic.DoorWaitMode>
+<PowerLogic.DoorWaitMode1>Continue while receiving</PowerLogic.DoorWaitMode1>
+<PowerLogic.DoorWaitMode2>Wait while receiving</PowerLogic.DoorWaitMode2>
+<PowerLogic.SignalStatus>Wireless Status</PowerLogic.SignalStatus>
+<PowerLogic.DoorProfileAddTo>Add Profile To</PowerLogic.DoorProfileAddTo>
+<PowerLogic.DoorProfileAddTo1>Add Profile To Primary</PowerLogic.DoorProfileAddTo1>
+<PowerLogic.DoorProfileAddTo2>Add Profile To Secondary</PowerLogic.DoorProfileAddTo2>
+<PowerLogic.DoorProfileSubFrom>Remove Profile From</PowerLogic.DoorProfileSubFrom>
+<PowerLogic.DoorProfileSubFrom1>Remove Profile From Primary</PowerLogic.DoorProfileSubFrom1>
+<PowerLogic.DoorProfileSubFrom2>Remove Profile From Secondary</PowerLogic.DoorProfileSubFrom2>
+<PowerLogic.DoorSetPriority>Set Profile Priority</PowerLogic.DoorSetPriority>
+<!--Light Sensor-->
+<PowerLogic.CurrnetLight>Current Light Level: {0}</PowerLogic.CurrnetLight>
+<PowerLogic.TargetLight>Light Threshold: {0}</PowerLogic.TargetLight>
+<PowerLogic.LightUpLabel>Raise Light Threshold</PowerLogic.LightUpLabel>
+<PowerLogic.LightDownLabel>Lower Light Threshold</PowerLogic.LightDownLabel>
+<PowerLogic.DayNightCutoffLabel>Light Threshold Direction</PowerLogic.DayNightCutoffLabel>
+<PowerLogic.DayNightCutoffDesc>This toggles when the switch turns on, above or below the light threshold</PowerLogic.DayNightCutoffDesc>
+<PowerLogic.LightUpDesc>This raises the low light threshold level that triggers the switch</PowerLogic.LightUpDesc>
+<PowerLogic.LightDownDesc>This lowers the low light threshold level that triggers the switch</PowerLogic.LightDownDesc>
+<!--Inductor Inspection and gizmos -->
+<PowerLogic.InductorDesiredDraw>Desired Power Draw: {0} W</PowerLogic.InductorDesiredDraw>
+<PowerLogic.BeamerReconnectLabel>Reconnect Inductor</PowerLogic.BeamerReconnectLabel>
+<PowerLogic.BeamerReconnectDesc>Reconnect this inductive emitter to another inductive receiver coil</PowerLogic.BeamerReconnectDesc>
+<PowerLogic.InductorReconnectDesc>Reconnect this inductive receiver to another inductive emitter coil</PowerLogic.InductorReconnectDesc>
+<!--Inductor Itab-->
+<PowerLogic.InductorTab>Inductor</PowerLogic.InductorTab>
+<PowerLogic.InductorStaticDraw>Static Power Draw</PowerLogic.InductorStaticDraw>
+<PowerLogic.InductorStaticDrawDesc>This allows the inductive receiver to draw a fixed amount of power from the emitter coil, useful for logical circuits where inductors don't provide power all the time</PowerLogic.InductorStaticDrawDesc>
+<PowerLogic.InductorAdaptiveDraw>Adaptive Power Draw</PowerLogic.InductorAdaptiveDraw>
+<PowerLogic.InductorAdaptiveDrawDesc>This allows the inductor to adapt its desired power to match the power requirements of the connected power network. Practical when for power networks with varying power requirements. Note that this distributes the desired power required from all inductive receivers on the power grid</PowerLogic.InductorAdaptiveDrawDesc>
+<PowerLogic.InductorLimiter>Power Draw Limit</PowerLogic.InductorLimiter>
+<PowerLogic.InductorLimiterDesc>The inductive receiver will try to receive this amount of power from the inductive emitter</PowerLogic.InductorLimiterDesc>
+<PowerLogic.InductorDrawCompensator>Draw Change Compensation: {0}</PowerLogic.InductorDrawCompensator>
+<PowerLogic.InductorDrawCompensatorDesc>This increases the amount of additional power required for a brief time when the power net requirements change to avoid all devices turning off, e.g. solar panels losing light</PowerLogic.InductorDrawCompensatorDesc>  
+<PowerLogic.InductorOverDraw>Over Draw: {0}</PowerLogic.InductorOverDraw>
+<PowerLogic.InductorOverDrawDesc>This increases desired power, useful for charging batteries on the receivers power net or preventing sudden changes of power before power compensation kicks in.  Note that if batteries are efficiently charged, overdraw doesn't get applied to desired power.  If more than one inductor is on the same net, the maximum overdraw will be distributed across all inductors up to that inductors overdraw</PowerLogic.InductorOverDrawDesc>
+<PowerLogic.InductorForcedOverDraw>Always apply Over Draw</PowerLogic.InductorForcedOverDraw>
+<PowerLogic.InductorForcedOverDrawDesc>This will force Over Draw to always be active, even when no connected devices require power</PowerLogic.InductorForcedOverDrawDesc>
+<PowerLogic.InductorPositiveOnly>Positive emitter draw only</PowerLogic.InductorPositiveOnly>
+<PowerLogic.InductorPositiveOnlyDesc>When Checked, the emitter it will never drawing power from batteries, and will attempt to create an equilibrium with the available power.  Note if you have more than one inductor on the same grid, all of inductors that have emitters on the same grid will be affected.</PowerLogic.InductorPositiveOnlyDesc>
+<PowerLogic.NoBeamer>Warning, no effect, Receiver is not connected to an Emitter.</PowerLogic.NoBeamer>
+<!-- heat Sensor -->
+<PowerLogic.HeatTriggerAbove>Turn On When Above {0}</PowerLogic.HeatTriggerAbove>
+<PowerLogic.HeatTriggerBelow>Turn On When Below {0}</PowerLogic.HeatTriggerBelow>
+<PowerLogic.HeatCurrentTemp>Current Temperature {0}</PowerLogic.HeatCurrentTemp>
+<PowerLogic.OnAboveTarget>On Above Target</PowerLogic.OnAboveTarget>
+<PowerLogic.OnBelowTarget>On Below Target</PowerLogic.OnBelowTarget>
+<!--Logic Gate -->
+<PowerLogic.AndGate>And Gate</PowerLogic.AndGate>
+<PowerLogic.OrGate>Or Gate</PowerLogic.OrGate>
+<PowerLogic.XorGate>Xor Gate</PowerLogic.XorGate>
+<PowerLogic.AndGateDesc>An And Gate allows power through the gate when two power sources are connected to adjacent input sockets.  Similar to the Stay on Switch, except this switch isolates its power input sources</PowerLogic.AndGateDesc>
+<PowerLogic.OrGateDesc>An Or Gate allows power through the gate when at least one power source is connected to its input sockets</PowerLogic.OrGateDesc>
+<PowerLogic.XorGateDesc>An Exclusive Or (Xor) Gate allows power through the gate when one power source is connected to its input sockets, and disallows power when two or no power sources are connected</PowerLogic.XorGateDesc>
+<!--Entanglement Switch-->
+<PowerLogic.Entanglement>Entangle</PowerLogic.Entanglement>
+<PowerLogic.EntanglementState>Entangled with {0}</PowerLogic.EntanglementState>
+<PowerLogic.EntangleConfirm>This will permanently link this switch with {0}.  Do you wish to proceed?</PowerLogic.EntangleConfirm>
+</LanguageData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--========================= Roof Support ============================= -->
+	<ThingDef ParentName="BuildingBase" Name="RoofSupport">
+		<defName>RoofSupport</defName>
+		<label>roof support</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<description>A structural column capable of holding up a roof. Does not impede movement nor provide cover.</description>
+		<graphicData>
+			<texPath>Things/Building/RoofSupport</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+			</damageData>
+	   </graphicData>
+		<statBases>
+			<MaxHitPoints>225</MaxHitPoints>
+			<WorkToBuild>150</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>6</costStuffCount>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<coversFloor>false</coversFloor>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<designationCategory>Structure</designationCategory>
+		<blockLight>true</blockLight>
+		<specialDisplayRadius>6.9</specialDisplayRadius>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>3</multiplier>
+			</li>
+		</damageMultipliers>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+	</ThingDef>
+</Defs>

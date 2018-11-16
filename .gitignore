@@ -7,4 +7,5 @@ Libraries/*
 !Libraries/README.md
 *.user
 *.bat
+*.sh
 !dist.bat
