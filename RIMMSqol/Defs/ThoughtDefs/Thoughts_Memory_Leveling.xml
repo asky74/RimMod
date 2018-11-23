@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef Name="QOLLeveledBase" Abstract="True">
+		<showBubble>true</showBubble>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveled</defName>
+		<icon>Symbols/SkillShooting</icon>
+		<stages>
+			<li>
+				<label>level down in skill</label>
+				<description>Great things come out of being hungry and cold. Once you're pampered, you get lazy.</description><!-- Rob Zombie -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in skill</label>
+				<description>The future rewards those who press on.</description><!-- Barack Obama -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledShooting</defName>
+		<icon>Symbols/SkillShooting</icon>
+		<stages>
+			<li>
+				<label>level down in shooting</label>
+				<description>It is my conviction that killing under the cloak of war is nothing but an act of murder.</description><!-- flowery translation of something that Albert Einstein said. -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in shooting</label>
+				<description>If you don't have time to do it right, will you have time to do it again?</description><!-- Scott W. Munro, Sgt. ??? -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledMelee</defName>
+		<icon>Symbols/SkillMelee</icon>
+		<stages>
+			<li>
+				<label>level down in melee</label>
+				<description>Who brings a knife to a gunfight?</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in melee</label>
+				<description>You enter as a human and leave as a sausage.</description><!-- translated from the movie "Der Totmacher" -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledSocial</defName>
+		<icon>Symbols/SkillSocial</icon>
+		<stages>
+			<li>
+				<label>level down in social</label>
+				<description>Whosoever is delighted in solitude, is either a wild beast or a god.</description><!-- Francis Bacon paraphrasing Aristotle -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in social</label>
+				<description>#HashTag</description><!-- dipshits -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledAnimals</defName>
+		<icon>Symbols/SkillAnimals</icon>
+		<stages>
+			<li>
+				<label>level down in animals</label>
+				<description>We can judge the heart of man by his treatment of animals.</description><!-- Immanuel Kant -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in animals</label>
+				<description>Some people talk to animals. Not many listen though. That's the problem.</description><!-- Alan Alexander Milne -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledMedicine</defName>
+		<icon>Symbols/SkillMedicine</icon>
+		<stages>
+			<li>
+				<label>level down in medicine</label>
+				<description>A doctor can bury his mistakes.</description> <!-- Frank Lloyd Wright -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in medicine</label>
+				<description>A great doctor kills more people than a great general.</description><!-- G.W. Leibniz -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledCooking</defName>
+		<icon>Symbols/SkillCooking</icon>
+		<stages>
+			<li>
+				<label>level down in cooking</label>
+				<description>If you're not the one cooking, stay out of the way and compliment the chef.</description><!-- Michael Strahan -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in cooking</label>
+				<description>I don't like gourmet cooking or this cooking or that cooking. I like good cooking.</description><!-- James Beard -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledConstruction</defName>
+		<icon>Symbols/SkillConstruction</icon>
+		<stages>
+			<li>
+				<label>level down in construction</label>
+				<description>If a building looks better under construction than it does when finished, then it’s a failure.</description><!-- Doug Coupland -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in construction</label>
+				<description>The road to success is always under construction.</description><!-- Arnold Palmer -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledPlants</defName>
+		<icon>Symbols/SkillGrowing</icon>
+		<stages>
+			<li>
+				<label>level down in plants</label>
+				<description>Striving for success without hard work is like trying to harvest where you haven't planted.</description><!-- David Bly -->
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in plants</label>
+				<description>Don't envy the harvest of the rich. Envy their planting.</description><!-- Bo Sanchez -->
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledMining</defName>
+		<icon>Symbols/SkillMining</icon>
+		<stages>
+			<li>
+				<label>level down in mining</label>
+				<description>...</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in mining</label>
+				<description>...</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledArtistic</defName>
+		<icon>Symbols/SkillArtistic</icon>
+		<stages>
+			<li>
+				<label>level down in artistic</label>
+				<description>...</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in artistic</label>
+				<description>...</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledCrafting</defName>
+		<icon>Symbols/SkillCrafting</icon>
+		<stages>
+			<li>
+				<label>level down in crafting</label>
+				<description>...</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in crafting</label>
+				<description>...</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef ParentName="QOLLeveledBase">
+		<defName>QOLLeveledIntellectual</defName>
+		<icon>Symbols/SkillIntellectual</icon>
+		<stages>
+			<li>
+				<label>level down in intellectual</label>
+				<description>...</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>level up in intellectual</label>
+				<description>...</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

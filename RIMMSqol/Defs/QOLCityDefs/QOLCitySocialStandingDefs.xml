@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+		<defName>QOLSSNormal</defName>
+		<label>normal</label>
+		<description>How much influence a pawn has in it's city.</description>
+		<power>1.0</power>
+	</RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+	<RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+		<defName>QOLSSHigher</defName>
+		<label>higher</label>
+		<description>How much influence a pawn has in it's city.</description>
+		<power>2.0</power>
+	</RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+	<RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+		<defName>QOLSSHighest</defName>
+		<label>highest</label>
+		<description>How much influence a pawn has in it's city.</description>
+		<power>4.0</power>
+	</RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+	<RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+		<defName>QOLSSLower</defName>
+		<label>lower</label>
+		<description>How much influence a pawn has in it's city.</description>
+		<power>0.5</power>
+	</RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+	<RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+		<defName>QOLSSLowest</defName>
+		<label>lowest</label>
+		<description>How much influence a pawn has in it's city.</description>
+		<power>0.25</power>
+	</RIMMSqol.remnantcolony.QOLCitySocialStandingDef>
+</Defs>

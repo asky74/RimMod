@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MainButtonDef>
+    <defName>MSqolSearch</defName>
+    <label>WTF</label>
+    <description>Searches for items and other things.</description>
+    <tabWindowClass>RIMMSqol.WTFWindow</tabWindowClass>
+    <order>490</order>
+  </MainButtonDef>
+  <MainButtonDef>
+    <defName>MSqolRPG</defName>
+    <label>CuM</label>
+    <description>Allows customizing colonists through personal growth.</description>
+    <tabWindowClass>RIMMSqol.RPGWindow</tabWindowClass>
+    <order>480</order>
+  </MainButtonDef>
+  <MainButtonDef>
+    <defName>MSqolMods</defName>
+    <label>mods</label>
+    <description>Open the mod settings dialog.</description>
+    <workerClass>RIMMSqol.MainButtonWorker_TabMenu</workerClass>
+    <order>492</order>
+    <validWithoutMap>true</validWithoutMap>
+	<buttonVisible>false</buttonVisible>
+  </MainButtonDef>
+</Defs>

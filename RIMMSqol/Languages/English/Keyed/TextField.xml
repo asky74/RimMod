@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ValueBetween>Value must be a {0} number between {1} and {2}.</ValueBetween>
+</LanguageData>

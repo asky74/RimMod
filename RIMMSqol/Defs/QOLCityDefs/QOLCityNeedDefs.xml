@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.remnantcolony.QOLCityNeedDef>
+		<defName>QOLFood</defName>
+		<label>food</label>
+		<description>How much food is consumed.</description>
+		<order>10</order>
+	</RIMMSqol.remnantcolony.QOLCityNeedDef>
+	<RIMMSqol.remnantcolony.QOLCityNeedDef>
+		<defName>QOLLabour</defName>
+		<label>labour</label>
+		<description>How much labour is consumed.</description>
+		<order>20</order>
+	</RIMMSqol.remnantcolony.QOLCityNeedDef>
+	<RIMMSqol.remnantcolony.QOLCityNeedDef>
+		<defName>QOLHousing</defName>
+		<label>housing</label>
+		<description>How much housing is consumed.</description>
+		<order>30</order>
+	</RIMMSqol.remnantcolony.QOLCityNeedDef>
+	<RIMMSqol.remnantcolony.QOLCityNeedDef>
+		<defName>QOLEnergy</defName>
+		<label>energy</label>
+		<description>How much energy is consumed.</description>
+		<order>40</order>
+	</RIMMSqol.remnantcolony.QOLCityNeedDef>
+</Defs>

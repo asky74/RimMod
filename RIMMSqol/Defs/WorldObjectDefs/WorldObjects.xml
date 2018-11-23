@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>  
+	<WorldObjectDef>
+		<defName>WorldObjectRemnantColony</defName>
+		<label>remnants colony</label>
+		<description>A former player faction base managed by remnants.</description>
+		<texture>World/WorldObjects/TribalSettlement</texture>
+		<worldObjectClass>RIMMSqol.WorldObjectRemnantColony</worldObjectClass>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconPriority>10</expandingIconPriority>
+	</WorldObjectDef>
+	<WorldObjectDef>
+		<defName>WorldObjectQOLCity</defName>
+		<label>city</label>
+		<description>A sprwaling city.</description>
+		<texture>World/WorldObjects/TribalSettlement</texture>
+		<worldObjectClass>RIMMSqol.remnantcolony.QOLCity</worldObjectClass>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconPriority>10</expandingIconPriority>
+	</WorldObjectDef>
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<DesignatorPathfinderFillDirections>Fill</DesignatorPathfinderFillDirections>
+	<DesignatorPathfinderFillDirectionsDesc>Toggle the directions on the stamp that are allowed(green) or forbidden(red). Then drag a rectangle to fill it with the stamp.</DesignatorPathfinderFillDirectionsDesc>
+	<DesignatorPathfinderDirections>Smart Lines</DesignatorPathfinderDirections>
+	<DesignatorPathfinderDirectionsDesc>Drag a line. The direction of the drag determines the direction to toggle on all but the last cell.</DesignatorPathfinderDirectionsDesc>
+	<DesignatorDebugDestroy>Destroy</DesignatorDebugDestroy>
+	<DesignatorDebugDestroyDesc>Vanishes all selected things.</DesignatorDebugDestroyDesc>
+</LanguageData>

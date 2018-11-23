@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6737B2AA-A34A-4031-80E1-6F8DFBEE5BFD}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RIMMSqol</RootNamespace>
+    <AssemblyName>RIMMSqol</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkProfile />
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>packages\Lib.Harmony.1.2.0.1\lib\net35\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Priority Queue">
+      <HintPath>packages\OptimizedPriorityQueue.4.1.1\lib\net20\Priority Queue.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchitectButtonFix.cs" />
+    <Compile Include="Building_CommsConsolePlus.cs" />
+    <Compile Include="CuMExtensions.cs" />
+    <Compile Include="DebugAction_RegenerateFactionLeaders.cs" />
+    <Compile Include="DefMapSaveStateFix.cs" />
+    <Compile Include="Designator_DebugDestroy.cs" />
+    <Compile Include="FaRtWindow.cs" />
+    <Compile Include="HarmonyPatchNamespace.cs" />
+    <Compile Include="LanguageChangeListener.cs" />
+    <Compile Include="MainButtonWorker_TabMenu.cs" />
+    <Compile Include="pathfinding\PathfindingFix.cs" />
+    <Compile Include="pathfinding\ReflectionMethodInvoker.cs" />
+    <Compile Include="performance\pawn_rotationtracker\Pawn_RotationTracker_Face.cs" />
+    <Compile Include="performance\pawn_rotationtracker\Pawn_RotationTracker_FaceCell.cs" />
+    <Compile Include="performance\workgiver_dobill\WorkGiver_DoBill_TryFindBestBillIngredients.cs" />
+    <Compile Include="performance\worldpawngc\WorldPawnGCOptimized.cs" />
+    <Compile Include="PreventAnimalFamilies.cs" />
+    <Compile Include="PreventTamenessDecay.cs" />
+    <Compile Include="QOLDefModExtension_DesignationCategoryDef.cs" />
+    <Compile Include="Dialog_Flow.cs" />
+    <Compile Include="Dialog_Select.cs" />
+    <Compile Include="Dialog_SelectDef.cs" />
+    <Compile Include="Dialog_SelectEnum.cs" />
+    <Compile Include="genericSettings\SettingsDef.cs" />
+    <Compile Include="genericSettings\SettingsField.cs" />
+    <Compile Include="genericSettings\SettingsFieldProperties.cs" />
+    <Compile Include="genericSettings\SettingsInstance.cs" />
+    <Compile Include="genericSettings\SettingsProperties.cs" />
+    <Compile Include="genericSettings\SettingsStorage.cs" />
+    <Compile Include="genericSettings\SettingsVisualization.cs" />
+    <Compile Include="Listing_StandardExtensions.cs" />
+    <Compile Include="HarmonyBootstrap.cs" />
+    <Compile Include="pathfinding\AStarOpt.cs" />
+    <Compile Include="pathfinding\Designator_PathfinderDirections.cs" />
+    <Compile Include="pathfinding\Designator_PathfinderFillDirections.cs" />
+    <Compile Include="pathfinding\MapComponent_PathfinderDirections.cs" />
+    <Compile Include="pathfinding\PathfinderAlgorithm.cs" />
+    <Compile Include="pathfinding\Window_SelectPathfinderFillDirections.cs" />
+    <Compile Include="QOLMod.cs" />
+    <Compile Include="QOLModGameComponent.cs" />
+    <Compile Include="QOLModSettings.cs" />
+    <Compile Include="QOLPFDef.cs" />
+    <Compile Include="QOLRecordFactorDef.cs" />
+    <Compile Include="QOLTraitCostDef.cs" />
+    <Compile Include="remnantcolony\NumericAdjustment.cs" />
+    <Compile Include="remnantcolony\QOLCity.cs" />
+    <Compile Include="remnantcolony\QOLCityDef.cs" />
+    <Compile Include="remnantcolony\QOLCityNeed.cs" />
+    <Compile Include="remnantcolony\QOLCityNeedDef.cs" />
+    <Compile Include="remnantcolony\QOLCityPopulation.cs" />
+    <Compile Include="remnantcolony\QOLCityPopulationDef.cs" />
+    <Compile Include="remnantcolony\QOLCityProject.cs" />
+    <Compile Include="remnantcolony\QOLCityProjectDef.cs" />
+    <Compile Include="remnantcolony\QOLCityResourceDef.cs" />
+    <Compile Include="remnantcolony\QOLCitySocialStandingDef.cs" />
+    <Compile Include="remnantcolony\QOLSocietyIndicator.cs" />
+    <Compile Include="remnantcolony\QOLSocietyIndicatorDef.cs" />
+    <Compile Include="renderers\ButtonRenderer.cs" />
+    <Compile Include="renderers\ButtonTextRenderer.cs" />
+    <Compile Include="renderers\CheckboxRenderer.cs" />
+    <Compile Include="renderers\EditColorRenderer.cs" />
+    <Compile Include="renderers\ColumnLayoutRenderer.cs" />
+    <Compile Include="renderers\EditNumericRenderer.cs" />
+    <Compile Include="renderers\EditTextRenderer.cs" />
+    <Compile Include="renderers\FilteredGridListRenderer.cs" />
+    <Compile Include="renderers\Flow.cs" />
+    <Compile Include="renderers\HideRenderer.cs" />
+    <Compile Include="renderers\IterationItem.cs" />
+    <Compile Include="renderers\LabelRenderer.cs" />
+    <Compile Include="renderers\ListRenderer.cs" />
+    <Compile Include="renderers\PageRenderer.cs" />
+    <Compile Include="renderers\ParentRenderer.cs" />
+    <Compile Include="renderers\BaseRenderer.cs" />
+    <Compile Include="renderers\ParentRendererWithIteration.cs" />
+    <Compile Include="renderers\RowLayoutRenderer.cs" />
+    <Compile Include="renderers\VerticalScrollViewRenderer.cs" />
+    <Compile Include="ReplaceNumericTextboxes.cs" />
+    <Compile Include="RPGWindow.cs" />
+    <Compile Include="SettingsInit.cs" />
+    <Compile Include="SpawnRemnantColony.cs" />
+    <Compile Include="StockGenerator_FromRemnantColony.cs" />
+    <Compile Include="ThingForbiddenPredicatesFix.cs" />
+    <Compile Include="TrackLevelUp.cs" />
+    <Compile Include="Materials.cs" />
+    <Compile Include="UtilReflection.cs" />
+    <Compile Include="WidgetsFix.cs" />
+    <Compile Include="WorkGiver_DoBill_TryFindBestBillIngredientsInSet_AllowMix.cs" />
+    <Compile Include="WorldObjectRemnantColony.cs" />
+    <Compile Include="WTFWindow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="genericSettings" />
+    <Folder Include="remnantcolony" />
+    <Folder Include="performance" />
+    <Folder Include="pathfinding" />
+    <Folder Include="performance\workgiver_dobill" />
+    <Folder Include="performance\worldpawngc" />
+    <Folder Include="performance\pawn_rotationtracker" />
+    <Folder Include="renderers" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- Abandon home -->
+	<ConfirmAbandonHomeWithoutColonyPawns>No free colonist are in this area. Are you sure you want to abandon it?\n\nNo remnant colony will be spawned if there are no suitable colonists and everything on this map will be lost.</ConfirmAbandonHomeWithoutColonyPawns>
+	
+	<!-- Ruleset -->
+	<NoIngredients>Restrict faction members from eating ingredients. Animals are allowed to eat human corpses.</NoIngredients>
+	<NoPreserved>Restrict non starving faction members from feeding or eating preserved food.</NoPreserved>
+	<NoFineOrLavish>Restrict non starving colonists with mood above minor break threshold from eating meals better than simple.</NoFineOrLavish>
+	<NoFineOrLavishForAscetic>Restrict non starving colonists with ascetics trait from eating better than simple meals.</NoFineOrLavishForAscetic>
+	<NoMealsForAnimals>Restrict non starving faction animals from eating meals.</NoMealsForAnimals>
+	<NoFineOrLavishForPrisoners>Restrict non starving non colonist prisoners not marked for recruiting from eating meals better than simple.</NoFineOrLavishForPrisoners>
+	<NoFineOrLavishForRecruits>Restrict non starving non colonist prisoners marked for recruiting with mood above 80% from eating meals better than simple.</NoFineOrLavishForRecruits>
+</LanguageData>

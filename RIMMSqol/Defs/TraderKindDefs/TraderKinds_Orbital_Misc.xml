@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>RemnantColony</defName>
+    <label>remnant colony trader</label>
+    <orbital>false</orbital>
+    <stockGenerators>
+      <li Class="RIMMSqol.StockGenerator_FromRemnantColony"/>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>

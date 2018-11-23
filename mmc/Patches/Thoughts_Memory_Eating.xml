@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/stages/li/description</xpath>
+	    <value>
+				<description>I ate a meal made from the meat of another human. This is unpleasant.</description>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/stages/li/baseMoodEffect</xpath>
+	    <value>
+			<baseMoodEffect>-5</baseMoodEffect>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/stages/li/description</xpath>
+	    <value>
+				<description>I ate the meat of another human, raw, like an animal. This is nasty.</description>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/stages/li/baseMoodEffect</xpath>
+	    <value>
+			<baseMoodEffect>-10</baseMoodEffect>
+	    </value>
+	</Operation>	
+</Patch>

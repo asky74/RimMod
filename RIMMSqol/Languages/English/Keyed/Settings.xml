@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<settings.StopSkillDecay>Stop skill decay-test</settings.StopSkillDecay>
+	<settings.StopSkillDecay.tooltip></settings.StopSkillDecay.tooltip>
+
+	<settings.PreventAnimalFamilies>No animal families</settings.PreventAnimalFamilies>
+	<settings.PreventAnimalFamilies.tooltip>Prevents animals from gaining parent relations and birth stories for art. This prevents late game performance issues due to family trees with hundreds of members.</settings.PreventAnimalFamilies.tooltip>
+
+	<settings.UseFixedNumericTextfields>Fixed Numberinput</settings.UseFixedNumericTextfields>
+	<settings.UseFixedNumericTextfields.tooltip>Easier to use numeric inputs that don't restrict the typing of numbers. Inside this mod they are always used. With this option activated they replace all default inputs as well.</settings.UseFixedNumericTextfields.tooltip>
+
+	<settings.CuMBaseCost>CuM base cost</settings.CuMBaseCost>
+	<settings.CuMBaseCost.tooltip>When changing features of a colonist the changes are priced through a factor and this base cost. Setting it to 0 allows to modify colonists for free.</settings.CuMBaseCost.tooltip>
+
+	<settings.CuMConversionPawn>CuM point conversion from pawns</settings.CuMConversionPawn>
+	<settings.CuMConversionPawn.tooltip>Setting this to a value above 0 means you can add surplus points to a shared pool that other colonists can use. At 1 it becomes lossless.</settings.CuMConversionPawn.tooltip>
+
+	<settings.CuMConversionRemnants>CuM point conversion from remnants</settings.CuMConversionRemnants>
+	<settings.CuMConversionRemnants.tooltip>When abondaning a colony with colonists in it the point value of each abandoned colonist is added to a shared pool that other colonists can use.</settings.CuMConversionRemnants.tooltip>
+
+	<settings.RemnantsOrderPriceFactor>Remnants-Order price factor</settings.RemnantsOrderPriceFactor>
+	<settings.RemnantsOrderPriceFactor.tooltip>When placing a custom order with a remnant colony you have to provide materials and silver. This changes how much of the market price must be paid in addition to providing the materials.</settings.RemnantsOrderPriceFactor.tooltip>
+
+	<settings.ColonistPF>Colonist PF</settings.ColonistPF>
+	<settings.ColonistPF.tooltip></settings.ColonistPF.tooltip>
+
+	<settings.ColonistPFConf>Configuration</settings.ColonistPFConf>
+	<settings.ColonistPFConf.tooltip></settings.ColonistPFConf.tooltip>
+
+	<settings.AnimalTamePF>Tame Animal PF</settings.AnimalTamePF>
+	<settings.AnimalTamePF.tooltip></settings.AnimalTamePF.tooltip>
+
+	<settings.AnimalTamePFConf>Configuration</settings.AnimalTamePFConf>
+	<settings.AnimalTamePFConf.tooltip></settings.AnimalTamePFConf.tooltip>
+
+	<settings.AnimalWildPF>Wild Animal PF</settings.AnimalWildPF>
+	<settings.AnimalWildPF.tooltip></settings.AnimalWildPF.tooltip>
+
+	<settings.AnimalWildPFConf>Configuration</settings.AnimalWildPFConf>
+	<settings.AnimalWildPFConf.tooltip></settings.AnimalWildPFConf.tooltip>
+
+	<settings.OtherPF>Other PF</settings.OtherPF>
+	<settings.OtherPF.tooltip></settings.OtherPF.tooltip>
+
+	<settings.OtherPFConf>Configuration</settings.OtherPFConf>
+	<settings.OtherPFConf.tooltip></settings.OtherPFConf.tooltip>
+
+	<settings.PFRestrictionExcemption>Free Moving Jobs</settings.PFRestrictionExcemption>
+	<settings.PFRestrictionExcemption.tooltip></settings.PFRestrictionExcemption.tooltip>
+
+	<settings.ForbiddenPatches>Forbidden patches</settings.ForbiddenPatches>
+	<settings.ForbiddenPatches.tooltip>If you think you encountered a mod conflict with this mod you can deactivate various parts to prevent them. Changes apply only after restarting the game.</settings.ForbiddenPatches.tooltip>
+
+	<traitCosts.Cost>Cost</traitCosts.Cost>
+	<traitCosts.Cost.tooltip>A factor to the CuM base cost defined in the general settings that determines the price for each trait when adding it to a colonist. In order to remove a trait the negated price must be paid. Therefore good traits use positive values and bad traits use negative values.</traitCosts.Cost.tooltip>
+	
+	<traitCosts.RemovalCost>Removal Cost</traitCosts.RemovalCost>
+	<traitCosts.RemovalCost.tooltip>Replaces the cost factor during removal of a trait if this value is not zero.</traitCosts.RemovalCost.tooltip>
+
+	<recordFactors.Factor>Factor</recordFactors.Factor>
+	<recordFactors.Factor.tooltip>The value in the colonists record is multiplied by the corresponding factor to determine how many points are available to customize the colonist.</recordFactors.Factor.tooltip>
+
+	<powerBuildings.BasePower>Base Power</powerBuildings.BasePower>
+	<powerBuildings.BasePower.tooltip>The base power determines how much power is consumed by a building with a fixed power consumption/generation. Buildings that consume/generate a variable amount of power are unaffected.</powerBuildings.BasePower.tooltip>
+
+	<mainButtons.Visible>Visible</mainButtons.Visible>
+	<mainButtons.Visible.tooltip>Whether a button should be displayed in the bottom menu or not.</mainButtons.Visible.tooltip>
+
+	<mainButtons.Order>Order</mainButtons.Order>
+	<mainButtons.Order.tooltip>A value determining which button is displayed first. Leftmost is the lowest value and rightmost the highest.</mainButtons.Order.tooltip>
+
+	<architectButtons.Visible>Visible</architectButtons.Visible>
+	<architectButtons.Visible.tooltip>Wheter a button should be displayed in the architect menu or not.</architectButtons.Visible.tooltip>
+
+	<architectButtons.Order>Order</architectButtons.Order>
+	<architectButtons.Order.tooltip>A value determining which button is displayed first. Bottom right is the lowest value and top left is the highest.</architectButtons.Order.tooltip>
+
+	<recipes.WorkAmount>Work Amount</recipes.WorkAmount>
+	<recipes.WorkAmount.tooltip></recipes.WorkAmount.tooltip>
+
+	<recipes.LearnFactor>Learn Factor</recipes.LearnFactor>
+	<recipes.LearnFactor.tooltip>Multiplier for experience gained while working on this recipe. Recipes that have unfinished products award experience as the pawn works on it. Other recipes award experience when the recipe finishes. Experience gained is proportional to time spent working on the recipe. So better workers gain less experience.</recipes.LearnFactor.tooltip>
+
+	<recipes.WorkSkill>Work Skill</recipes.WorkSkill>
+	<recipes.WorkSkill.tooltip>This skill will be awarded the experience gained from this recipe. Selecting no skill will disable experience gain.</recipes.WorkSkill.tooltip>
+
+	<recipes.WorkSpeedStat>Work Speed</recipes.WorkSpeedStat>
+	<recipes.WorkSpeedStat.tooltip>This stat is used to measure how fast a worker can complete the recipe. Selecting no stat means no one gains bonuses to workspeed. No stat is useful for training recipes, since faster completion awards less experience.</recipes.WorkSpeedStat.tooltip>
+
+	<recipes.Products>Products</recipes.Products>
+	<recipes.Products.tooltip>Amount and type of things spawned on completion of the recipe. This works for any recipe, so you can spawn human flesh on installing a prosthesis.</recipes.Products.tooltip>
+
+	<recipes.SkillRequirements>Skill Req.</recipes.SkillRequirements>
+	<recipes.SkillRequirements.tooltip></recipes.SkillRequirements.tooltip>
+
+	<recipes.Ingredients>Ingredients</recipes.Ingredients>
+	<recipes.Ingredients.tooltip></recipes.Ingredients.tooltip>
+
+	<thingDefCountClass.Thing>Thing</thingDefCountClass.Thing>
+	<thingDefCountClass.Thing.tooltip></thingDefCountClass.Thing.tooltip>
+
+	<thingDefCountClass.Count>Count</thingDefCountClass.Count>
+	<thingDefCountClass.Count.tooltip></thingDefCountClass.Count.tooltip>
+
+	<skillRequirement.Skill>Skill</skillRequirement.Skill>
+	<skillRequirement.Skill.tooltip></skillRequirement.Skill.tooltip>
+
+	<skillRequirement.MinLevel>Min Level</skillRequirement.MinLevel>
+	<skillRequirement.MinLevel.tooltip></skillRequirement.MinLevel.tooltip>
+
+	<floorsAndTerrain.Beauty>Beauty</floorsAndTerrain.Beauty>
+	<floorsAndTerrain.Beauty.tooltip></floorsAndTerrain.Beauty.tooltip>
+
+	<floorsAndTerrain.WorkToBuild>Work</floorsAndTerrain.WorkToBuild>
+	<floorsAndTerrain.WorkToBuild.tooltip></floorsAndTerrain.WorkToBuild.tooltip>
+
+	<floorsAndTerrain.Flammability>Flammability</floorsAndTerrain.Flammability>
+	<floorsAndTerrain.Flammability.tooltip>1 = 100%</floorsAndTerrain.Flammability.tooltip>
+
+	<floorsAndTerrain.Cleanliness>Cleanliness</floorsAndTerrain.Cleanliness>
+	<floorsAndTerrain.Cleanliness.tooltip>Positive values increase a rooms cleanliness rating and as such improve surgery success and reduce infection chance.</floorsAndTerrain.Cleanliness.tooltip>
+
+	<floorsAndTerrain.PathCost>Path-Cost</floorsAndTerrain.PathCost>
+	<floorsAndTerrain.PathCost.tooltip>Cost in game turns to cross this terrain.</floorsAndTerrain.PathCost.tooltip>
+
+	<floorsAndTerrain.ExtraDraftedPerceivedPathCost>Extra Path-Cost Drafted</floorsAndTerrain.ExtraDraftedPerceivedPathCost>
+	<floorsAndTerrain.ExtraDraftedPerceivedPathCost.tooltip>Additional cost in game turns to cross this terrain if the pawn moving through is drafted. This is used on water to discourage soldiers from walking through terrain that debuffs them.</floorsAndTerrain.ExtraDraftedPerceivedPathCost.tooltip>
+
+	<floorsAndTerrain.ExtraNonDraftedPerceivedPathCost>Extra Path-Cost Undrafted</floorsAndTerrain.ExtraNonDraftedPerceivedPathCost>
+	<floorsAndTerrain.ExtraNonDraftedPerceivedPathCost.tooltip>Additional cost in game turns to cross this terrain if the pawn moving through isn't drafted. This is used on water to discourage civilians from walking through terrain that debuffs them.</floorsAndTerrain.ExtraNonDraftedPerceivedPathCost.tooltip>
+
+	<floorsAndTerrain.Fertility>Fertility</floorsAndTerrain.Fertility>
+	<floorsAndTerrain.Fertility.tooltip>1 = 100%</floorsAndTerrain.Fertility.tooltip>
+
+	<floorsAndTerrain.FilthTerrain>Filth-Terrain</floorsAndTerrain.FilthTerrain>
+	<floorsAndTerrain.FilthTerrain.tooltip>Whether this terrain accepts filth generated by terrain.</floorsAndTerrain.FilthTerrain.tooltip>
+
+	<floorsAndTerrain.Filth>Filth</floorsAndTerrain.Filth>
+	<floorsAndTerrain.Filth.tooltip>Whether this terrain accepts filth generated by other sources than terrain. Animals giving birth, people bleeding, vomiting etc..</floorsAndTerrain.Filth.tooltip>
+
+	<thoughts.Duration>Duration(Days)</thoughts.Duration>
+	<thoughts.Duration.tooltip></thoughts.Duration.tooltip>
+
+	<thoughts.OnlyForColonists>Only For Colonists</thoughts.OnlyForColonists>
+	<thoughts.OnlyForColonists.tooltip></thoughts.OnlyForColonists.tooltip>
+
+	<thoughts.ShowBubble>Show Bubble</thoughts.ShowBubble>
+	<thoughts.ShowBubble.tooltip></thoughts.ShowBubble.tooltip>
+
+	<thoughts.MultiplyingStat>Multiplying Stat</thoughts.MultiplyingStat>
+	<thoughts.MultiplyingStat.tooltip>This stat will modify the base mood offset.</thoughts.MultiplyingStat.tooltip>
+
+	<thoughts.NextThought>Next Thought</thoughts.NextThought>
+	<thoughts.NextThought.tooltip>A followup thought, like the catharsis after a mental break.</thoughts.NextThought.tooltip>
+
+	<thoughts.StackLimit>Stack Limit</thoughts.StackLimit>
+	<thoughts.StackLimit.tooltip>How many instances of this thought can exist on a single pawn.</thoughts.StackLimit.tooltip>
+
+	<thoughts.StackLimitPerPawn>Stack Limit Per Pawn</thoughts.StackLimitPerPawn>
+	<thoughts.StackLimitPerPawn.tooltip>How many instances of this thought can exist on a single pawn that are referencing the same pawn.</thoughts.StackLimitPerPawn.tooltip>
+
+	<thoughts.StackedEffectMultiplier>Stacked Effect Multiplier</thoughts.StackedEffectMultiplier>
+	<thoughts.StackedEffectMultiplier.tooltip>This multiplier reducces the mood and opinion values of additional instances. Each instance applies multiplier^(n-1) of its values. With a multiplier of 0.8 the first one applies 100%, the second 80% and the third 64%.</thoughts.StackedEffectMultiplier.tooltip>
+
+	<thoughts.MaximumCumulatedOpinion>Maximum Cumulated Opinion</thoughts.MaximumCumulatedOpinion>
+	<thoughts.MaximumCumulatedOpinion.tooltip>If a thought can be merged with an existing thought no new instance is created, instead the opinion of the existing thought is increased. This setting defines the maximum for a merged opinion. Merging circumvents all stack settings!</thoughts.MaximumCumulatedOpinion.tooltip>
+
+	<thoughts.Stages>Stages</thoughts.Stages>
+	<thoughts.Stages.tooltip>Each thought has exactly one stage active. All stages share the thought settings.</thoughts.Stages.tooltip>
+
+	<thoughtStage.BaseMoodEffect>Base Mood Effect</thoughtStage.BaseMoodEffect>
+	<thoughtStage.BaseMoodEffect.tooltip>Setting the mood effect to something other than 0 shows the thought in the needs tab. Every thought can have a mood effect.</thoughtStage.BaseMoodEffect.tooltip>
+
+	<thoughtStage.BaseOpinionOffset>Base Opinion Offset</thoughtStage.BaseOpinionOffset>
+	<thoughtStage.BaseOpinionOffset.tooltip>Only thoughts between pawns, aka social, support opinion offsets.</thoughtStage.BaseOpinionOffset.tooltip>
+
+	<thoughtStage.Visible>Visible</thoughtStage.Visible>
+	<thoughtStage.Visible.tooltip>Whether or not the thought should be listed in the needs tab.</thoughtStage.Visible.tooltip>
+
+	<apparel.wearPerDay>WearPerDay</apparel.wearPerDay>
+	<apparel.wearPerDay.tooltip>Worn equipment takes this much damage every day(every 60000 turns).</apparel.wearPerDay.tooltip>
+
+	<apparel.layers>Layers</apparel.layers>
+	<apparel.layers.tooltip></apparel.layers.tooltip>
+
+	<apparel.bodyPartGroups>Body Parts Covered</apparel.bodyPartGroups>
+	<apparel.bodyPartGroups.tooltip></apparel.bodyPartGroups.tooltip>
+
+	<apparel.equippedStatOffsets>Wearer Stats</apparel.equippedStatOffsets>
+	<apparel.equippedStatOffsets.tooltip>Stat modifiers that apply to the wearer.</apparel.equippedStatOffsets.tooltip>
+
+	<apparel.statBases>Item Stats</apparel.statBases>
+	<apparel.statBases.tooltip>Stat modifiers that apply to this item.</apparel.statBases.tooltip>
+
+	<statModifier.Stat>Stat</statModifier.Stat>
+	<statModifier.Stat.tooltip></statModifier.Stat.tooltip>
+
+	<statModifier.Value>Value</statModifier.Value>
+	<statModifier.Value.tooltip></statModifier.Value.tooltip>
+
+	<weapons.Smeltable>Smeltable</weapons.Smeltable>
+	<weapons.Smeltable.tooltip></weapons.Smeltable.tooltip>
+
+	<weapons.WarmupTime>Warmup time</weapons.WarmupTime>
+	<weapons.WarmupTime.tooltip>Time it takes to aim until the first shot is fired. Cooldown for ranged weapons is defined as an item stat and cooldown for melee attacks is defined in tools.</weapons.WarmupTime.tooltip>
+
+	<weapons.MinRange>Min range</weapons.MinRange>
+	<weapons.MinRange.tooltip>Minimal targetable distance between cells using the hypotenuse.</weapons.MinRange.tooltip>
+
+	<weapons.Range>Max Range</weapons.Range>
+	<weapons.Range.tooltip>Maximal targetable distance between cells using the hypotenuse.</weapons.Range.tooltip>
+
+	<weapons.ForcedMissRadius>Forced miss radius</weapons.ForcedMissRadius>
+	<weapons.ForcedMissRadius.tooltip>The value defines how much a shot scatters from its target. The value is staggered based on the distance of the shot. 0-9 = no scatter, 9-25 = half, 25-49 = 80%, 49+ = 100% Then it must be above 0.5 to force a scatter. The projectile will then target a random cell within the radius defined by the staggered value around the original target. 2 would mean past 8 cells the shot can be 1 cell off.</weapons.ForcedMissRadius.tooltip>
+
+	<weapons.BurstShotCount>Burst shots</weapons.BurstShotCount>
+	<weapons.BurstShotCount.tooltip>How many shots are fired in one burst.</weapons.BurstShotCount.tooltip>
+	
+	<weapons.TicksBetweenBurstShots>Turns between shots</weapons.TicksBetweenBurstShots>
+	<weapons.TicksBetweenBurstShots.tooltip>Turns between consecutive shots in a burst.</weapons.TicksBetweenBurstShots.tooltip>
+
+	<weapons.MuzzleFlashScale>Muzzle flash scale</weapons.MuzzleFlashScale>
+	<weapons.MuzzleFlashScale.tooltip></weapons.MuzzleFlashScale.tooltip>
+
+	<weapons.DefaultProjectile>Projectile</weapons.DefaultProjectile>
+	<weapons.DefaultProjectile.tooltip>The projectile fired determines most stats for ranged weapons. Most guns will therefore have their own projectile definition.</weapons.DefaultProjectile.tooltip>
+
+	<weapons.StatBases>Item Stats</weapons.StatBases>
+	<weapons.StatBases.tooltip></weapons.StatBases.tooltip>
+
+	<weapons.Tools>Tools</weapons.Tools>
+	<weapons.Tools.tooltip>Melee attacks that are possible with this weapon.</weapons.Tools.tooltip>
+
+	<toolSettings.Power>Power</toolSettings.Power>
+	<toolSettings.Power.tooltip>Base power that gets modified by the "MeleeWeapon_DamageMultiplier" item stat. If the weapon was crafted with a material that materials matching damage type multiplier is applied as well.</toolSettings.Power.tooltip>
+
+	<toolSettings.Capacities>Capacities</toolSettings.Capacities>
+	<toolSettings.Capacities.tooltip>Determines the damage type.</toolSettings.Capacities.tooltip>
+
+	<toolSettings.Cooldown>Cooldown</toolSettings.Cooldown>
+	<toolSettings.Cooldown.tooltip>Base cooldown time that is adjusted by the "MeleeWeapon_CooldownMultiplier" item stat.</toolSettings.Cooldown.tooltip>
+
+	<projectiles.FlyOverhead>Fly overhead</projectiles.FlyOverhead>
+	<projectiles.FlyOverhead.tooltip>Projectile acts like a mortar. Roofing over the target gets hit but things in between are safe.</projectiles.FlyOverhead.tooltip>
+
+	<projectiles.DamageAmountBase>Damage amount base</projectiles.DamageAmountBase>
+	<projectiles.DamageAmountBase.tooltip></projectiles.DamageAmountBase.tooltip>
+
+	<projectiles.StoppingPower>Stopping power</projectiles.StoppingPower>
+	<projectiles.StoppingPower.tooltip>If the stopping power is at least equal to the body size of the target, the target is staggered.</projectiles.StoppingPower.tooltip>
+
+	<projectiles.ArmorPenetrationBase>Armor penetration base</projectiles.ArmorPenetrationBase>
+	<projectiles.ArmorPenetrationBase.tooltip>Armor penetration reduces the armor rating before applying damage.</projectiles.ArmorPenetrationBase.tooltip>
+
+	<projectiles.Speed>Speed</projectiles.Speed>
+	<projectiles.Speed.tooltip></projectiles.Speed.tooltip>
+
+	<projectiles.DamageDef>Damage type</projectiles.DamageDef>
+	<projectiles.DamageDef.tooltip></projectiles.DamageDef.tooltip>
+
+	<plants.PathCost>Path-Cost</plants.PathCost>
+	<plants.PathCost.tooltip></plants.PathCost.tooltip>
+
+	<plants.PathCostIgnoreRepeat>Path-Cost ignore repeat</plants.PathCostIgnoreRepeat>
+	<plants.PathCostIgnoreRepeat.tooltip>When a pawn is moving between "ignore repeaters" they do not add their path cost.</plants.PathCostIgnoreRepeat.tooltip>
+
+	<plants.BlockWind>Block wind</plants.BlockWind>
+	<plants.BlockWind.tooltip></plants.BlockWind.tooltip>
+
+	<plants.FoodType>Food-Type</plants.FoodType>
+	<plants.FoodType.tooltip></plants.FoodType.tooltip>
+
+	<plants.FoodPreferability>Food-Preferability</plants.FoodPreferability>
+	<plants.FoodPreferability.tooltip></plants.FoodPreferability.tooltip>
+
+	<plants.FertilityMin>Fertility-Min</plants.FertilityMin>
+	<plants.FertilityMin.tooltip>The terrain must have at least this much fertility to allow planting.</plants.FertilityMin.tooltip>
+
+	<plants.FertilitySensitivity>Fertility-Sensitivity</plants.FertilitySensitivity>
+	<plants.FertilitySensitivity.tooltip>How much the terrains fertility accounts for. At 0 the fertility is always 100%. At 1.0 the fertility always matches the terrains fertility. Formula: terrainFertility * sensitivity + 1 - sensitivity</plants.FertilitySensitivity.tooltip>
+
+	<plants.SowWork>Sowing-Work</plants.SowWork>
+	<plants.SowWork.tooltip></plants.SowWork.tooltip>
+
+	<plants.SowMinSkill>Skill requirement</plants.SowMinSkill>
+	<plants.SowMinSkill.tooltip></plants.SowMinSkill.tooltip>
+
+	<plants.MustBeWildToSow>Restrict by Biome</plants.MustBeWildToSow>
+	<plants.MustBeWildToSow.tooltip>If this is turned off a plant can be planted in biomes that it normally wouldn't grow.</plants.MustBeWildToSow.tooltip>
+
+	<plants.HarvestWork>Harvest-Work</plants.HarvestWork>
+	<plants.HarvestWork.tooltip></plants.HarvestWork.tooltip>
+
+	<plants.HarvestedThingDef>Harvest-Product</plants.HarvestedThingDef>
+	<plants.HarvestedThingDef.tooltip></plants.HarvestedThingDef.tooltip>
+
+	<plants.HarvestYield>Yield</plants.HarvestYield>
+	<plants.HarvestYield.tooltip></plants.HarvestYield.tooltip>
+
+	<plants.HarvestMinGrowth>Min-Growth</plants.HarvestMinGrowth>
+	<plants.HarvestMinGrowth.tooltip>How much the plant must have grown before being harvestable.</plants.HarvestMinGrowth.tooltip>
+
+	<plants.HarvestFailable>Harvest can fail</plants.HarvestFailable>
+	<plants.HarvestFailable.tooltip></plants.HarvestFailable.tooltip>
+
+	<plants.BlockAdjacentSow>Block adjacent sowing</plants.BlockAdjacentSow>
+	<plants.BlockAdjacentSow.tooltip></plants.BlockAdjacentSow.tooltip>
+
+	<plants.VisualSizeRangeMin>Min-Visual-Size</plants.VisualSizeRangeMin>
+	<plants.VisualSizeRangeMin.tooltip>How big the plant is rendered at minimum growth.</plants.VisualSizeRangeMin.tooltip>
+
+	<plants.VisualSizeRangeMax>Max-Visual-Size</plants.VisualSizeRangeMax>
+	<plants.VisualSizeRangeMax.tooltip>How big the plant is rendered at maximum growth.</plants.VisualSizeRangeMax.tooltip>
+
+	<plants.TopWindExposure>Top-Wind-Exposure</plants.TopWindExposure>
+	<plants.TopWindExposure.tooltip>Uses different colors in overlays.</plants.TopWindExposure.tooltip>
+
+	<plants.WildClusterRadius>Wild growth radius</plants.WildClusterRadius>
+	<plants.WildClusterRadius.tooltip></plants.WildClusterRadius.tooltip>
+
+	<plants.WildClusterWeight>Wild growth weight</plants.WildClusterWeight>
+	<plants.WildClusterWeight.tooltip></plants.WildClusterWeight.tooltip>
+
+	<plants.WildOrder>Wild order</plants.WildOrder>
+	<plants.WildOrder.tooltip></plants.WildOrder.tooltip>
+
+	<plants.InterferesWithRoof>Blocks roof</plants.InterferesWithRoof>
+	<plants.InterferesWithRoof.tooltip></plants.InterferesWithRoof.tooltip>
+
+	<plants.statBases>Item Stats</plants.statBases>
+	<plants.statBases.tooltip></plants.statBases.tooltip>
+	
+	<material.PathCost>Path Cost</material.PathCost>
+	<material.PathCost.tooltip>Additional turns taken to cross a cell with this item laying inside it.</material.PathCost.tooltip>
+	<material.UseHitPoints>Use Hit Points</material.UseHitPoints>
+	<material.UseHitPoints.tooltip></material.UseHitPoints.tooltip>
+	<material.DeepCommonality>Deep Commonality</material.DeepCommonality>
+	<material.DeepCommonality.tooltip>How common the item appears in the depth layer of a newly generated map.</material.DeepCommonality.tooltip>
+	<material.DeepCountPerPortion>Deep Count per Portion</material.DeepCountPerPortion>
+	<material.DeepCountPerPortion.tooltip>How much is extracted with a single deep drill action.</material.DeepCountPerPortion.tooltip>
+	<material.DeepCountPerCell>Deep Count per Cell</material.DeepCountPerCell>
+	<material.DeepCountPerCell.tooltip>How much is stored in a single deep cell when the resource is generated.</material.DeepCountPerCell.tooltip>
+	<material.DeepLumpSizeMin>Deep Lump Size Min</material.DeepLumpSizeMin>
+	<material.DeepLumpSizeMin.tooltip>How many cells are at least generated with this resource when a vein is created.</material.DeepLumpSizeMin.tooltip>
+	<material.DeepLumpSizeMax>Deep Lump Size Max</material.DeepLumpSizeMax>
+	<material.DeepLumpSizeMax.tooltip>How many cells are at most generated with this resource when a vein is created.</material.DeepLumpSizeMax.tooltip>
+	<material.statBases>Item Base Stats</material.statBases>
+	<material.statBases.tooltip>Stats that define the item itself, NOT items made from this.</material.statBases.tooltip>
+	<material.Smeltable>Smeltable</material.Smeltable>
+	<material.Smeltable.tooltip>Allows smeltable things made from this material to be smelted or not.</material.Smeltable.tooltip>
+	<material.Commonality>Commonality</material.Commonality>
+	<material.Commonality.tooltip>How often the item appears in places like trader inventory or random loot.</material.Commonality.tooltip>
+	<material.Color>Color</material.Color>
+	<material.Color.tooltip>Color associated with the material in menues and things made of this. Useless if the material uses a random color generator.</material.Color.tooltip>
+	<material.StatFactors>Crafted Stat Factors</material.StatFactors>
+	<material.StatFactors.tooltip>A multiplicative value that modifies the stats of things made from this.</material.StatFactors.tooltip>
+	<material.StatOffsets>Crafted Stat Offsets</material.StatOffsets>
+	<material.StatOffsets.tooltip>A flat value that modifies the stats of things made from this.</material.StatOffsets.tooltip>
+	
+	<food.PathCost>Path Cost</food.PathCost>
+	<food.PathCost.tooltip>Additional turns taken to cross a cell with this item laying inside it.</food.PathCost.tooltip>
+	<food.UseHitPoints>Use Hit Points</food.UseHitPoints>
+	<food.UseHitPoints.tooltip></food.UseHitPoints.tooltip>
+	<food.DeepCommonality>Deep Commonality</food.DeepCommonality>
+	<food.DeepCommonality.tooltip>How common the item appears in the depth layer of a newly generated map.</food.DeepCommonality.tooltip>
+	<food.DeepCountPerPortion>Deep Count per Portion</food.DeepCountPerPortion>
+	<food.DeepCountPerPortion.tooltip>How much is extracted with a single deep drill action.</food.DeepCountPerPortion.tooltip>
+	<food.DeepCountPerCell>Deep Count per Cell</food.DeepCountPerCell>
+	<food.DeepCountPerCell.tooltip>How much is stored in a single deep cell when the resource is generated.</food.DeepCountPerCell.tooltip>
+	<food.DeepLumpSizeMin>Deep Lump Size Min</food.DeepLumpSizeMin>
+	<food.DeepLumpSizeMin.tooltip>How many cells are at least generated with this resource when a vein is created.</food.DeepLumpSizeMin.tooltip>
+	<food.DeepLumpSizeMax>Deep Lump Size Max</food.DeepLumpSizeMax>
+	<food.DeepLumpSizeMax.tooltip>How many cells are at most generated with this resource when a vein is created.</food.DeepLumpSizeMax.tooltip>
+	<food.statBases>Item Base Stats</food.statBases>
+	<food.statBases.tooltip>Stats that define the item itself, NOT items made from this.</food.statBases.tooltip>
+	<food.FoodType>Food-Type</food.FoodType>
+	<food.FoodType.tooltip></food.FoodType.tooltip>
+	<food.FoodPreferability>Food-Preferability</food.FoodPreferability>
+	<food.FoodPreferability.tooltip></food.FoodPreferability.tooltip>
+	<food.MaxNumToIngestAtOnce>Eat at once</food.MaxNumToIngestAtOnce>
+	<food.MaxNumToIngestAtOnce.tooltip>Maximum number of instances of this item to eat in one go.</food.MaxNumToIngestAtOnce.tooltip>
+	<food.BaseIngestTicks>Work to eat</food.BaseIngestTicks>
+	<food.BaseIngestTicks.tooltip>How much work is required to eat the item.</food.BaseIngestTicks.tooltip>
+	<food.ChairSearchRadius>Chair search radius</food.ChairSearchRadius>
+	<food.ChairSearchRadius.tooltip>How far the eater will search for a chair. A search radius below or at 10 will not cause "Ate without a table" or "Impressive dining hall" thoughts.</food.ChairSearchRadius.tooltip>
+	<food.UseEatingSpeedStat>Use Eating Speed</food.UseEatingSpeedStat>
+	<food.UseEatingSpeedStat.tooltip>If true then the work is amount is modified by the eaters eating speed stat.</food.UseEatingSpeedStat.tooltip>
+	<food.IngestHoldUsesTable>Held uses table</food.IngestHoldUsesTable>
+	<food.IngestHoldUsesTable.tooltip>Whether a pawn will face a table surface when eating a held item next to one.</food.IngestHoldUsesTable.tooltip>
+	<food.Joy>Joy</food.Joy>
+	<food.Joy.tooltip>How much joy is generated by eating this item.</food.Joy.tooltip>
+	<food.Nurseable>Social-Consumption</food.Nurseable>
+	<food.Nurseable.tooltip>Wheter a drug can be consumed during a social relaxation.</food.Nurseable.tooltip>
+	<food.OptimalityOffsetHumanlikes>Optimality humanlikes</food.OptimalityOffsetHumanlikes>
+	<food.OptimalityOffsetHumanlikes.tooltip></food.OptimalityOffsetHumanlikes.tooltip>
+	<food.OptimalityOffsetFeedingAnimals>Optimality feeding animals</food.OptimalityOffsetFeedingAnimals>
+	<food.OptimalityOffsetFeedingAnimals.tooltip></food.OptimalityOffsetFeedingAnimals.tooltip>
+	<food.TasteThought>Taste thought</food.TasteThought>
+	<food.TasteThought.tooltip></food.TasteThought.tooltip>
+	<food.SpecialThoughtDirect>Eaten directly thought</food.SpecialThoughtDirect>
+	<food.SpecialThoughtDirect.tooltip></food.SpecialThoughtDirect.tooltip>
+	<food.SpecialThoughtAsIngredient>Eaten as ingredient thought</food.SpecialThoughtAsIngredient>
+	<food.SpecialThoughtAsIngredient.tooltip></food.SpecialThoughtAsIngredient.tooltip>
+	<food.JoyKind>Joy category</food.JoyKind>
+	<food.JoyKind.tooltip>Which category of joy is filled with the value specified in "Joy".</food.JoyKind.tooltip>
+	<food.DrugCategory>Drug category</food.DrugCategory>
+	<food.DrugCategory.tooltip></food.DrugCategory.tooltip>
+			
+</LanguageData>

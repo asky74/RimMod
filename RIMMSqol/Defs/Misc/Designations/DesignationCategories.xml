@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignationCategoryDef>
+    <defName>PFDir</defName>
+    <label>PF-Directions</label>
+    <description>Designate where pawns can move.</description>
+    <order>1300</order>
+    <specialDesignatorClasses>
+      <li>RIMMSqol.pathfinding.Designator_PathfinderDirections</li>
+	  <li>RIMMSqol.pathfinding.Designator_PathfinderFillDirections</li>
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+</Defs>

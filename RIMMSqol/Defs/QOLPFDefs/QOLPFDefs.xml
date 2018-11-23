@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.QOLPFDef>
+		<defName>AStar</defName>
+		<label>A*</label>
+		<description>Faster than vanilla and allows configuring when to cut corners for performance. Configuration should contain a number that specifies the distance from start to finish after which an approximated path is used for performance gain.</description>
+		<algorithmClass>RIMMSqol.pathfinding.AStarOpt</algorithmClass>
+	</RIMMSqol.QOLPFDef>
+</Defs>

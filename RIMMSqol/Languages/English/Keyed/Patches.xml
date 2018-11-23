@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<PawnRotation>pawn rotation</PawnRotation>
+	<PawnRotationDescription>Instead of calculating an angle and then reducing it to a north, south, west, east direction this code bypasses the angle and thus speeds up the calculation for the direction that a pawn faces.</PawnRotationDescription>
+	
+	<ForbidByContext>forbid by context</ForbidByContext>
+	<ForbidByContextDescription>Marks items as forbidden based on who wants to do what with them. Food restrictions are implemented with this.</ForbidByContextDescription>
+	
+	<Pathfinding>pathfinding</Pathfinding>
+	<PathfindingDescription>Custom pathfinding and directional restrictions.</PathfindingDescription>
+	
+	<PreventAnimalFamilies>prevent animal families</PreventAnimalFamilies>
+	<PreventAnimalFamiliesDescription>When parent relations or birth tales are created this prevents the action if its only for animals.</PreventAnimalFamiliesDescription>
+	
+	<StopSkillDecay>stop skilldecay</StopSkillDecay>
+	<StopSkillDecayDescription>Prevents the loss of experience.</StopSkillDecayDescription>
+	
+	<StopTamenessDecay>stop tameness decay</StopTamenessDecay>
+	<StopTamenessDecayDescription>Prevents the loss of taming and training progress over time.</StopTamenessDecayDescription>
+	
+	<TrackLevelUp>track levelup</TrackLevelUp>
+	<TrackLevelUpDescription>Observes the skill levels of pawns and assigns thoughts that display motes.</TrackLevelUpDescription>
+	
+	<ArchitectButtonVisibility>architect button visiblity</ArchitectButtonVisibility>
+	<ArchitectButtonVisibilityDescription>Instead of loading all buttons in the cache of the architect window, a filter for visibility is applied.</ArchitectButtonVisibilityDescription>
+	
+	<DefMap>def maps</DefMap>
+	<DefMapDescription>Fixes the save state to prevent data loss when changing the load order of mods that add custom records or work types.</DefMapDescription>
+	
+	<RemnantColony>remnant colony</RemnantColony>
+	<RemnantColonyDescription>Replaces the behaviour when abondaning settlements to spawn a remnant colony instead of an abandoned faction base.</RemnantColonyDescription>
+	
+	<NumericTextboxes>numeric textboxes</NumericTextboxes>
+	<NumericTextboxesDescription>Vanilla input elements do not allow entering numbers that do not change the numeric value of the input. For example adding a zero after the decimal point as the last number or adding a zero at the beginning of the number. The new inputs do not destroy user input and display existing min max constraines if the input exceeds them. Also generates correct ids.</NumericTextboxesDescription>
+	
+	<WorldPawnGC>world pawn gc</WorldPawnGC>
+	<WorldPawnGCDescription>Garbage collection in vanilla runs redundant loops when determining if a dead pawn has a relation to a still living pawn. With the sprawling of animal families it causes massive lag spikes in long running games. By fixing the iteration a pawn with 10 relatives causes 10 checks instead of 100.</WorldPawnGCDescription>
+	
+	<DoBillIngredientSearchRadius>recipe radius</DoBillIngredientSearchRadius>
+	<DoBillIngredientSearchRadiusDescription>In vanilla ingredients are searched map wide even if the ingredient radius limits the possible candidates to a much smaller area. This patch limits the search to regions that overlap with the ingredient search circle.</DoBillIngredientSearchRadiusDescription>
+	
+	<DoBillIngredientOverflow>ingredient overflow</DoBillIngredientOverflow>
+	<DoBillIngredientOverflowDescription>Recipes can consume too many ingredients if they allow mixing, like all meal recipes. This patch removes surplus ingredients from ingredient searches.</DoBillIngredientOverflowDescription>
+	
+	<LanguageChangeListener>language change listener</LanguageChangeListener>
+	<LanguageChangeListenerDescription>Triggers translation tasks when the language changes.</LanguageChangeListenerDescription>
+	
+	<DebugMenuOptions>debug actions</DebugMenuOptions>
+	<DebugMenuOptionsDescription>Adds entries to the debug menu for convenience.</DebugMenuOptionsDescription>
+</LanguageData>

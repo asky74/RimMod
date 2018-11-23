@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "KnowGuestExecuted"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+</Patch>

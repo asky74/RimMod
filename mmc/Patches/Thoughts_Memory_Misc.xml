@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/stages/li/description</xpath>
+	    <value>
+				<description>This colony sold a prisoner into slavery.</description>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/stages/li/baseMoodEffect</xpath>
+	    <value>
+			<baseMoodEffect>0</baseMoodEffect>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "KnowGuestOrganHarvested"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+
+	<!-- ============== Human corpse butchering ===============-->
+	
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
+	    <value>
+			<baseMoodEffect>-3</baseMoodEffect>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
+	    <value>
+			<baseMoodEffect>-3</baseMoodEffect>
+	    </value>
+	</Operation>
+	
+	
+	<!-- ============== Combat ============== -->
+		
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/stackLimit</xpath>
+	    <value>
+			<stackLimit>1</stackLimit>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "WitnessedDeathNonAlly"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+	
+	<!-- Banishing pawns -->
+  
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "ColonistBanished"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/ThoughtDef[defName = "ColonistBanishedToDie"]/stages/li/baseMoodEffect</xpath>
+	    <value>
+			<baseMoodEffect>-3</baseMoodEffect>
+	    </value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "PrisonerBanishedToDie"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+</Patch>

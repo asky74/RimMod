@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <RecordDef>
+    <defName>CuMSpent</defName>
+    <label>CuMSpent</label>
+    <description>The amount of customization points I have spent.</description>
+    <type>Float</type>
+  </RecordDef>
+
+</Defs>

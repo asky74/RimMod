@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<PawnColumnDef>
+		<defName>RulesetColumn</defName>
+		<workerClass>RIMMSqol.PawnColumnWorker_RulesetColumn</workerClass>
+	</PawnColumnDef>
+</Defs>

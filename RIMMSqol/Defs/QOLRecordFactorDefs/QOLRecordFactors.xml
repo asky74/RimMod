@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorCuMSpent</defName><recordDef>CuMSpent</recordDef><factor>-1</factor></RIMMSqol.QOLRecordFactorDef>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorPrisonersRecruited</defName><recordDef>PrisonersRecruited</recordDef><factor>1</factor></RIMMSqol.QOLRecordFactorDef>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorOperationsReceived</defName><recordDef>OperationsReceived</recordDef><factor>1</factor></RIMMSqol.QOLRecordFactorDef>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorTimesInMentalState</defName><recordDef>TimesInMentalState</recordDef><factor>1</factor></RIMMSqol.QOLRecordFactorDef>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorKillsHumanlikes</defName><recordDef>KillsHumanlikes</recordDef><factor>1</factor></RIMMSqol.QOLRecordFactorDef>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorKillsMechanoids</defName><recordDef>KillsMechanoids</recordDef><factor>1</factor></RIMMSqol.QOLRecordFactorDef>
+	<RIMMSqol.QOLRecordFactorDef><defName>QOLRecordFactorTimeAsColonistOrColonyAnimal</defName><recordDef>TimeAsColonistOrColonyAnimal</recordDef><factor>0.0000055556</factor></RIMMSqol.QOLRecordFactorDef>
+</Defs>

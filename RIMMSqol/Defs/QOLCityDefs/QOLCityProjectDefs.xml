@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.remnantcolony.QOLCityProjectDef>
+		<defName>QOLBasecamp</defName>
+		<label>basecamp</label>
+		<description>Just enough to get started.</description>
+		<order>1</order>
+		<lifetime>3600000</lifetime>
+		<autospawnTimer>1</autospawnTimer>
+		<labour>0</labour>
+		<maximumInstances>1</maximumInstances>
+		<worldObject>AbandonedSettlement</worldObject>
+		<indicators>
+			<li>
+				<indicator>QOLLawform</indicator>
+				<flat>0</flat>
+				<factor>1</factor>
+			</li>
+		</indicators>
+		<needs>
+			<li>
+				<need>QOLFood</need>
+				<requirementFlat>0.0</requirementFlat>
+				<requirementFactor>0.0</requirementFactor>
+				<contributionFlat>10.0</contributionFlat>
+				<contributionFactor>1.0</contributionFactor>
+			</li>
+		</needs>
+		<requirements>
+			<li Class="RIMMSqol.remnantcolony.QOLCityProjectRequirement_PopulationCount">
+				<min>1</min>
+				<max>9999</max>
+			</li>
+		</requirements>
+	</RIMMSqol.remnantcolony.QOLCityProjectDef>
+</Defs>

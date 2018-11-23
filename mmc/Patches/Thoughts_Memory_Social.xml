@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "SoldPrisoner"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "ExecutedPrisoner"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>	
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "AteRawHumanlikeMeat"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpseOpinion"]</xpath>
+	    <value>
+			<requiredTraits>
+				<li>Kind</li>
+			</requiredTraits>
+	    </value>
+	</Operation>
+</Patch>

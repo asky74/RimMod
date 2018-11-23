@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.remnantcolony.QOLCityDef>
+		<defName>QOLDefaultCity</defName>
+		<label>City</label>
+		<description>A settlement that is growing into a bristling community.</description>
+		
+		<projects>
+			<li>QOLBasecamp</li>
+		</projects>
+		
+		<needs>
+			<li>QOLFood</li>
+		</needs>
+		
+		<indicators>
+			<li>QOLLawform</li>
+		</indicators>
+		
+		<resources>
+			<li>QOLResourceWood</li>
+		</resources>
+		
+		<population>
+			<socialStandings>
+				<li>QOLSSNormal</li>
+				<li>QOLSSHigher</li>
+				<li>QOLSSHighest</li>
+				<li>QOLSSLower</li>
+				<li>QOLSSLowest</li>
+			</socialStandings>
+			<immigrationLaws>
+				<li Class="RIMMSqol.remnantcolony.QOLCityPopulationImmigrationLaw_AtLeastHumanlikeIntelligence"></li>
+			</immigrationLaws>
+			<contributions>
+				<li Class="RIMMSqol.remnantcolony.QOLCityPopulationContribution_Needs">
+					<need>QOLFood</need>
+					<pawnFilters>
+						<li Class="RIMMSqol.remnantcolony.QOLCityPopulationPawnFilter_Flesh"/>
+					</pawnFilters>
+					<multiplierPopulationCount>1.0</multiplierPopulationCount>
+					<isRequirement>true</isRequirement>
+				</li>
+				<li Class="RIMMSqol.remnantcolony.QOLCityPopulationContribution_Needs">
+					<need>QOLEnergy</need>
+					<pawnFilters>
+						<li Class="RIMMSqol.remnantcolony.QOLCityPopulationPawnFilter_Not">
+							<filter Class="RIMMSqol.remnantcolony.QOLCityPopulationPawnFilter_Flesh"/>
+						</li>
+					</pawnFilters>
+					<multiplierPopulationCount>1.0</multiplierPopulationCount>
+					<isRequirement>true</isRequirement>
+				</li>
+				<li Class="RIMMSqol.remnantcolony.QOLCityPopulationContribution_Needs">
+					<need>QOLHousing</need>
+					<multiplierPopulationCount>1.0</multiplierPopulationCount>
+					<isRequirement>true</isRequirement>
+				</li>
+				<li Class="RIMMSqol.remnantcolony.QOLCityPopulationContribution_Needs">
+					<need>QOLLabour</need>
+					<multiplierPopulationCount>1.0</multiplierPopulationCount>
+					<isRequirement>false</isRequirement>
+				</li>
+				<li Class="RIMMSqol.remnantcolony.QOLCityPopulationContribution_Indicator">
+					<indicator>QOLLawform</indicator>
+					<multiplierPopulationCount>1.0</multiplierPopulationCount>
+				</li>
+			</contributions>
+		</population>
+	</RIMMSqol.remnantcolony.QOLCityDef>
+</Defs>

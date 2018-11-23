@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RIMMSqol.remnantcolony.QOLCityResourceDef>
+		<defName>QOLResourceWood</defName>
+		<label>wood</label>
+		<description>How much wood is accessible.</description>
+		
+		<icon>Things/Item/Resource/WoodLog</icon>
+		<order>10</order>
+	</RIMMSqol.remnantcolony.QOLCityResourceDef>
+</Defs>
