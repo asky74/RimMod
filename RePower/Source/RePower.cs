@@ -221,14 +221,14 @@ namespace RePower
 
 
                 if (def.IsWorkTable || def.hasInteractionCell) {
-                    //Logger.Message(string.Format("Table {0} / {1} / {2} / {3} / {4} / {5}", def.defName, minbpc, bpc, tc.NullOrEmpty() ? "false" : string.Join(",", tc.Select(x => x.defName).ToArray()), def.designationCategory, def.hasInteractionCell));
-                    RegisterWorkTable(def.defName, minbpc, bpc); }
+                    Logger.Message(string.Format("Table {0} / {1} / {2} / {3} / {4} / {5}", def.defName, minbpc, bpc, tc.NullOrEmpty() ? "false" : string.Join(",", tc.Select(x => x.defName).ToArray()), def.designationCategory, def.hasInteractionCell));
+                    RegisterWorkTable(def.defName, -minbpc, -bpc); }
                 else {
                         string desname = def.designationCategory.defName;
                     if ( desname == "Joy" || desname == "Structure" || def.HasComp(typeof(CompFacility)) )
                         {
-                            //Logger.Message(string.Format("Reg {0} / {1} / {2} / {3} / {4} / {5}", def.defName, minbpc, bpc, tc.NullOrEmpty() ? "false" : string.Join(",", tc.Select(x => x.defName).ToArray()), def.designationCategory, def.hasInteractionCell));
-                            RegisterSpecialPowerTrader(def.defName, minbpc, bpc);
+                            Logger.Message(string.Format("Reg {0} / {1} / {2} / {3} / {4} / {5}", def.defName, minbpc, bpc, tc.NullOrEmpty() ? "false" : string.Join(",", tc.Select(x => x.defName).ToArray()), def.designationCategory, def.hasInteractionCell));
+                            RegisterSpecialPowerTrader(def.defName, -minbpc, -bpc);
                         }
                 }
 

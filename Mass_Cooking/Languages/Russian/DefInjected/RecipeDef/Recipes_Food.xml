@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_Pemmican_Stack.label>приготовить стак пеммикана</Make_Pemmican_Stack.label>
+  <Make_Pemmican_Stack.description>Высушить мясо и смешать его с жиром и ингредиентами растительного происхождения. Вкусовые качества у такой пищи сомнительные, зато она может храниться целый год, даже находясь в тепле.</Make_Pemmican_Stack.description>
+  <Make_Pemmican_Stack.jobString>Делает пеммикан.</Make_Pemmican_Stack.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PowerLogicSwitches.label>логические переключатели</PowerLogicSwitches.label>
+  <PowerLogicSwitches.description>Позволяет создавать логические переключатели.</PowerLogicSwitches.description>
+
+  <PowerLogicSensors.label>логические датчики</PowerLogicSensors.label>
+  <PowerLogicSensors.description>Позволяет создавать логические нажимные пластины, датчики приближения.</PowerLogicSensors.description>
+
+  <PowerLogicRemotes.label>логические дистанционные датчики</PowerLogicRemotes.label>
+  <PowerLogicRemotes.description>Позволяет создавать удаленные датчики приближения, ретрансляторы и удаленные переключатели.</PowerLogicRemotes.description>
+
+  <PowerLogicRemotesAdvanced.label>продвинутая удаленная логика</PowerLogicRemotesAdvanced.label>
+  <PowerLogicRemotesAdvanced.description>Позволяет создавать продвинутые логические устройства, такие как ретрансляторы и передатчики.</PowerLogicRemotesAdvanced.description>
+
+  <PowerLogicRemotesMultiChannel.label>удвленная мультиканальная логика</PowerLogicRemotesMultiChannel.label>
+  <PowerLogicRemotesMultiChannel.description>Обновляет существующие устройства удаленной логики для использования до двух каналов вместо одного.</PowerLogicRemotesMultiChannel.description>
+
+  <PowerLogicInductivePower.label>логическая индуктивная передача энергии</PowerLogicInductivePower.label>
+  <PowerLogicInductivePower.description>Позволяет строить индукционные катушки, которые могут быть использованы для передачи энергии между катушкой эмиттером и катушкой приемником, полезно для передачи энергетических каналов без присоединения к ним. Ток проходит через индуктивную катушку эмиттер, которая генерирует магнитное поле, индуктивная катушка приемник затем резонирует в тандеме с этим полем, которое заставляет индуктор генерировать ток на своей стороне энергосистемы.</PowerLogicInductivePower.description>
+
+
+</LanguageData>

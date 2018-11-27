@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<RecipeDef Name="CookMealStackSimple" ParentName="CookMealBase">
+		<defName>CookMealStackSimple</defName>
+		<label>cook stack of simple meals</label>
+		<description>Cook ten straightforward meals from one ingredient.</description>
+		<jobString>Cooking simple meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSimple>10</MealSimple>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<workAmount>3000</workAmount>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<li>Campfire</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealStackFine</defName>
+		<label>cook stack of fine meals</label>
+		<description>Cook ten somewhat complex meals from a combination of meat and plant ingredients.</description>
+		<jobString>Cooking fine meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>2.5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>2.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealFine>10</MealFine>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<workAmount>4500</workAmount>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealStackLavish</defName>
+		<label>cook stack of lavish meals</label>
+		<description>Cook ten very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+		<jobString>Cooking lavish meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealLavish>10</MealLavish>
+		</products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<workAmount>8000</workAmount>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="CookMealBase">
+		<defName>CookMealStackSurvival</defName>
+		<label>cook stack of packaged survival meals</label>
+		<description>Prepare ten packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+		<jobString>Cooking survival meal.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>AnimalProductRaw</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>PlantFoodRaw</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<MealSurvivalPack>10</MealSurvivalPack>
+		</products>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+		<workAmount>4500</workAmount>
+		<recipeUsers>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>

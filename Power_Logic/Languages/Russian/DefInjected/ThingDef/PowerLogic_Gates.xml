@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SupesBaseGate.label>логический шлюз</SupesBaseGate.label>
+  <SupesBaseGate.description>Он позволяет подавать питание через шлюз, когда два источника питания подключены к соседним входным гнездам. Подобно переключателю "остановка на переключателе", за исключением того, что этот переключатель изолирует его источники питания.</SupesBaseGate.description>
+  <SupesBaseGate_Blueprint.label>логический шлюз (проект)</SupesBaseGate_Blueprint.label>
+  <SupesBaseGate_Frame.label>логический шлюз (постройка)</SupesBaseGate_Frame.label>
+
+  <SupesInputSocket.label>входное гнездо</SupesInputSocket.label>
+  <SupesInputSocket.description>подключите их логическим шлюзам и ваш кабель питания, чтобы назначить вход</SupesInputSocket.description>
+  <SupesInputSocket_Blueprint.label>входное гнездо (проект)</SupesInputSocket_Blueprint.label>
+  <SupesInputSocket_Frame.label>входное гнездо (постройка)</SupesInputSocket_Frame.label>
+
+  <SupesGateInverter.label>инвертор</SupesGateInverter.label>
+  <SupesGateInverter.description>Он инвертирует вывод логического шлюза, который он размещается рядом. требуется постоянный источник питания для правильной работы.</SupesGateInverter.description>
+  <SupesGateInverter_Blueprint.label>инвертор (проект)</SupesGateInverter_Blueprint.label>
+  <SupesGateInverter_Frame.label>инвертор (постройка)</SupesGateInverter_Frame.label>
+
+
+</LanguageData>

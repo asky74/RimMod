@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CoreDrill.label>основной бур</CoreDrill.label>
+  <CoreDrill.description>Ультра-глубокая буровая установка для извлечения минералов из глубин под поверхностью.</CoreDrill.description>
+  <CoreDrill_Blueprint.label>основной бур (проект)</CoreDrill_Blueprint.label>
+  <CoreDrill_Frame.label>основной бур (постройка)</CoreDrill_Frame.label>
+
+
+</LanguageData>

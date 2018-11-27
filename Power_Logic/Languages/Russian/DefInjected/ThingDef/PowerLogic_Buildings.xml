@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SupesPressureSensor.label>датчик нажимной пластины</SupesPressureSensor.label>
+  <SupesPressureSensor.description>он включается, когда что-то шагает по нему, и выключается, когда на нём ничего нет.</SupesPressureSensor.description>
+  <SupesPressureSensor_Blueprint.label>датчик нажимной пластины (проект)</SupesPressureSensor_Blueprint.label>
+  <SupesPressureSensor_Frame.label>датчик нажимной пластины (постройка)</SupesPressureSensor_Frame.label>
+
+  <SupesProxSensor.label>датчик приближения</SupesProxSensor.label>
+  <SupesProxSensor.description>Он включает питание, когда кто-то находится в радиусе действия, и выключается, когда никого нет. имеет ограниченный диапазон, но не потребляет электроэнергию.</SupesProxSensor.description>
+  <SupesProxSensor_Blueprint.label>датчик приближения (проект)</SupesProxSensor_Blueprint.label>
+  <SupesProxSensor_Blueprint_Install.label>датчик приближения (проект)</SupesProxSensor_Blueprint_Install.label>
+  <SupesProxSensor_Frame.label>датчик приближения (постройка)</SupesProxSensor_Frame.label>
+
+  <SupesRemoteProxSensor.label>удаленный датчик приближения</SupesRemoteProxSensor.label>
+  <SupesRemoteProxSensor.description>При срабатывании передается сигнал соседнему приемник переключатель или ретранслятор на том же канале. радиус датчика можно расширить, но будет потреблять больше энергии для большей зоны действия.</SupesRemoteProxSensor.description>
+  <SupesRemoteProxSensor_Blueprint.label>удаленный датчик приближения (проект)</SupesRemoteProxSensor_Blueprint.label>
+  <SupesRemoteProxSensor_Blueprint_Install.label>удаленный датчик приближения (проект)</SupesRemoteProxSensor_Blueprint_Install.label>
+  <SupesRemoteProxSensor_Frame.label>удаленный датчик приближения (постройка)</SupesRemoteProxSensor_Frame.label>
+
+  <SupesStayOnGate.label>остановка на переключателе</SupesStayOnGate.label>
+  <SupesStayOnGate.description>Он подаёт питание при подключении к другим двум источникам питания или кабелям</SupesStayOnGate.description>
+  <SupesStayOnGate_Blueprint.label>остановка на переключателе (проект)</SupesStayOnGate_Blueprint.label>
+  <SupesStayOnGate_Frame.label>остановка на переключателе (постройка)</SupesStayOnGate_Frame.label>
+
+  <SupesLightSensor.label>переключатель датчика света</SupesLightSensor.label>
+  <SupesLightSensor.description>Он включается, при достижении определённого порога освещенности.</SupesLightSensor.description>
+  <SupesLightSensor_Blueprint.label>переключатель датчика света (проект)</SupesLightSensor_Blueprint.label>
+  <SupesLightSensor_Frame.label>переключатель датчика света (постройка)</SupesLightSensor_Frame.label>
+
+  <SupesHeatSensor.label>переключатель датчика тепла</SupesHeatSensor.label>
+  <SupesHeatSensor.description>Этот переключатель срабатывает, при достижении верхнего или нижнего порога температуры.</SupesHeatSensor.description>
+  <SupesHeatSensor_Blueprint.label>переключатель датчика тепла (проект)</SupesHeatSensor_Blueprint.label>
+  <SupesHeatSensor_Frame.label>переключатель датчика тепла (постройка)</SupesHeatSensor_Frame.label>
+
+  <SupesCutoffSwitch.label>переключатель датчика конденсатора</SupesCutoffSwitch.label>
+  <SupesCutoffSwitch.description>Когда ёмкость аккумулятора падает ниже порога, этот переключатель выключается и не включается пока не будет достигнут верхний порог.</SupesCutoffSwitch.description>
+  <SupesCutoffSwitch_Blueprint.label>переключатель датчика конденсатора (проект)</SupesCutoffSwitch_Blueprint.label>
+  <SupesCutoffSwitch_Frame.label>переключатель датчика конденсатора (постройка)</SupesCutoffSwitch_Frame.label>
+
+  <SupesRemoteSwitch.label>дистанционно управляемый переключатель</SupesRemoteSwitch.label>
+  <SupesRemoteSwitch.description>Включает питание при обнаружении беспроводного сигнала, транслируемого по тому же каналу, на который настроен.</SupesRemoteSwitch.description>
+  <SupesRemoteSwitch_Blueprint.label>дистанционно управляемый переключатель (проект)</SupesRemoteSwitch_Blueprint.label>
+  <SupesRemoteSwitch_Blueprint_Install.label>дистанционно управляемый переключатель (проект)</SupesRemoteSwitch_Blueprint_Install.label>
+  <SupesRemoteSwitch_Frame.label>дистанционно управляемый переключатель (постройка)</SupesRemoteSwitch_Frame.label>
+
+  <SupesSignalRepeater.label>ретранслятор сигнала</SupesSignalRepeater.label>
+  <SupesSignalRepeater.description>Получает беспроводной сигнал и повторно транслирует его, эффективен при расширении расстояния, на которое может передаваться сигнал.</SupesSignalRepeater.description>
+  <SupesSignalRepeater_Blueprint.label>ретранслятор сигнала (проект)</SupesSignalRepeater_Blueprint.label>
+  <SupesSignalRepeater_Blueprint_Install.label>ретранслятор сигнала (проект)</SupesSignalRepeater_Blueprint_Install.label>
+  <SupesSignalRepeater_Frame.label>ретранслятор сигнала (постройка)</SupesSignalRepeater_Frame.label>
+
+  <SupesSignalTransmitter.label>передатчик сигнала</SupesSignalTransmitter.label>
+  <SupesSignalTransmitter.description>Передает беспроводной сигнал при питании.</SupesSignalTransmitter.description>
+  <SupesSignalTransmitter_Blueprint.label>передатчик сигнала (проект)</SupesSignalTransmitter_Blueprint.label>
+  <SupesSignalTransmitter_Blueprint_Install.label>передатчик сигнала (проект)</SupesSignalTransmitter_Blueprint_Install.label>
+  <SupesSignalTransmitter_Frame.label>передатчик сигнала (постройка)</SupesSignalTransmitter_Frame.label>
+
+  <SupesPowerBridgeInductor.label>индуктивная катушка приемник</SupesPowerBridgeInductor.label>
+  <SupesPowerBridgeInductor.description>Устройство, которое в основном состоит из катушечного провода, это устройство собирает энергию от катушки эмиттера и подает в подключенную энергосистему на указанную мощность.</SupesPowerBridgeInductor.description>
+  <SupesPowerBridgeInductor_Blueprint.label>индуктивная катушка приемник (проект)</SupesPowerBridgeInductor_Blueprint.label>
+  <SupesPowerBridgeInductor_Blueprint_Install.label>индуктивная катушка приемник (проект)</SupesPowerBridgeInductor_Blueprint_Install.label>
+  <SupesPowerBridgeInductor_Frame.label>индуктивная катушка приемник (постройка)</SupesPowerBridgeInductor_Frame.label>
+
+  <SupesPowerBridgeBeamer.label>индуктивная катушка эмиттер</SupesPowerBridgeBeamer.label>
+  <SupesPowerBridgeBeamer.description>Устройство, которое в основном генерирует электромагнитное поле, это поле может быть задействовано индуктивной катушкой приемником.</SupesPowerBridgeBeamer.description>
+  <SupesPowerBridgeBeamer_Blueprint.label>индуктивная катушка эмиттер (проект)</SupesPowerBridgeBeamer_Blueprint.label>
+  <SupesPowerBridgeBeamer_Blueprint_Install.label>индуктивная катушка эмиттер (проект)</SupesPowerBridgeBeamer_Blueprint_Install.label>
+  <SupesPowerBridgeBeamer_Frame.label>индуктивная катушка эмиттер (постройка)</SupesPowerBridgeBeamer_Frame.label>
+  
+  <SupesRemoteDoor.label>дверь с удаленным управлением</SupesRemoteDoor.label>
+  <SupesRemoteDoor.description>Разделяет комнаты. Может запускать набор макросов после обнаружения беспроводного сигнала. Работа с питанием позволяет людям двигаться через дверь без замедления.</SupesRemoteDoor.description>
+  <SupesRemoteDoor_Blueprint.label>дверь с удаленным управлением (проект)</SupesRemoteDoor_Blueprint.label>
+  <SupesRemoteDoor_Frame.label>дверь с удаленным управлением (постройка)</SupesRemoteDoor_Frame.label>
+ 
+  <SupesEntangledSwitch.label>запутанный переключатель</SupesEntangledSwitch.label>
+  <SupesEntangledSwitch.description>Этот переключатель использует квантовое переплетение для связи с другим переключателем. Запутанный переключатель всегда становится противоположным состоянием переключателя, с которым он запутался, независимо от того, насколько далеко расположены переключатели. Процесс запутывания является необратимым, и как только связь была установлена, его нельзя изменить.</SupesEntangledSwitch.description>
+  <SupesEntangledSwitch_Blueprint.label>запутанный переключатель (проект)</SupesEntangledSwitch_Blueprint.label>
+  <SupesEntangledSwitch_Frame.label>запутанный переключатель (постройка)</SupesEntangledSwitch_Frame.label>
+
+
+</LanguageData>

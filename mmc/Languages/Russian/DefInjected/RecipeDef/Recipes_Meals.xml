@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookMealStackSimple.label>Приготовить стак простых блюд</CookMealStackSimple.label>
+  <CookMealStackSimple.description>Приготовить простую еду из одного ингредиента.</CookMealStackSimple.description>
+  <CookMealStackSimple.jobString>Готовит простые блюда.</CookMealStackSimple.jobString>
+
+  <CookMealStackFine.label>Приготовить стак вкусных блюд</CookMealStackFine.label>
+  <CookMealStackFine.description>Приготовить несколько сложную пищу из комбинации сырого мяса и растительных ингредиентов.</CookMealStackFine.description>
+  <CookMealStackFine.jobString>Готовит вкусные блюда.</CookMealStackFine.jobString>
+
+  <CookMealStackLavish.label>Приготовить стак шикарных блюд</CookMealStackLavish.label>
+  <CookMealStackLavish.description>Приготовить очень сложную пищу из комбинации сырого мяса и растительных ингредиентов. Большая часть ингредиентов теряется.</CookMealStackLavish.description>
+  <CookMealStackLavish.jobString>Готовит шикарные блюда.</CookMealStackLavish.jobString>
+
+  <CookMealStackSurvival.label>Приготовить стак сухих пайков</CookMealStackSurvival.label>
+  <CookMealStackSurvival.description>Приготовить упакованные пайки для выживания из комбинации сырого мяса и растительных ингредиентов. Большая часть ингредиентов теряется.</CookMealStackSurvival.description>
+  <CookMealStackSurvival.jobString>Готовит сухие пайки.</CookMealStackSurvival.jobString>
+
+
+
+</LanguageData>

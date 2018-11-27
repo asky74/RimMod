@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PowerLogic.TrasmitterSending>Передача</PowerLogic.TrasmitterSending>
+  <PowerLogic.TrasmitterInactive>Не запитан: Неактивен</PowerLogic.TrasmitterInactive>
+  <PowerLogic.ReceiverListening>Прослушивание сигнала:</PowerLogic.ReceiverListening>
+  <PowerLogic.ReceiverDetectSignal> Обнаружен - {0}</PowerLogic.ReceiverDetectSignal>
+  <PowerLogic.ReceiverDetectBounce> с помощью {0}</PowerLogic.ReceiverDetectBounce>
+  <PowerLogic.ReceiverInactive>Не прослушивает / неактивен</PowerLogic.ReceiverInactive>
+  <PowerLogic.IFFFriendlyOff>Не срабатывать на дружественных</PowerLogic.IFFFriendlyOff>
+  <PowerLogic.IFFFriendlyOn>Срабатывать на дружественных</PowerLogic.IFFFriendlyOn>
+  <PowerLogic.IFFFoeOff>Не срабатывать на враждебных</PowerLogic.IFFFoeOff>
+  <PowerLogic.IFFFoeOn>Срабатывать на враждебных</PowerLogic.IFFFoeOn>
+  <PowerLogic.SensorRangeUp>Увеличение диапазона датчика</PowerLogic.SensorRangeUp>
+  <PowerLogic.SensorRangeDown>Уменьшение диапазона датчика</PowerLogic.SensorRangeDown>
+  <PowerLogic.SensorRangeUpDesc>Это увеличивает диапазон вашего датчика приближения, но требует больше энергии.</PowerLogic.SensorRangeUpDesc>
+  <PowerLogic.SensorRangeDownDesc>Это уменьшает диапазон вашего датчика приближения, используя меньшее количество энергии для работы.</PowerLogic.SensorRangeDownDesc>
+  <PowerLogic.RadioCurrentChannel>Текущий канал: {0}</PowerLogic.RadioCurrentChannel>
+  <PowerLogic.RadioChannelUp>Увеличить канал</PowerLogic.RadioChannelUp>
+  <PowerLogic.RadioChannelDown>Уменьшить канал</PowerLogic.RadioChannelDown>
+  <PowerLogic.RadioChannelUpDesc>Это изменяет диапазон беспроводной связи, который устройство прослушивает / передает на более высокую частоту канала. Допустимые каналы находятся между {0} и {1}</PowerLogic.RadioChannelUpDesc>
+  <PowerLogic.RadioChannelDownDesc>Это изменяет диапазон беспроводной связи, который устройство прослушивает / передает на более низкую частоту канала. Допустимые каналы находятся между {0} и {1}</PowerLogic.RadioChannelDownDesc>
+  <PowerLogic.CutoffRange>Отключение батареи / диапазон зарядки {0}</PowerLogic.CutoffRange>
+  <PowerLogic.LowBatCutOff>Низкий заряд (Выкл), высокий заряд (Вкл)</PowerLogic.LowBatCutOff>
+  <PowerLogic.HighBatCutOff>Высокий заряд (Выкл), низкий заряд (Вкл)</PowerLogic.HighBatCutOff>
+  <PowerLogic.CutoffSettings>Настройки</PowerLogic.CutoffSettings>
+  <PowerLogic.InductorDesiredDraw>Требуемая мощность: {0} W</PowerLogic.InductorDesiredDraw>
+  <PowerLogic.BeamerReconnectLabel>Подключить индуктор</PowerLogic.BeamerReconnectLabel>
+  <PowerLogic.BeamerReconnectDesc>Подключите эту индуктивную катушку эмиттер к другой индуктивной катушке приемнику.</PowerLogic.BeamerReconnectDesc>
+  <PowerLogic.InductorReconnectDesc>Подключите эту индуктивную катушку приемник к другой индуктивной катушке эмиттеру.</PowerLogic.InductorReconnectDesc>
+  <PowerLogic.DoorMacro>Макрос</PowerLogic.DoorMacro>
+  <PowerLogic.DoorAddOpenAction>Открыть дверь</PowerLogic.DoorAddOpenAction>
+  <PowerLogic.DoorAddCloseAction>Закрыть дверь</PowerLogic.DoorAddCloseAction>
+  <PowerLogic.DoorDelay>Задержка: {0} секунд</PowerLogic.DoorDelay>
+  <PowerLogic.DoorFlickOff>Выключение</PowerLogic.DoorFlickOff>
+  <PowerLogic.DoorForbid>Запретить использовать дверь</PowerLogic.DoorForbid>
+  <PowerLogic.DoorUnforbid>Разрешить использовать дверь</PowerLogic.DoorUnforbid>
+  <PowerLogic.DoorChannelSwitch>Изменить канал</PowerLogic.DoorChannelSwitch>
+  <PowerLogic.DoorChannelSwitch1>Изменить первичный канал</PowerLogic.DoorChannelSwitch1>
+  <PowerLogic.DoorChannelSwitch2>Изменить вторичный канал</PowerLogic.DoorChannelSwitch2>
+  <PowerLogic.CurrnetLight>Текущий уровень освещенности: {0}</PowerLogic.CurrnetLight>
+  <PowerLogic.TargetLight>Порог освещенности: {0}</PowerLogic.TargetLight>
+  <PowerLogic.LightUpLabel>Повысить порог освещенности</PowerLogic.LightUpLabel>
+  <PowerLogic.LightDownLabel>Понизить порог освещенности</PowerLogic.LightDownLabel>
+  <PowerLogic.DayNightCutoffLabel>Условия порога освещенности</PowerLogic.DayNightCutoffLabel>
+  <PowerLogic.DayNightCutoffDesc>Он переключается, когда достигается верхний или нижний порог освещенности.</PowerLogic.DayNightCutoffDesc>
+  <PowerLogic.LightUpDesc>Это повышает нижний порог, который запускает переключатель</PowerLogic.LightUpDesc>
+  <PowerLogic.LightDownDesc>Это снижает порог нижний освещенности, который запускает переключатель</PowerLogic.LightDownDesc>
+  <PowerLogic.InductorTab>Индуктор</PowerLogic.InductorTab>
+  <PowerLogic.InductorStaticDraw>Статическая подача энергии</PowerLogic.InductorStaticDraw>
+  <PowerLogic.InductorStaticDrawDesc>Это позволяет индуктивной катушке приемнику набирать фиксированное количество энергии от индуктивной катушки эмиттера, полезно для логических схем, где индукторы не обеспечивают подачу питания все время</PowerLogic.InductorStaticDrawDesc>
+  <PowerLogic.InductorAdaptiveDraw>Адаптивная подача энергии</PowerLogic.InductorAdaptiveDraw>
+  <PowerLogic.InductorAdaptiveDrawDesc>Это позволяет индуктору адаптировать требуемую мощность в соответствии с требованиями к питанию подключенной энергосети. Полезно для энергосетей с различными требованиями к мощности. Обратите внимание, что это распределяет желаемую мощность, требуемую от всех индуктивных приемников на электрической сети</PowerLogic.InductorAdaptiveDrawDesc>
+  <PowerLogic.InductorLimiter>Лимит подачи энергии</PowerLogic.InductorLimiter>
+  <PowerLogic.InductorLimiterDesc>Индуктивный приемник будет пытаться получить это количество энергии от индуктивного эмиттера</PowerLogic.InductorLimiterDesc>
+  <PowerLogic.InductorDrawCompensator>Компенсация смены подачи: {0}</PowerLogic.InductorDrawCompensator>
+  <PowerLogic.InductorDrawCompensatorDesc>Это увеличивает количество дополнительной мощности, требуемой в течение короткого времени, когда изменяются требования к энергосети, чтобы избежать отключения всех устройств, например. солнечные батареи теряют свет</PowerLogic.InductorDrawCompensatorDesc>
+  <PowerLogic.InductorOverDraw>Сверх подача: {0}</PowerLogic.InductorOverDraw>
+  <PowerLogic.InductorOverDrawDesc>Это увеличивает желаемую мощность, полезную для зарядки батарей в сети питания приемников или предотвращения внезапных изменений мощности до того, как компенсация мощности начнет накапливаться. Обратите внимание, что если батареи эффективно заряжены, перегрузка не будет применена к желаемой мощности. Если более одного индуктора находится в одной сети, максимальная перегрузка будет распределена по всеми индукторами до тех пор, пока индукторы не будут перегружены.</PowerLogic.InductorOverDrawDesc>
+  <PowerLogic.InductorForcedOverDraw>Всегда применять свех подачу</PowerLogic.InductorForcedOverDraw>
+  <PowerLogic.InductorForcedOverDrawDesc>Это заставит Сверх Подачу всегда быть активной, даже если никакие подключенные устройства не требуют питания</PowerLogic.InductorForcedOverDrawDesc>
+  <PowerLogic.InductorPositiveOnly>Только положительный эмиттер</PowerLogic.InductorPositiveOnly>
+  <PowerLogic.InductorPositiveOnlyDesc>Когда Включено, эмиттер он никогда не будет потреблять энергию от батарей, и попытается создать равновесие с доступной мощностью. Обратите внимание, если у вас есть несколько индукторов в одной и той же энергосети, все индукторы, у которых есть излучатели в одной и той же энергосети, будут затронуты.</PowerLogic.InductorPositiveOnlyDesc>
+  <PowerLogic.NoBeamer>Предупреждение, никакого эффекта, приемник не подключен к эмиттеру.</PowerLogic.NoBeamer>
+  <PowerLogic.HeatTriggerAbove>Включить, когда выше {0}</PowerLogic.HeatTriggerAbove>
+  <PowerLogic.HeatTriggerBelow>Включить, когда ниже {0}</PowerLogic.HeatTriggerBelow>
+  <PowerLogic.HeatCurrentTemp>Текущая температура {0}</PowerLogic.HeatCurrentTemp>
+  <PowerLogic.OnAboveTarget>Вкл верхнюю цель</PowerLogic.OnAboveTarget>
+  <PowerLogic.OnBelowTarget>Вкл нижнию цель</PowerLogic.OnBelowTarget>
+  <PowerLogic.AndGate>Шлюз И</PowerLogic.AndGate>
+  <PowerLogic.OrGate>Шлюз ИЛИ</PowerLogic.OrGate>
+  <PowerLogic.XorGate>Шлюз исключающее ИЛИ</PowerLogic.XorGate>
+  <PowerLogic.AndGateDesc>Шлюз И обеспечивает питание через шлюз, когда два источника питания подключены к соседним входным гнездам. Подобно переключателю "остановка на переключателе", за исключением того, что этот переключатель изолирует его источники питания.</PowerLogic.AndGateDesc>
+  <PowerLogic.OrGateDesc>Шлюз (Xor) ИЛИ обеспечивает питание через шлюз, когда по крайней мере один источник питания подключен к входным гнездам.</PowerLogic.OrGateDesc>
+  <PowerLogic.XorGateDesc>Исключающий ИЛИ (Xor) шлюз обеспечивает питание через шлюз, когда один источник питания подключен к его входным гнездам и отключает питание, когда подключены два источника питания или нет ни одного.</PowerLogic.XorGateDesc>
+  <PowerLogic.Entanglement>Запутать</PowerLogic.Entanglement>
+  <PowerLogic.EntanglementState>Запутать с {0}</PowerLogic.EntanglementState>
+  <PowerLogic.EntangleConfirm>Он будет постоянно связывать этот переключатель с {0}. Вы хотите продолжить?</PowerLogic.EntangleConfirm>
+  <PowerLogic.BatShortRange>Сократить диапазон</PowerLogic.BatShortRange>
+
+</LanguageData>

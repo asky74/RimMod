@@ -368,7 +368,7 @@
   <MessageSiteCountdownBecauseNoEnemiesInitially>Через {0} караван продолжит путь. Вы можете досрочно отправить караван, перейдя на карту мира.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
   <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
-  <MessageCantBanishDownedPawn>Невозможно изгнать {PAWN_labelShort}, так как {PAWN_pronoun} не может ходить.</MessageCantBanishDownedPawn>
+  <MessageCantBanishDownedPawn>Невозможно изгнать {0}, так как {1} не может ходить.</MessageCantBanishDownedPawn>
 
   <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>Вы разбудили {0}.</MessageSleepingPawnsWokenUp>
@@ -387,9 +387,9 @@
   <MessagePawnResurrected>Вы воскресили {0}!</MessagePawnResurrected>
 
   <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
-  <MessageFailedToRescueRelative>Вам не удалось спасти {PAWN_labelShort}. {RELATIVE_labelShort} будет горевать.</MessageFailedToRescueRelative>
+  <MessageFailedToRescueRelative>Вам не удалось спасти {0}. {1} будет горевать.</MessageFailedToRescueRelative>
   <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>Вы спасли {PAWN_labelShort}. {RELATIVE_labelShort} обрадуется этому.</MessageRescuedRelative>
+  <MessageRescuedRelative>Вы спасли {0}. {1} обрадуется этому.</MessageRescuedRelative>
 
   <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>Смерч покинул местность.</MessageTornadoLeftMap>
@@ -403,13 +403,13 @@
   <MessageWarningCavePlantsExposedToLight>Внимание: {0} не выживет на свету.</MessageWarningCavePlantsExposedToLight>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort} не может добраться до {OLDTARGET_label} и направляет свою ярость на {TARGET_label}.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{0} не может добраться до {1} и направляет свою ярость на {2}.</MessageTargetedTantrumChangedTarget>
 
   <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort} не может добраться до {OLDTARGET_label} и направляет свою ярость на {TARGET_label}.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{0} не может добраться до {1} и направляет свою ярость на {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
   <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort} направляет свою ярость на {TARGET_label}.</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{0} направляет свою ярость на {1}.</MessageMurderousRageChangedTarget>
 
   <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} не растёт под крышей.</MessagePlantIncompatibleWithRoof>
@@ -420,7 +420,7 @@
   <MessageChoseRoute>Караван начнёт путешествие к первой назначенной точке маршрута.</MessageChoseRoute>
 
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <MessageCraftedMasterwork>{WORKER_labelShort} завершает свой шедевр, {CRAFTED_labelShort}.</MessageCraftedMasterwork>
+  <MessageCraftedMasterwork>{0} завершает свой шедевр, {1}.</MessageCraftedMasterwork>
 
   <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Чтобы покинуть это место, нажмите кнопку «Продолжить путь» во вкладке «Мир».</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
@@ -434,7 +434,7 @@
   <!-- EN: attacked {1_labelShort} -->
   <GoodwillChangedReason_AttackedPawn>на {1_labelShort} напали</GoodwillChangedReason_AttackedPawn>
   <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
-  <GoodwillChangedReason_UsedItem>на {TARGET_labelShort} использовали {ITEM_labelShort}</GoodwillChangedReason_UsedItem>
+  <GoodwillChangedReason_UsedItem>на {0} использовали {1}</GoodwillChangedReason_UsedItem>
   <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>изъят орган, {0}</GoodwillChangedReason_RemovedBodyPart>
   <!-- EN: needlessly installed {0} -->
