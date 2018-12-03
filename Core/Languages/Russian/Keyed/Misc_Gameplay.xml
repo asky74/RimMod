@@ -429,7 +429,7 @@
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>Нельзя отдавать приказы неконтролируемым юнитам.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>{1_labelShort} не в состоянии причинить насилие.</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{0} не в состоянии причинить насилие.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>неспособен к насилию</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->

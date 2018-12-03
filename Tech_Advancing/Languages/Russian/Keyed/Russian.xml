@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <TAcfgmenulabel>Tech Advancing</TAcfgmenulabel>
+	
+  <newTechLevelLetterTitle>новый техноуровень</newTechLevelLetterTitle>
+  <newTechLevelLetterContents>Поздравляю, исследователь завершил проект который сделал {0} умнее. Новый уровень</newTechLevelLetterContents>
+  
+  <ConfigEditTechlevelChange>Из-за изменений того как Tech Advancing влияет на игру, ваш техуровень был изменён на</ConfigEditTechlevelChange>
+  
+  <configHeader>Здесь Вы можете изменить правила:</configHeader>
+  <configRuleAdesc>Правило A: \nЕсли игрок изучил все технологии уровня X и ниже, техуровень возрастает на X +</configRuleAdesc>
+  <configRuleBdesc>Правило B: \nЕсли игрок изучил более 50% технологий уровня Y, техуровень возрастает на Y +</configRuleBdesc>
+  <configRuleBSliderdesc>Этот ползунок регулирует порог для Правила B.</configRuleBSliderdesc>
+  <configRadioBtnNeolithic>Неолит / Племя</configRadioBtnNeolithic>
+  <configRadioBtnAutoDetect>Авто (по умолчанию)</configRadioBtnAutoDetect>
+  <configRadioBtnIndustrial>Индустриальный / Поселение</configRadioBtnIndustrial>
+  <configBaseTechLvl>Базовый уровень технологий</configBaseTechLvl>
+  <configTribe>Племя</configTribe>
+  <configColony>Поселение</configColony>
+  <configSetToTribe>Установить как Племя</configSetToTribe>
+  <configSetToColony>Установить как Поселение</configSetToColony>
+  <configNeolithic>Неолит</configNeolithic>
+  <configIndustrial>Индустриальный</configIndustrial>
+  <configWordDefault>по умолчанию:</configWordDefault>
+  <configExpectedTechLvl>Ожидаемый техуровень для этого правила:</configExpectedTechLvl>
+  <configResultingTechLvl>Текуший техуровень:</configResultingTechLvl>
+  <configCheckboxNeedTechColonists>Вы не сможете развить технологии выше уровня '{0}' если в вашем послении будут только члены племени.</configCheckboxNeedTechColonists>
+  <configCheckboxNeedTechColonists_CappedAt>Как результат - ваш техуровень ограничен до '{0}' пока ваше поселение не получит человека не из племени.</configCheckboxNeedTechColonists_CappedAt>
+  
+  <newTechLevelMedievalCapRemLetterTitle>Передовые техуровени разблокированы</newTechLevelMedievalCapRemLetterTitle>
+  <newTechLevelMedievalCapRemLetterContents>К {0} присоединился человек который обучил их некоторым хитростям. Средневековья больше нет. Поздравляю!</newTechLevelMedievalCapRemLetterContents>
+  <newTechLevelMedievalCapRemLetterTitleRev>Передовые техуровени заблокированы</newTechLevelMedievalCapRemLetterTitleRev>
+  <newTechLevelMedievalCapRemLetterContentsRev>Не осталось людей знакомых с высокими технологиями. По этой причине средневековье возвращается!</newTechLevelMedievalCapRemLetterContentsRev>
+  
+  <TAcfgunavailable>Настройка доступна только во время игры на карте.</TAcfgunavailable>
+  
+  <availableTechLvls>Доступные уровни технологий:</availableTechLvls>
+  
+  <TA_TL_Archotech>Архотек</TA_TL_Archotech>
+  <TA_TL_Ultra>Утопический</TA_TL_Ultra>
+  <TA_TL_Spacer>Космический</TA_TL_Spacer>
+  <TA_TL_Industrial>Индустриальный</TA_TL_Industrial>
+  <TA_TL_Medieval>Средневековый</TA_TL_Medieval>
+  <TA_TL_Neolithic>Неолит</TA_TL_Neolithic>
+  <TA_TL_Animal>Животные</TA_TL_Animal>
+  <TA_TL_Undefined>неопределённый</TA_TL_Undefined>
+  
+  
+</LanguageData>

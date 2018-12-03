@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RimHUD.RelationKindAndFaction>{0}{1}{2}</RimHUD.RelationKindAndFaction>
+  <RimHUD.OfFaction> из {0}</RimHUD.OfFaction>
+
+  <RimHUD.Faction.Own>Наш </RimHUD.Faction.Own>
+  <RimHUD.Faction.Wild>Дикий </RimHUD.Faction.Wild>
+  <RimHUD.Faction.Allied>Союзник </RimHUD.Faction.Allied>
+  <RimHUD.Faction.Enemy>Враг </RimHUD.Faction.Enemy>
+  <RimHUD.Faction.Hostile>Враждебный </RimHUD.Faction.Hostile>
+  <RimHUD.Faction.Independent>Нейтральный </RimHUD.Faction.Independent>
+
+  <RimHUD.Creature.Wild>существо</RimHUD.Creature.Wild>
+  <RimHUD.Creature.Tame>прирученное существо</RimHUD.Creature.Tame>
+  <RimHUD.Creature.Stray>бездомное</RimHUD.Creature.Stray>
+  <RimHUD.Creature.Pet>питомец</RimHUD.Creature.Pet>
+  <RimHUD.Creature.ExoticPet>экзотический питомец</RimHUD.Creature.ExoticPet>
+  <RimHUD.Creature.Predator>хищник</RimHUD.Creature.Predator>
+  <RimHUD.Creature.Hunt>охотничье животное</RimHUD.Creature.Hunt>
+  <RimHUD.Creature.Pack>стайное животное</RimHUD.Creature.Pack>
+  <RimHUD.Creature.Farm>домашний скот</RimHUD.Creature.Farm>
+  <RimHUD.Creature.Herd>стадное животное</RimHUD.Creature.Herd>
+  <RimHUD.Creature.Insect>насекомое</RimHUD.Creature.Insect>
+
+  <RimHUD.GenderAndAge>{0}{1} старый {2}</RimHUD.GenderAndAge>
+  <RimHUD.Age.Birthday> (Сегодня день рождения)</RimHUD.Age.Birthday>
+  <RimHUD.Age.Day> и один день</RimHUD.Age.Day>
+  <RimHUD.Age.Days> и {0} дней</RimHUD.Age.Days>
+
+  <RimHUD.Health.Dead>Мёртв</RimHUD.Health.Dead>
+  <RimHUD.Health.Incapacitated>Недееспособен</RimHUD.Health.Incapacitated>
+  <RimHUD.Health.Bleed>Истечет кровью через {0}</RimHUD.Health.Bleed>
+  <RimHUD.Health.Tend>{0} состоянию требуется уход</RimHUD.Health.Tend>
+  <RimHUD.Health.TendPlural>{0} состояниям требуется уход</RimHUD.Health.TendPlural>
+  <RimHUD.Health.Threat>Имеет угрозу для жизни {0}</RimHUD.Health.Threat>
+  <RimHUD.Health.ThreatPlural>Имеет {0} состояний угрожающих жизни</RimHUD.Health.ThreatPlural>
+  <RimHUD.Health.Sick>Страдает от {0}</RimHUD.Health.Sick>
+  <RimHUD.Health.SickPlural>Страдает от {0} и {1} других состояний</RimHUD.Health.SickPlural>
+  <RimHUD.Health.Stable>Здоровье стабильно</RimHUD.Health.Stable>
+  <RimHUD.Health.IsTended> (ухаживает)</RimHUD.Health.IsTended>
+
+  <RimHUD.Mood.ExtremeBreakImminent>Депрессия</RimHUD.Mood.ExtremeBreakImminent>
+  <RimHUD.Mood.MajorBreakImminent>Недовольство</RimHUD.Mood.MajorBreakImminent>
+  <RimHUD.Mood.MinorBreakImminent>Стресс</RimHUD.Mood.MinorBreakImminent>
+  <RimHUD.Mood.Happy>Счастье</RimHUD.Mood.Happy>
+  <RimHUD.Mood.Content>Довольство</RimHUD.Mood.Content>
+  <RimHUD.Mood.Indifferent>Равнодушие</RimHUD.Mood.Indifferent>
+
+  <RimHUD.Info.Activity>Деятельность: {0}</RimHUD.Info.Activity>
+  <RimHUD.Info.Attacking>атакует {0}</RimHUD.Info.Attacking>
+  <RimHUD.Info.Queued>В очереди: {0}</RimHUD.Info.Queued>
+  <RimHUD.Info.Equipped>Экипировано: {0}</RimHUD.Info.Equipped>
+  <RimHUD.Info.Carrying>Переносит: {0}</RimHUD.Info.Carrying>
+
+  <RimHUD.Bio.Title>Профессия: {0}</RimHUD.Bio.Title>
+  <RimHUD.Bio.Faction>Фракция: {0}</RimHUD.Bio.Faction>
+  <RimHUD.Bio.Master>Хозяин: {0}</RimHUD.Bio.Master>
+  <RimHUD.Bio.Diet>Диета: {0}</RimHUD.Bio.Diet>
+  <RimHUD.Bio.Trainability>Обучаемость: {0}</RimHUD.Bio.Trainability>
+  <RimHUD.Bio.Wildness>Дикость: {0}</RimHUD.Bio.Wildness>
+  <RimHUD.Bio.Petness>Одомашненность: {0}</RimHUD.Bio.Petness>
+
+  <RimHUD.Selector.OutfitFormat>Снаряжение: {0}</RimHUD.Selector.OutfitFormat>
+  <RimHUD.Selector.FoodFormat>Питание: {0}</RimHUD.Selector.FoodFormat>
+  <RimHUD.Selector.TimetableFormat>График: {0}</RimHUD.Selector.TimetableFormat>
+  <RimHUD.Selector.SetTimeAssignment>Установите {0} час на {1}</RimHUD.Selector.SetTimeAssignment>
+  <RimHUD.Selector.AreaFormat>Зона: {0}</RimHUD.Selector.AreaFormat>
+  <RimHUD.Selector.Manage>Настроить...</RimHUD.Selector.Manage>
+
+
+</LanguageData>

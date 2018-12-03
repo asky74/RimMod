@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RimHUD.Integration.GetMod>Ссылка на мод</RimHUD.Integration.GetMod>
+
+  <RimHUD.Integration.PawnRules>Правила пешки</RimHUD.Integration.PawnRules>
+
+  <RimHUD.InspectPane.PawnRules.RuleNameFormat>Правила: {0}</RimHUD.InspectPane.PawnRules.RuleNameFormat>
+  <RimHUD.InspectPane.PawnRules.NoRules>Нет</RimHUD.InspectPane.PawnRules.NoRules>
+  <RimHUD.Theme.PawnRules.InspectPaneAddRules>Показать правила</RimHUD.Theme.PawnRules.InspectPaneAddRules>
+
+  <RimHUD.Theme.PawnRules.HideGizmo>Скрыть гизмо</RimHUD.Theme.PawnRules.HideGizmo>
+  <RimHUD.Theme.PawnRules.HideGizmoDesc>Отключает правила гизмо, которые появляются рядом с кнопкой "к бою", так как RimHUD добавляет кнопку правил в панель проверки.</RimHUD.Theme.PawnRules.HideGizmoDesc>
+
+  <RimHUD.Integration.Bubbles>Пузырьки взаимодействия</RimHUD.Integration.Bubbles>
+  <RimHUD.Theme.Bubbles.Activated>Активировать</RimHUD.Theme.Bubbles.Activated>
+  <RimHUD.Theme.Bubbles.DoNonPlayer>Показывать для чужих фракций</RimHUD.Theme.Bubbles.DoNonPlayer>
+  <RimHUD.Theme.Bubbles.DoAnimals>Показывать для взаимодействий с животными</RimHUD.Theme.Bubbles.DoAnimals>
+
+  <RimHUD.Theme.Bubbles.MinScale>Минимальный отображаемый масштаб</RimHUD.Theme.Bubbles.MinScale>
+  <RimHUD.Theme.Bubbles.ScaleStart>Шкала начального масштаба</RimHUD.Theme.Bubbles.ScaleStart>
+  <RimHUD.Theme.Bubbles.MaxWidth>Максимальная ширина</RimHUD.Theme.Bubbles.MaxWidth>
+  <RimHUD.Theme.Bubbles.Spacing>Интервал</RimHUD.Theme.Bubbles.Spacing>
+  <RimHUD.Theme.Bubbles.StartOffset>Смещение от надписи</RimHUD.Theme.Bubbles.StartOffset>
+  <RimHUD.Theme.Bubbles.OffsetDirection>Направление смещения</RimHUD.Theme.Bubbles.OffsetDirection>
+  <RimHUD.Theme.Bubbles.OffsetDirections>Вниз|Влево|Вверх|Вправо</RimHUD.Theme.Bubbles.OffsetDirections>
+  <RimHUD.Theme.Bubbles.StartOpacity>Начальная непрозрачность</RimHUD.Theme.Bubbles.StartOpacity>
+  <RimHUD.Theme.Bubbles.MouseOverOpacity>Непрозрачность при наведении мыши</RimHUD.Theme.Bubbles.MouseOverOpacity>
+
+  <RimHUD.Theme.Bubbles.MinTime>Минимальное время исчезновения</RimHUD.Theme.Bubbles.MinTime>
+  <RimHUD.Theme.Bubbles.FadeStart>Тиков до начала исчезновения</RimHUD.Theme.Bubbles.FadeStart>
+  <RimHUD.Theme.Bubbles.FadeLength>Тиков до исчезновения</RimHUD.Theme.Bubbles.FadeLength>
+  <RimHUD.Theme.Bubbles.MaxPerPawn>Максимум на пешку</RimHUD.Theme.Bubbles.MaxPerPawn>
+
+  <RimHUD.Theme.Bubbles.FontSize>Размер шрифта</RimHUD.Theme.Bubbles.FontSize>
+  <RimHUD.Theme.Bubbles.PaddingX>Отступ текста X</RimHUD.Theme.Bubbles.PaddingX>
+  <RimHUD.Theme.Bubbles.PaddingY>Отступ текста Y</RimHUD.Theme.Bubbles.PaddingY>
+
+  <RimHUD.Theme.Bubbles.Colors>Цвета пузыря</RimHUD.Theme.Bubbles.Colors>
+  <RimHUD.Theme.Bubbles.ForeColor>Цвет текста</RimHUD.Theme.Bubbles.ForeColor>
+  <RimHUD.Theme.Bubbles.BackColor>Цвет фона</RimHUD.Theme.Bubbles.BackColor>
+  <RimHUD.Theme.Bubbles.SelectedForeColor>Выбранный цвет текста</RimHUD.Theme.Bubbles.SelectedForeColor>
+  <RimHUD.Theme.Bubbles.SelectedBackColor>Выбранный цвет фона</RimHUD.Theme.Bubbles.SelectedBackColor>
+
+  <RimHUD.Integration.General>Общие настройки</RimHUD.Integration.General>
+  <RimHUD.Theme.GeneralIntegration.ShowCustomNeeds>Показать потребности от других модов</RimHUD.Theme.GeneralIntegration.ShowCustomNeeds>
+
+</LanguageData>

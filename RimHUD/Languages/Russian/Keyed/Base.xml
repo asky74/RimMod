@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <RimHUD.ToggleHud>Показать HUD</RimHUD.ToggleHud>
+
+  <RimHUD.Button.OK>OK</RimHUD.Button.OK>
+  <RimHUD.Button.Yes>Да</RimHUD.Button.Yes>
+  <RimHUD.Button.No>Нет</RimHUD.Button.No>
+  <RimHUD.Button.Cancel>Отмена</RimHUD.Button.Cancel>
+  <RimHUD.Button.Close>Закрыть</RimHUD.Button.Close>
+
+  <RimHUD.Dialog_Config.Title>RimHUD</RimHUD.Dialog_Config.Title>
+  <RimHUD.Dialog_Config.SetToDefault>По умолчанию</RimHUD.Dialog_Config.SetToDefault>
+
+  <RimHUD.Dialog_Config.Tab.Design>Дизайн</RimHUD.Dialog_Config.Tab.Design>
+  <RimHUD.Dialog_Config.Tab.Colors>Цвета</RimHUD.Dialog_Config.Tab.Colors>
+  <RimHUD.Dialog_Config.Tab.Colors.Editor>Изменить цвет для {0}</RimHUD.Dialog_Config.Tab.Colors.Editor>
+  <RimHUD.Dialog_Config.Tab.Colors.Hue>Оттенок</RimHUD.Dialog_Config.Tab.Colors.Hue>
+  <RimHUD.Dialog_Config.Tab.Colors.Saturation>Насыщенность</RimHUD.Dialog_Config.Tab.Colors.Saturation>
+  <RimHUD.Dialog_Config.Tab.Colors.Lightness>Прозрачность</RimHUD.Dialog_Config.Tab.Colors.Lightness>
+  <RimHUD.Dialog_Config.Tab.Colors.Alpha>Альфа</RimHUD.Dialog_Config.Tab.Colors.Alpha>
+  <RimHUD.Dialog_Config.Tab.Colors.Hex>Hex</RimHUD.Dialog_Config.Tab.Colors.Hex>
+  <RimHUD.Dialog_Config.Tab.Content>Содержание</RimHUD.Dialog_Config.Tab.Content>
+  <RimHUD.Dialog_Config.Tab.Integration>Интеграция</RimHUD.Dialog_Config.Tab.Integration>
+
+  <RimHUD.InspectPane.MedicalCare>Изменить уровень оказываемой медицинской помощи на этом {0}.\n\nТекущий: {1}</RimHUD.InspectPane.MedicalCare>
+
+  <RimHUD.Alert.ConfigReset>RimHUD обновлен до версии {0} и требует сброса его конфигураций до по умолчанию.</RimHUD.Alert.ConfigReset>
+  <RimHUD.Alert.SetToDefault>Вы действительно хотите вернуть эти настройки по умолчанию?</RimHUD.Alert.SetToDefault>
+  <RimHUD.Alert.NotImplemented>Эта функция еще не реализована</RimHUD.Alert.NotImplemented>
+  <RimHUD.Alert.MoreComingSoon>Дополнительные функции в ближайшее время™</RimHUD.Alert.MoreComingSoon>
+
+</LanguageData>
